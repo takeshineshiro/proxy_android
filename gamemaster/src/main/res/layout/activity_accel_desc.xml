@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_head"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image_bottom"
+        android:layout_below="@+id/image_head"
+        android:orientation="vertical" >
+
+        <!-- 头部区域 -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_120"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/space_size_10"
+            android:paddingRight="@dimen/space_size_10" >
+
+            <!-- 左边图标 -->
+
+            <FrameLayout
+                android:layout_width="@dimen/space_size_61"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_size_30"
+                android:layout_marginRight="@dimen/space_size_30" >
+
+                <ImageView
+                    android:id="@+id/top_strok_line"
+                    android:layout_width="@dimen/width_item_accel_details_line"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:src="@drawable/accel_desc_line"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_size_60"
+                    android:layout_gravity="center"
+                    android:background="@drawable/speed_details_frame_icon_bg"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/accel_desc_game_icon"
+                    android:layout_width="@dimen/space_size_46"
+                    android:layout_height="@dimen/space_size_46"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_launcher"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+            <!-- 右边统计信息 -->
+
+            <TableLayout
+                android:id="@+id/total_message_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/space_size_20"
+                android:paddingTop="@dimen/space_size_20"
+                android:visibility="visible" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/AccelDescHeadTextTitle"
+                        android:layout_width="@dimen/space_size_100"
+                        android:layout_height="wrap_content"
+                        android:text="累计加速时长"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/total_access_second"
+                        style="@style/AccelDescHeadTextContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="28时58分"
+                        tools:ignore="HardcodedText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_size_4"
+                    android:layout_marginTop="@dimen/space_size_4"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/AccelDescHeadTextTitle"
+                        android:layout_width="@dimen/space_size_100"
+                        android:layout_height="wrap_content"
+                        android:text="累计减少等待"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/total_short_time"
+                        style="@style/AccelDescHeadTextContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="39分5秒"
+                        tools:ignore="HardcodedText" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/total_cut_link_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/AccelDescHeadTextTitle"
+                        android:layout_width="@dimen/space_size_100"
+                        android:layout_height="wrap_content"
+                        android:text="累计防断线次数"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/total_cut_link_count"
+                        style="@style/AccelDescHeadTextContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6次"
+                        tools:ignore="HardcodedText" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <!-- 下面列表区域 -->
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginBottom="@dimen/space_size_20"
+            android:layout_weight="1"
+            android:background="@color/color_game_12"
+            android:orientation="horizontal" >
+
+            <!-- 空页面提示 -->
+
+            <LinearLayout
+                android:id="@+id/errory_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/vitrual_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/accel_desc_vitrual_line"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/speed_details_pic_sorry"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/accel_desc_sorry_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space_size_15"
+                        android:text="游戏已卸载>&lt;"
+                        android:textColor="@color/color_game_11"
+                        android:textSize="@dimen/text_size_12"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 数据列表 -->
+
+            <FrameLayout
+                android:id="@+id/accel_datalist_area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+
+                <ListView
+                    android:id="@+id/accel_desc_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:visibility="invisible" />
+                <!-- 刷新 -->
+
+                <cn.wsds.gamemaster.ui.view.LoadingRing
+                    android:id="@+id/accel_list_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    subao:min_duration="1000" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

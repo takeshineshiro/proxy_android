@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/whole_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/color_game_48"
+              android:paddingRight="@dimen/space_size_10"
+              android:paddingLeft="@dimen/space_size_12"
+              android:paddingTop="@dimen/space_size_10"
+              android:paddingBottom="@dimen/space_size_10"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:gravity="center_vertical"
+                  android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="@dimen/space_size_52"
+            android:layout_height="@dimen/space_size_52"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/list_item_icon_margin_right"
+            android:src="@drawable/user_icon_mission"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription,RtlHardcoded"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/list_item_icon_margin_right"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/name_recommand_game"
+                android:textColor="@color/color_game_7"
+                android:textSize="@dimen/text_size_14"/>
+            <TextView
+                android:id="@+id/text_use_period"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_5"
+                android:text="使用期限：\n2015-00-00-00 00:00 至 2015-00-00-00 00:00"
+                android:textColor="@color/color_game_31"
+                android:textSize="@dimen/text_size_12"
+                tools:ignore="HardcodedText"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="@dimen/space_size_12"
+                  android:paddingLeft="@dimen/space_size_8"
+                  android:paddingRight="@dimen/space_size_12"
+                  android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:background="@color/color_game_33"
+                      android:gravity="center_vertical"
+                      android:layout_height="@dimen/space_size_30">
+            <TextView android:layout_width="wrap_content"
+                      android:text="激活码："
+                      android:layout_height="wrap_content"/>
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/text_exchange_code"
+                      android:text=""
+                      android:textColor="@color/color_game_11"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="@dimen/space_size_52"
+                  android:id="@+id/text_copy"
+                  android:background="@drawable/selector_dialog_right_btn"
+                  android:gravity="center_vertical|center"
+                  android:text="复制"
+                  android:textColor="@color/color_game_7"
+                  android:textSize="@dimen/text_size_12"
+                  android:layout_height="@dimen/space_size_32"/>
+
+    </LinearLayout>
+</LinearLayout>

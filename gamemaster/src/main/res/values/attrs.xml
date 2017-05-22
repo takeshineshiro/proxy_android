@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="background" format="reference" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="text" format="reference|string" />
+    <attr name="textSize" format="dimension" />
+    <attr name="percent" format="integer" />
+    <attr name="aniScaleType">
+        <enum name="raw" value="0" />
+        <enum name="fill" value="1" />
+        <enum name="fillX" value="2" />
+        <enum name="fillY" value="3" />
+        <enum name="zoomByX" value="4" />
+        <enum name="zoomByY" value="5" />
+    </attr>
+
+    <declare-styleable name="AppIcon">
+        <attr name="icon_width" format="dimension" />
+        <attr name="icon_height" format="dimension" />
+        <attr name="icon_image" format="reference" />
+        <attr name="icon_marginRight" format="dimension" />
+        <attr name="mark_image" format="reference" />
+        <attr name="mark_visible" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="NetDelayChart">
+        <attr name="right_vert_line" format="boolean" />
+        <attr name="range_mark" format="boolean" />
+        <attr name="text_color" format="color" />
+        <attr name="line_color" format="color" />
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LoadingRing">
+        <attr name="duration" format="integer" />
+        <attr name="min_duration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Switch">
+        <attr name="uncheckbutton" format="integer" />
+        <attr name="checkbutton" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="TimeTextView">
+        <attr name="type">
+            <enum name="clock" value="0" />
+            <enum name="elapsed" value="1" />
+        </attr>
+        <attr name="clockFormat" format="string" />
+        <attr name="elapsedSeconds" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ViewWaitForInit">
+        <attr name="background" />
+        <attr name="textColor" />
+        <attr name="text" />
+        <attr name="textSize" />
+    </declare-styleable>
+    <declare-styleable name="AccelProgressIcon">
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AccelProgressBox">
+        <attr name="markType">
+            <enum name="succeed" value="0" />
+            <enum name="warning" value="1" />
+            <enum name="error" value="2" />
+        </attr>
+        <attr name="message" format="reference|string" />
+    </declare-styleable>
+    <declare-styleable name="AccelProgressGroup">
+        <attr name="group_label" format="string" />
+        <attr name="group_icon" format="reference|string" />
+        <attr name="group_message" format="reference|string" />
+        <attr name="group_second_message" format="reference|string" />
+        <attr name="group_line_size" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SubaoProgressBar">
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="bar" format="reference" />
+        <attr name="showText" format="boolean" />
+        <attr name="percent" />
+    </declare-styleable>
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleProgres">
+
+        <!-- 圆环起始角度 -->
+        <attr name="start_angle" format="integer" />
+        <!-- 外圆直径 -->
+        <attr name="outer_diameter" format="integer" />
+        <!-- 圆环的宽度 -->
+        <attr name="ring_width" format="integer" />
+        <!-- 进度条进度颜色 -->
+        <attr name="ring_progres_color" format="color" />
+        <!-- 进度条背景颜色 -->
+        <attr name="ring_background_color" format="color" />
+    </declare-styleable>
+
+    <!-- 评分星 -->
+    <declare-styleable name="ScoreStar">
+        <attr name="spaceBetweenStar" format="dimension" />
+        <attr name="score" format="integer" />
+    </declare-styleable>
+
+    <!-- 网络诊断结果环 -->
+    <declare-styleable name="PercentRing">
+        <attr name="backgroundRing" format="reference" />
+        <attr name="foregroundRing" format="reference" />
+        <attr name="percent" />
+    </declare-styleable>
+    <declare-styleable name="ImageViewAlpha">
+        <attr name="image" format="reference" />
+        <attr name="drawAlpha" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="AppStartView">
+        <attr name="aniTime" format="integer" />
+        <attr name="aniScaleType" />
+    </declare-styleable>
+    
+    <declare-styleable name="GifView">
+        <attr name="gifWidth" format="integer" />
+        <attr name="aniScaleType" />
+        <attr name="gifHeight" format="integer" />
+        <attr name="gifLoop" format="boolean" />
+        <attr name="gifSrc" format="reference" />
+        <attr name="gifAsset" format="string" />
+        <attr name="gifBackground" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GIFView">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+</resources>

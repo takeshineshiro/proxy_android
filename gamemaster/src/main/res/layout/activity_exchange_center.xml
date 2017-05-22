@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/space_size_4"
+              android:paddingRight="@dimen/space_size_4"
+              style="@style/group_secondpage">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="@dimen/space_size_36"
+                    android:gravity="center_vertical">
+        <TextView android:layout_width="0dp"
+                  android:id="@+id/text_user"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:textSize="@dimen/text_size_14"
+                  android:layout_marginLeft="@dimen/space_size_10"
+                  android:textColor="@color/color_game_6"
+                  android:text="@string/unlogin_text"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/text_login"
+                  android:layout_marginRight="@dimen/space_size_15"
+                  android:textSize="@dimen/text_size_14"
+                  android:textColor="@color/color_game_11"
+                  android:text="@string/login_text"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="@dimen/space_size_10"
+            android:drawableTop="@drawable/speed_details_pic_sorry"
+            android:text="@string/points_hirstory_empty"
+            android:visibility="gone"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_14" />
+
+
+        <cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout
+            android:id="@+id/swipeRefresher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/space_size_4"
+                android:footerDividersEnabled="false"
+                android:scrollbars="none" />
+
+        </cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout>
+    </FrameLayout>
+</LinearLayout>
+

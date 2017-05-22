@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_menu_share_bg"
+    android:contentDescription="迅游手游分享"
+    android:orientation="vertical"
+    android:padding="@dimen/space_size_1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_78"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/share_weixin"
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/share_item_width"
+                android:layout_height="@dimen/share_item_height"
+                android:layout_marginTop="@dimen/space_size_3" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/achieve_share_icon_weixin_bg" />
+
+                <ViewStub
+                    android:id="@+id/stub_icon_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout="@layout/layout_share_img_points" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/SHareDialogTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_2"
+                android:text="微信" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_penyouquan"
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/share_item_width"
+                android:layout_height="@dimen/share_item_height"
+                android:layout_marginTop="@dimen/space_size_3" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/achieve_share_icon_friends_bg" />
+
+                <ViewStub
+                    android:id="@id/stub_icon_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout="@layout/layout_share_img_points" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/SHareDialogTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_2"
+                android:text="朋友圈" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_qq"
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/share_item_width"
+                android:layout_height="@dimen/share_item_height"
+                android:layout_marginTop="@dimen/space_size_3" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/achieve_share_icon_qq_bg" />
+
+                <ViewStub
+                    android:id="@id/stub_icon_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout="@layout/layout_share_img_points" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/SHareDialogTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_2"
+                android:text="QQ" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_78"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/share_qqzone"
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/share_item_width"
+                android:layout_height="@dimen/share_item_height"
+                android:layout_marginTop="@dimen/space_size_3" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/achieve_share_icon_qzone_bg" />
+
+                <ViewStub
+                    android:id="@id/stub_icon_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout="@layout/layout_share_img_points" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/SHareDialogTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_2"
+                android:text="QQ空间" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_sina"
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/share_item_width"
+                android:layout_height="@dimen/share_item_height"
+                android:layout_marginTop="@dimen/space_size_3" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/achieve_share_icon_weibo_bg" />
+
+                <ViewStub
+                    android:id="@id/stub_icon_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout="@layout/layout_share_img_points" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/SHareDialogTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_2"
+                android:text="新浪微博" />
+        </LinearLayout>
+
+        <Space
+            style="@style/ShareDialogLiearLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:layout_marginLeft="@dimen/space_size_30"
+        android:layout_marginRight="@dimen/space_size_25"
+        android:layout_marginBottom="@dimen/space_size_20"
+        android:textSize="@dimen/text_size_12"
+        android:textColor="@color/color_game_11"
+        android:lineSpacingExtra="@dimen/space_size_2"
+        android:text="注：请确保跳转应用后点击返回迅游手游加速器，成功返回加速器才能获取积分。"/>
+
+</LinearLayout>

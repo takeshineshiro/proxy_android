@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="56dip"
+        android:paddingTop="56dip" >
+
+        <include
+            android:id="@+id/item_memory_usage"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/item_memory_progres" />
+
+        <include
+            android:id="@+id/item_cpu_temperature"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/item_memory_progres" />
+
+        <include
+            android:id="@+id/item_background_application"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/item_memory_progres" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:layout_marginLeft="@dimen/space_size_4"
+        android:layout_marginRight="@dimen/space_size_4"
+        android:background="@color/color_game_48"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_label"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_42"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_size_22"
+            android:text="有%d个应用正在运行"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_14"
+            tools:ignore="RtlSymmetry" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/color_game_5" />
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <cn.wsds.gamemaster.ui.memoryclean.animation.SmoothGridView
+                android:id="@+id/game_grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/space_size_33"
+                android:layout_marginLeft="@dimen/space_size_22"
+                android:layout_marginRight="@dimen/space_size_22"
+                android:layout_marginTop="@dimen/space_size_26" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/star_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/image_robot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/clean_up_the_memory_to_complete" />
+
+                    <ImageView
+                        android:id="@+id/image_second_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/image_robot"
+                        android:src="@drawable/clean_up_the_memory_to_complete_stars02" />
+
+                    <ImageView
+                        android:id="@+id/image_third_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignRight="@+id/image_second_star"
+                        android:src="@drawable/clean_up_the_memory_to_complete_stars03" />
+
+                    <ImageView
+                        android:id="@+id/image_first_star"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/image_robot"
+                        android:layout_alignParentLeft="true"
+                        android:src="@drawable/clean_up_the_memory_to_complete_stars01" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_size_25"
+                    android:text="减肥成功 \\(^o^)/ 一身轻松"
+                    android:textColor="@color/color_game_7"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+        </ViewFlipper>
+    </LinearLayout>
+
+</LinearLayout>

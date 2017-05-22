@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above" />
+
+    <ListView
+        android:id="@+id/list_records"
+        style="@style/app_list_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_line"
+        android:layout_below="@+id/top_line"
+        android:layout_margin="10dip"
+        android:background="@color/color_game_1"
+        android:divider="@color/color_game_1"
+        android:dividerHeight="@dimen/space_size_5"
+        android:listSelector="@color/color_game_1" />
+
+    <TextView
+        android:id="@+id/records_text_empty"
+        style="@style/list_empty_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="没有新的消息记录" />
+
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/space_size_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind" />
+
+</RelativeLayout>

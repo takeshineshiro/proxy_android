@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/item_qa_question"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_52"
+        android:layout_marginLeft="@dimen/space_size_10"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:background="@drawable/setting_item_bg"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_18" />
+
+    <ImageView
+        android:id="@+id/item_qa_question_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/space_size_15"
+        android:src="@drawable/game_detailed"
+        tools:ignore="RtlHardcoded,ContentDescription" />
+
+</RelativeLayout>

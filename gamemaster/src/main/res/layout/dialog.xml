@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_34"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/space_size_25"
+        android:text="提示"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_18"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dilog_diver_width"
+        android:background="@color/color_game_5" />
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/text_size_18"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_size_18" >
+
+        <TextView
+            android:id="@+id/text_mess"
+            style="@style/dialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left" />
+
+        <ViewStub
+            android:id="@+id/custom_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment" >
+
+        <LinearLayout
+            android:id="@+id/cancel_group"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button_cancel"
+                style="@style/dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dialog_button_height"
+                android:layout_marginBottom="@dimen/space_size_8"
+                android:layout_marginLeft="@dimen/space_size_8"
+                android:layout_marginTop="@dimen/space_size_8"
+                android:background="@drawable/selector_dialog_left_btn" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/space_size_8"
+            android:layout_height="fill_parent" />
+
+        <Space
+            android:id="@+id/space_left"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/confirm_group"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button_confirm"
+                style="@style/dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dialog_button_height"
+                android:layout_marginBottom="@dimen/space_size_8"
+                android:layout_marginRight="@dimen/space_size_8"
+                android:layout_marginTop="@dimen/space_size_8"
+                android:background="@drawable/selector_dialog_right_btn" />
+        </LinearLayout>
+
+        <Space
+            android:id="@+id/space_right"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

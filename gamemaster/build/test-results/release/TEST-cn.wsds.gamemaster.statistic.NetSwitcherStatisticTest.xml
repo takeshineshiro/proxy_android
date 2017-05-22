@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-04-07T01:45:35" hostname="wong-macpro" time="2.924">
+  <properties/>
+  <testcase name="constructor" classname="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" time="1.262"/>
+  <testcase name="testWiFi" classname="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" time="1.141"/>
+  <testcase name="testDisconnectedOrUnknown" classname="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" time="0.01"/>
+  <testcase name="testBelowAndroid5" classname="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" time="0.506"/>
+  <testcase name="testMobile" classname="cn.wsds.gamemaster.statistic.NetSwitcherStatisticTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

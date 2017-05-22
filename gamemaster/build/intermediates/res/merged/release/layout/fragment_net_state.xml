@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/net_icon"
+        android:layout_width="@dimen/mainpage_three_icon_width"
+        android:layout_height="@dimen/mainpage_three_icon_height"
+        layout="@layout/item_net_state_tablerow" />
+
+    <include
+        android:id="@+id/net_delay"
+        android:layout_width="@dimen/mainpage_three_icon_width"
+        android:layout_height="@dimen/mainpage_three_icon_height"
+        android:layout_centerInParent="true"
+        layout="@layout/item_net_state_tablerow" />
+
+    <include
+        android:id="@+id/net_stability"
+        android:layout_width="@dimen/mainpage_three_icon_width"
+        android:layout_height="@dimen/mainpage_three_icon_height"
+        android:layout_alignParentRight="true"
+        layout="@layout/item_net_state_tablerow" />
+
+</RelativeLayout>

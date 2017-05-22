@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_size_79"
+    android:background="#00000000">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/space_size_68"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/call_frame_bg" >
+
+	    <ImageView
+	        android:id="@+id/call_hangup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/call_button_hangup"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/space_size_12"/>
+	    <ImageView
+	        android:id="@+id/call_ignore"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/call_button_ignore"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/call_hangup"
+	        android:layout_marginLeft="@dimen/space_size_24"/>
+	    <TextView
+	        android:id="@+id/call_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:textColor="#ffffff"
+	        android:textSize="@dimen/text_size_18"
+	        android:text="13888888888"/>
+	    <ImageView
+	        android:id="@+id/call_accept"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/call_button_accept"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="@dimen/space_size_12"/>
+	</RelativeLayout>
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/call_frame_icon"/>
+</RelativeLayout>

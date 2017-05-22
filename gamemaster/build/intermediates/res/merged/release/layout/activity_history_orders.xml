@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:paddingTop="@dimen/space_size_10"
+	android:paddingLeft="@dimen/space_size_15"
+	android:paddingRight="@dimen/space_size_15"
+    tools:context="cn.wsds.gamemaster.ui.store.ActivityHistoryOrders" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:id="@+id/empty_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawablePadding="@dimen/space_size_10"
+			android:drawableTop="@drawable/ahistorical_page_pic"
+			android:layout_marginTop="@dimen/space_size_78"
+			android:text="您尚无历史订单"
+			android:textColor="@color/color_game_31"
+			android:textSize="@dimen/text_size_14"
+			android:visibility="gone"
+			/>
+
+
+		<TextView
+			android:id = "@+id/text_refresh_load"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableLeft="@drawable/no_network_page_refurbish"
+			android:drawablePadding="@dimen/space_size_4"
+			android:layout_marginTop="@dimen/space_size_18"
+			android:text="下拉刷新"
+			android:textColor="@color/color_game_31"
+			android:textSize="@dimen/text_size_10"
+			android:visibility="gone"
+			/>
+
+	</LinearLayout>
+
+
+	<cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout
+		android:id="@+id/swipeRefresher"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ListView
+			android:id="@android:id/list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:divider="@android:color/transparent"
+			android:dividerHeight="@dimen/space_size_4"
+			android:footerDividersEnabled="false"
+			android:scrollbars="none" />
+	</cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout>
+
+</FrameLayout>

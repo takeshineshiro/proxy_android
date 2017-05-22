@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/instruction_page_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        style="@style/instruction_label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加速后可最高降低延迟80%。" />
+
+    <ImageView
+        style="@style/instructions_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/introdution_suspension_pic_1" />
+
+</RelativeLayout>

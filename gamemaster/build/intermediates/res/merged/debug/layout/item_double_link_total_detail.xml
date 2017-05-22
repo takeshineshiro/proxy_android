@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="@drawable/setting_item_bg"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical" android:baselineAligned="false">
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center_horizontal"
+                      android:orientation="vertical">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:drawableLeft="@drawable/set_up_par_icon_open"
+                      android:drawablePadding="@dimen/space_size_3"
+                      android:text="@string/doubel_accel_time"
+                      android:textColor="@color/color_game_7"
+                      android:textSize="@dimen/text_size_12"/>
+            <TextView android:id="@+id/double_link_count"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/space_size_10"
+                      android:text="0:00"
+                      android:textColor="@color/color_game_8"
+                      android:textSize="@dimen/text_size_20"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:gravity="center_horizontal"
+                      android:orientation="vertical">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:drawableLeft="@drawable/set_up_flux_icon_open"
+                      android:drawablePadding="@dimen/space_size_3"
+                      android:text="@string/flow_used"
+                      android:textColor="@color/color_game_7"
+                      android:textSize="@dimen/text_size_12"/>
+            <TextView android:id="@+id/flow_used_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/space_size_10"
+                      android:text="0M"
+                      android:textColor="@color/color_game_11"
+                      android:textSize="@dimen/text_size_20"/>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_middle_04.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_middle_04.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/jpush_notification_icon.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/jpush_notification_icon.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_ring_android_short.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_ring_android_short.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_middle_03.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_middle_03.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/notify_icon_normal_big.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/notify_icon_normal_big.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_middle_02.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_middle_02.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/not_open_ring_android.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/not_open_ring_android.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/not_open_the_acceleration_outside.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/not_open_the_acceleration_outside.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/about_us_sina.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/about_us_sina.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_ring_android_long.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_ring_android_long.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_inside_point.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_inside_point.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_middle_00.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_middle_00.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/open_the_acceleration_outside.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/open_the_acceleration_outside.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/notify_icon_normal.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/notify_icon_normal.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/not_open_the_acceleration_inside_point.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/not_open_the_acceleration_inside_point.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/not_open_the_acceleration_middle_01.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/not_open_the_acceleration_middle_01.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-hdpi-v4/game_add_all.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-hdpi/game_add_all.png"
+    }
+]

@@ -1,0 +1,205 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="dialog_radius">2dp</dimen>
+    <dimen name="about_list_line_width">0.5dp</dimen>
+    <dimen name="dilog_diver_width">1dp</dimen>
+    <dimen name="dialog_button_height">46dp</dimen>
+    <dimen name="textsize_item_background_intercept">@dimen/text_size_14</dimen>
+    <dimen name="height_item_background_intercept">76dp</dimen>
+    <dimen name="cornersaccel_details_value_bg">2dp</dimen>
+
+    <!-- Small Float Window -->
+    <dimen name="toast_ex_text_size">14sp</dimen>
+    <dimen name="toast_ex_abnormal_text_size">12sp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+
+    <!-- Space Size -->
+    <dimen name="space_size_1">1dp</dimen>
+    <dimen name="space_size_2">2dp</dimen>
+    <dimen name="space_size_3">3dp</dimen>
+    <dimen name="space_size_4">4dp</dimen>
+    <dimen name="space_size_5">5dp</dimen>
+    <dimen name="space_size_6">6dp</dimen>
+    <dimen name="space_size_7">7dp</dimen>
+    <dimen name="space_size_8">8dp</dimen>
+    <dimen name="space_size_10">10dp</dimen>
+    <dimen name="space_size_12">12dp</dimen>
+    <dimen name="space_size_14">14dp</dimen>
+    <dimen name="space_size_15">15dp</dimen>
+    <dimen name="space_size_16">16dp</dimen>
+    <dimen name="space_size_18">18dp</dimen>
+    <dimen name="space_size_20">20dp</dimen>
+    <dimen name="space_size_21">21dp</dimen>
+    <dimen name="space_size_22">22dp</dimen>
+    <dimen name="space_size_24">24dp</dimen>
+    <dimen name="space_size_25">25dp</dimen>
+    <dimen name="space_size_26">26dp</dimen>
+    <dimen name="space_size_28">28dp</dimen>
+    <dimen name="space_size_30">30dp</dimen>
+    <dimen name="space_size_32">32dp</dimen>
+    <dimen name="space_size_33">33dp</dimen>
+    <dimen name="space_size_34">34dp</dimen>
+    <dimen name="space_size_35">35dp</dimen>
+    <dimen name="space_size_36">36dp</dimen>
+    <dimen name="space_size_38">38dp</dimen>
+    <dimen name="space_size_40">40dp</dimen>
+    <dimen name="space_size_42">42dp</dimen>
+    <dimen name="space_size_46">46dp</dimen>
+    <dimen name="space_size_48">48dp</dimen>
+    <dimen name="space_size_50">50dp</dimen>
+    <dimen name="space_size_52">52dp</dimen>
+    <dimen name="space_size_55">55dp</dimen>
+    <dimen name="space_size_60">60dp</dimen>
+    <dimen name="space_size_61">61dp</dimen>
+    <dimen name="space_size_64">64dp</dimen>
+    <dimen name="space_size_68">68dp</dimen>
+    <dimen name="space_size_70">70dp</dimen>
+    <dimen name="space_size_74">74dp</dimen>
+    <dimen name="space_size_75">75dp</dimen>
+    <dimen name="space_size_78">78dp</dimen>
+    <dimen name="space_size_79">79dp</dimen>
+    <dimen name="space_size_80">80dp</dimen>
+    <dimen name="space_size_90">90dp</dimen>
+    <dimen name="space_size_94">94dp</dimen>
+    <dimen name="space_size_100">100dp</dimen>
+    <dimen name="space_size_110">110dp</dimen>
+    <dimen name="space_size_118">118dp</dimen>
+    <dimen name="space_size_120">120dp</dimen>
+    <dimen name="space_size_124">124dp</dimen>
+    <dimen name="space_size_129">129dp</dimen>
+    <dimen name="space_size_135">135dp</dimen>
+    <dimen name="space_size_150">150dp</dimen>
+    <dimen name="space_size_160">160dp</dimen>
+    <dimen name="space_size_180">180dp</dimen>
+    <dimen name="space_size_194">194dp</dimen>
+    <dimen name="space_size_200">200dp</dimen>
+    <dimen name="space_size_224">224dp</dimen>
+    <dimen name="space_size_245">245dp</dimen>
+    <dimen name="space_size_294">294dp</dimen>
+    <dimen name="space_size_310">310dp</dimen>
+    <dimen name="space_size_318">318dp</dimen>
+
+    <!-- list item -->
+    <dimen name="list_item_width">46dp</dimen>
+    <dimen name="list_item_height">46dp</dimen>
+    <dimen name="list_item_margin_left">18dp</dimen>
+    <dimen name="list_item_margin_right">10dp</dimen>
+    <dimen name="list_item_margin_top">15dp</dimen>
+    <dimen name="list_item_margin_bottom">15dp</dimen>
+    <dimen name="list_item_text_width">72dp</dimen>
+    <dimen name="list_item_text_height">40dp</dimen>
+    <dimen name="list_item_text_margin_right">9dp</dimen>
+    <dimen name="list_item_arrow_margin_right">9dp</dimen>
+    <dimen name="feedback_margin_space">10dp</dimen>
+    <dimen name="list_item_icon_margin_left">10dp</dimen>
+    <dimen name="list_item_icon_margin_right">10dp</dimen>
+    <!-- 加速详情 列表 -->
+    <dimen name="width_item_accel_details_head_group">141dp</dimen>
+    <dimen name="height_item_accel_details_head_group">50dp</dimen>
+    <dimen name="width_item_accel_details_line">1dp</dimen>
+    <dimen name="height_item_accel_details_space_top">10dp</dimen>
+    <dimen name="height_item_accel_details_space_bottom">10dp</dimen>
+    <dimen name="margin_item_accel_details_net_icon">3dp</dimen>
+    <dimen name="margin_left_item_accel_details_progrss_delay_layout">20dp</dimen>
+    <dimen name="width_item_accel_details_progrss_delay">60dp</dimen>
+    <dimen name="height_item_accel_details_progrss_delay">10dp</dimen>
+    <dimen name="margin_left_item_accel_details_text_delay_progress">6dp</dimen>
+    <dimen name="margin_top_item_accel_details_desc_accel_time">8dp</dimen>
+    <dimen name="margin_top_item_accel_details_desc_consumption_flow">8dp</dimen>
+    <dimen name="margin_right_item_accel_details_text_time">5dp</dimen>
+    <dimen name="padding_horizontal_item_accel_details_text_date">5dp</dimen>
+    <dimen name="padding_vertical_item_accel_details_text_date">2dp</dimen>
+    <dimen name="margin_left_item_accel_details_body_line">70dp</dimen>
+    <dimen name="margin_left_item_accel_details_potin_group">65dp</dimen>
+    <dimen name="width_item_accel_details_potin_group">11dp</dimen>
+    <dimen name="width_item_accel_details_net_icon_diver">1dp</dimen>
+    <dimen name="margin_vertical_item_accel_details_net_icon">2dp</dimen>
+    <dimen name="margin_left_item_accel_details_details_group">14dp</dimen>
+    <dimen name="margin_right_item_accel_details_details_group">30dp</dimen>
+    <dimen name="padding_vertical_item_accel_details_details_group">10dp</dimen>
+
+    <!-- 关于页面 -->
+    <dimen name="about_top_text_view_margin_top">10dp</dimen>
+    <dimen name="about_linear_layout_margin_top">5dp</dimen>
+    <dimen name="about_linear_layout_margin_left">30dp</dimen>
+    <dimen name="about_linear_layout_margin_right">30dp</dimen>
+    <dimen name="about_linear_layout_height">49dp</dimen>
+    <dimen name="screenshot_button_margin">9dp</dimen>
+
+    <!-- VPN授权对话框上面浮动的提示条 -->
+    <dimen name="margin_top_of_vpn_impower_toast">124dp</dimen>
+    <dimen name="padding_top_of_vpn_impower_toast">16dp</dimen>
+    <dimen name="padding_left_of_vpn_impower_toast">16dp</dimen>
+    <dimen name="font_size_of_vpn_impower_toast">16sp</dimen>
+
+    <!-- 帮助引导UI -->
+    <dimen name="main_help_text_size">14sp</dimen>
+    <dimen name="dialog_launch_game_progress_cornor">5dp</dimen>
+    <!-- <dimen name="space_size_230">230dp</dimen> -->
+    <dimen name="progress_text_left_space">20dp</dimen>
+    <dimen name="space_size_54">54dp</dimen>
+
+    <!-- 加速流程相关 -->
+    <dimen name="accel_progress_box_width">184dp</dimen>
+    <dimen name="accel_progress_box_height">44dp</dimen>
+    <dimen name="accel_progress_line_width">2dp</dimen>
+    <dimen name="space_size_45">45dp</dimen>
+    <dimen name="space_size_9">9dp</dimen>
+    <dimen name="space_size_112">112dp</dimen>
+    <dimen name="feedback_content_padding">12dip</dimen>
+    <dimen name="feedback_repley_paddiing">8dp</dimen>
+    <dimen name="memory_clean_progress_outer_diameter">68dp</dimen>
+    <dimen name="memory_clean_progress_ring_width">2dip</dimen>
+    <dimen name="memory_clean_progress_margin_top">20dip</dimen>
+    <dimen name="space_size_184">184dp</dimen>
+    <dimen name="main_accel_off_shade_line">0.5dp</dimen>
+    <dimen name="space_size_95">95dp</dimen>
+    
+    <!-- 帐号系统相关 -->
+    <dimen name="login_edit_height">@dimen/space_size_50</dimen>
+    <dimen name="space_size_239">239dp</dimen>
+
+    <!-- 引导页相关 -->
+    <dimen name="guide_page_padding_top">@dimen/space_size_40</dimen>
+    <dimen name="guide_page_padding_bottom">@dimen/space_size_75</dimen>
+    <dimen name="space_size_49">49dp</dimen>
+    
+    <!-- 主页，加速开启后三个ICON的尺寸 -->
+    <dimen name="mainpage_three_icon_width">@dimen/space_size_78</dimen>
+    <dimen name="mainpage_three_icon_height">@dimen/space_size_78</dimen>
+    
+    <!-- 分享布局，每个Item的尺寸 -->
+    <dimen name="share_item_width">@dimen/space_size_30</dimen>
+    <dimen name="share_item_height">@dimen/space_size_30</dimen>
+
+    <!-- 商城布局 -->
+    <dimen name="product_grid_view_with">304dp</dimen>
+    <dimen name="product_grid_column_width">140dp</dimen>
+
+    <!-- 支付结果对话框布局 -->
+    <dimen name="pay_result_dialog_width">312dp</dimen>
+    <dimen name="pay_result_text_height">184dp</dimen>
+    <dimen name="product_description_layout_height">68dp</dimen>
+    <dimen name="pay_result_button_width">200dp</dimen>
+    <dimen name="pay_result_button_height">50dp</dimen>
+
+    <!-- 历史订单布局-->
+    <dimen name="order_list_width">312dp</dimen>
+    <dimen name="order_item_title_height">26dp</dimen>
+
+</resources>

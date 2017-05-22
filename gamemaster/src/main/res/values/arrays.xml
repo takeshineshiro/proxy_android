@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="log_level">
+        <item>DEBUG</item>
+        <item>INFO</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+        <item>FATAL</item>
+    </string-array>
+    <string-array name="instructions_0">
+        <item>网络延迟=“我的网络”延迟+“加速网络”延迟，</item>
+        <item>代表您的手机网络到达服务器需要的时间，单位为毫秒。</item>
+        <item>延迟数值越小越好。</item>
+    </string-array>
+    <string-array name="qa_questions">
+        <item>两段延迟</item>
+        <item>VPN是什么</item>
+        <item>卡了怎么办</item>
+        <item>关于流量</item>
+        <item>WiFi加速</item>
+    </string-array>
+    <string-array name="qa_answer_0">
+        <item>1.延迟是手机网络到达游戏服务器所用的时间，单位是毫秒（ms）\n2.第一段延迟</item>
+        <item>由手机网络情况/类型</item>
+        <item>决定快慢，即“我的网络”</item>
+        <item>\n</item>>
+        <item>3.第二段延迟为成功开启加速后，从加速节点到游戏服务器的时间，即“加速网络”，</item>
+        <item>此段延迟最高可降低80%\n</item>
+        <item>4.</item>
+        <item>实际延迟=“我的网络”延迟+“加速网络”延迟</item>
+    </string-array>
+    <string-array name="qa_answer_1">
+        <item>1.网络如路，网速的载体如车，</item>
+        <item>VPN权限即高速公路入口\n</item>
+        <item>2.只有授权并开启加速，才能进入“高速公路”</item>
+    </string-array>
+    <string-array name="qa_answer_2">
+        <item>【加速可解决】\n1.未加速前，原本网络线路上的不通畅，网速无法稳定发挥的情况\n2.“加速网络”遭遇突发情况，导致第二段延迟变红，一般</item>
+        <item>重新加速</item>
+        <item>即可解决\n\n【加速不可解决】\n1.</item>
+        <item>“我的网络”类型本身不够好、信号不够稳定</item>
+        <item>。用户可以尝试开关飞行模式重启网络模块或更换网络解决\n2.手机配置与游戏要求配置不符导致游戏画面卡</item>
+    </string-array>
+    <string-array name="qa_answer_3">
+        <item>1.流量是车辆往返于用户网络与游戏服务器间的油耗。只要玩游戏，流量消耗就会有\n2.因为接管了网络模块，</item>
+        <item>连接期间的流量都通过了迅游手游</item>
+        <item>，因此流量消耗被统计在了迅游手游上\n3.迅游手游不会消耗用户正常游戏外的流量\n4.使用特定应用流量包的用户（如音乐包月套餐），请在使用流量套餐时关闭加速。</item>
+    </string-array>
+    <string-array name="qa_answer_4">
+        <item>WiFi加速功能仅支持安卓5.0及以上版本手机。\nWiFi加速将同时使用WiFi和移动数据连接，在二者中自动选择最快的线路而无需用户开关或者切换网络。\nWiFi质量好时即默认使用WiFi，WiFi效果不佳时才会自动使用流量。\n您可以在WiFi加速页面查看到自己使用的流量。</item>
+    </string-array>
+    <string-array name="new_game_submit_text_1">
+        <item>请输入您想添加的</item>
+        <item>游戏的正确名字</item>
+    </string-array>
+    <string-array name="new_game_submit_text_2">
+        <item>您输入的内容并非游戏。加速普通应用建议使用迅游手游的胞兄</item>
+        <item>网速大师</item>
+        <item>\u2014\u2014加速省流量专家。</item>
+    </string-array>
+    <string-array name="vpn_impower_help_texts">
+        <item>勾选“</item>
+        <item>我信任</item>
+        <item>”点击“</item>
+        <item>确定</item>
+        <item>”开启加速</item>
+    </string-array>
+    <string-array name="pormpt_user_center">
+        <item>进入</item>
+        <item>用户中心</item>
+        <item>\n注册分享</item>
+        <item>送好礼</item>
+        <item>~</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_of_vpn_impower_toast">16sp</dimen>
+    <dimen name="margin_top_of_vpn_impower_toast">78dp</dimen>
+    <dimen name="padding_left_of_vpn_impower_toast">14dp</dimen>
+    <dimen name="padding_top_of_vpn_impower_toast">14dp</dimen>
+</resources>

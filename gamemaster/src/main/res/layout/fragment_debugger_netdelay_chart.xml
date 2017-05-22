@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <cn.wsds.gamemaster.ui.NetDelayChart
+        android:id="@+id/netDelayChart1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="0.33"
+        subao:right_vert_line="true" >
+    </cn.wsds.gamemaster.ui.NetDelayChart>
+
+</LinearLayout>

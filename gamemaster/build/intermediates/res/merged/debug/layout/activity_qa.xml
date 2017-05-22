@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above" />
+
+    <cn.wsds.gamemaster.ui.view.ExpandableListViewCatchDispatchDraw
+        android:id="@+id/list_qa"
+        style="@style/app_list_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:layout_marginBottom="@dimen/space_size_10"
+        android:layout_weight="1"
+        android:childIndicator="@null"
+        android:contentDescription="@string/desc_listview"
+        android:dividerHeight="@dimen/space_size_5"
+        android:divider="@null"
+        android:groupIndicator="@null"
+        android:listSelector="@color/color_game_1" />
+
+    <ImageView
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</LinearLayout>

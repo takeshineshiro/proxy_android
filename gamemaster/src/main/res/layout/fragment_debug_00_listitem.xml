@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/space_size_1"
+    android:layout_marginTop="@dimen/space_size_1"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_size_2" >
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="@dimen/space_size_80"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:maxLines="4"
+        android:text="Name"
+        android:textColor="#ffff00"
+        android:textSize="@dimen/text_size_12" />
+
+    <TextView
+        android:id="@+id/text_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_8"
+        android:text="Value"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_size_12" />
+
+</LinearLayout>

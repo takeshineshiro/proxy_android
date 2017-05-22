@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_dialog_floatwindow_help_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_floatwindow_help_dialog" />
+
+    <TextView
+        android:id="@+id/notice_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:gravity="center_vertical"
+        android:text="手机管家->通知管理->悬浮窗管理"
+        android:textColor="@color/color_game_11"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/notice_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_25"
+        android:layout_marginBottom="@dimen/space_size_24"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:layout_marginRight="@dimen/space_size_14"
+        android:src="@drawable/notice_prompt"
+        tools:ignore="ContentDescription" />
+
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/foot_dialog_floatwindow_help"/>
+
+</LinearLayout>

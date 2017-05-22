@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 游戏加速色值表 (公共色值) -->
+    <color name="color_game_1">#0b1216</color>
+    <color name="color_game_2">#000000</color>
+    <color name="color_game_3">#232d34</color>
+    <color name="color_game_3_1">#0e1519</color>
+    <color name="color_game_4">#2b3740</color>
+    <color name="color_game_5">#161d20</color>
+    <color name="color_game_6">#c7d9e7</color>
+    <color name="color_game_7">#ffffff</color>
+    <color name="color_game_8">#b0f900</color>
+    <color name="color_game_9">#26455b</color>
+    <color name="color_game_10">#bdff1e</color>
+    <color name="color_game_11">#00bcba</color>
+    <color name="color_game_12">#1e262a</color>
+    <!-- <color name="color_game_13">#e9eadc</color> -->
+    <color name="color_game_16">#ee1826</color>
+    <color name="color_game_17">#ffd800</color>
+    <color name="color_game_18">#ee3939</color>
+    <color name="color_game_20">#ffae2f</color>
+    <color name="color_game_21">#dedede</color>
+    <color name="color_game_30">#1e2d35</color>
+    <color name="color_game_31">#7b8c97</color>
+    <color name="color_game_32">#435562</color>
+    <color name="color_game_33">#11191e</color>
+    <color name="color_game_34">#0b1216</color>
+    <color name="color_game_41">#858d9d</color>
+    <color name="color_game_44">#ad9e73</color>
+    <color name="color_game_45">#2081ef</color>
+    <color name="color_game_46">#34cf90</color>
+    <color name="color_game_48">#1b252d</color>
+    <!-- <color name="color_game_49">#1a2e3c</color> -->
+    <color name="color_game_50">#ff7815</color>
+    <color name="color_game_51">#ff0808</color>
+    <color name="color_game_54">#1a2c36</color>
+    <color name="color_game_54_half">#801a2c36</color>
+    <color name="color_game_55">#ffc410</color>
+    <color name="color_game_56">#ff7e28</color>
+    <color name="color_game_57">#4f667a</color>
+    <color name="setting_list_bg_color">@color/color_game_48</color>
+    <color name="translation">#00000000</color>
+    <color name="help_mask">#C0000000</color>
+    
+    <!-- ActionBar的颜色 -->
+    <color name="actionbar_color">@color/color_game_2</color>
+    <color name="actionbar_text_color">#c7d9e7</color>
+    <!-- 关于界面色值 -->
+    <color name="about_list_bg_color">@color/color_game_48</color>
+    <color name="about_list_stroke_press_color">#bdff1e</color>
+    <color name="about_list_stroke_nomal_color">#26455b</color>
+    <color name="transparent_bg">#00000000</color>
+    <color name="transparent_dd_bg">#ddffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="feedback_content_hint">@color/color_game_31</color>
+    <color name="accel_desc_line">#0d6d6c</color>
+    <color name="dialog_background_color">#000000</color>
+    <color name="screenshot_share_layout">#AC000000</color>
+    
+    <!-- 主页游戏列表详情背景 -->
+    <color name="game_detail_background">#151f24</color>
+
+    <!-- 加速流程 -->
+    <color name="accel_progress_box_bkgnd">#1e2d35</color>
+    <color name="accel_progress_box_gradient_end">#e000bcba</color>
+    <color name="floatwindow_submodule_background">#3729455b</color>
+    <color name="game_achieve_content_text_normal_color">#242424</color>
+    <color name="game_achieve_content_text_time_color">#ee212d</color>
+    <color name="game_achieve_content_text_date_color">#009bd4</color>
+    
+    <color name="memory_clean_progress_backgroun_color">@color/color_game_32</color>
+    <color name="memory_clean_progress_color_bad">@color/color_game_51</color>
+    <color name="memory_clean_progress_color_poor">@color/color_game_50</color>
+    <color name="memory_clean_progress_color_noraml">@color/color_game_11</color>
+
+    <!-- 订单状态-->
+    <color name="order_status_success">#dbff1e</color>
+    <color name="order_status_failed">#eb6100</color>
+    <color name="order_status_paying">@color/color_game_20</color>
+
+    <!-- 支付结果对话框-->
+    <color name="pay_result_success">#48c000</color>
+    <color name="pay_result_failed">#eb6100</color>
+
+    <!-- 引导页充值/注册提示-->
+    <color name="color_guid_remind">#007dc1</color>
+
+</resources>

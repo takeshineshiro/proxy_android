@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/group_secondpage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above"/>
+
+    <TextView
+        android:id="@+id/text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/space_size_6"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        android:layout_marginTop="@dimen/space_size_24"
+        android:layout_marginLeft="@dimen/space_size_24"
+        android:layout_marginRight="@dimen/space_size_24"
+        android:text="为防止游戏加速被中断，或者开启后自动消失，请记得不要清理迅游手游加速器" />
+     <Space 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.6"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/space_size_24"
+        android:layout_marginRight="@dimen/space_size_24"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/disconnection_explain_pic" />
+     <Space 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_game_6"
+        android:textSize="@dimen/text_size_14"
+        android:lineSpacingExtra="@dimen/space_size_10"
+        android:layout_marginLeft="@dimen/space_size_24"
+        android:layout_marginRight="@dimen/space_size_24"
+        android:text="步骤一.打开系统自带或安装的清理工具\n步骤二.在清理软件中去掉迅游手游加速器" />
+
+    <Space 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <solid android:color="@color/transparent_bg"/>
+    
+    <stroke
+        android:width="@dimen/dilog_diver_width"
+        android:color="@color/color_game_8"/>    
+    
+    <corners android:radius="@dimen/dialog_radius"/>
+
+</shape>

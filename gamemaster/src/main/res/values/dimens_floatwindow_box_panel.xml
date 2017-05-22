@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="floatwindow_panel_left_space">16dip</dimen>
+    <dimen name="floatwindow_panel_right_space">16dip</dimen>
+    <dimen name="floatwindow_setting_skin_normal_radio_type_top_margin">10dp</dimen>
+</resources>

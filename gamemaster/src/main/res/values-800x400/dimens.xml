@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- VPN授权对话框上面浮动的提示条 -->
+    <dimen name="margin_top_of_vpn_impower_toast">78dp</dimen>
+    <dimen name="padding_top_of_vpn_impower_toast">14dp</dimen>
+    <dimen name="padding_left_of_vpn_impower_toast">14dp</dimen>
+    <dimen name="font_size_of_vpn_impower_toast">16sp</dimen>
+
+</resources>

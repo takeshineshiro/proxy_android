@@ -1,0 +1,301 @@
+-injars /home/wong/Android_APP/gamemaster/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/wong/Android_APP/gamemaster/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/wong/Android/Sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /home/wong/Android_APP/gamemaster/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class cn.wsds.gamemaster.AppMain {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class cn.wsds.gamemaster.service.GameVpnService {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityStart {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityGuider {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivitySettingSendNotice {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityProccesClean {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityGameAccelDesc {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.debugger.ActivityDebuggerSecondPage {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMain {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.debugger.ActivityDebugMain {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivitySetting {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMessage {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityNewGamePlayAchieve {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityFeedback {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityNormalFeedback {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityFeedbackReply {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityQA {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityLicence {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityErrorLog {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityInstalled {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.event.BootRecerver {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivitySettingFloatWindow {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityAbout {
+    <init>();
+}
+
+-keep class com.tencent.tauth.AuthActivity {
+    <init>();
+}
+
+-keep class com.tencent.connect.common.AssistActivity {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.wxapi.WXEntryActivity {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.wxapi.WXPayEntryActivity {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.wxapi.SinaEntryActivity {
+    <init>();
+}
+
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityBootPrompt {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityInstructions {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMessageView {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMessageDetail {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityScreenShot {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityShortcut {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityFloatwindowOpenAccel {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityOpenGameInside {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMessageGraphicsTextMixed {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMemoryClean {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityUser {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityUserAccount {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.market.ActivityMarketWeb {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.usersetting.ActivityUserSetting {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.user.ActivityUserPointsHistory {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityExchangeCenter {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityAddNewGame {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.user.ActivityTaskCenter {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityExchangeHistory {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityGoodsDiscription {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.store.ActivityVip {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.store.ActivityHistoryOrders {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityVivoUserReminder {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityMiuiUserReminder {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.ui.ActivityJpushMessage {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.event.VpnActionReceiver {
+    <init>();
+}
+
+-keep class cn.jpush.android.ui.PopWinActivity {
+    <init>();
+}
+
+-keep class cn.jpush.android.ui.PushActivity {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.DownloadService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.PushService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.DaemonService {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.PushReceiver {
+    <init>();
+}
+
+-keep class cn.jpush.android.service.AlarmReceiver {
+    <init>();
+}
+
+-keep class cn.wsds.gamemaster.event.JPushMessageReceiver {
+    <init>();
+}
+
+-keep class com.squareup.leakcanary.internal.HeapAnalyzerService {
+    <init>();
+}
+
+-keep class com.squareup.leakcanary.DisplayLeakService {
+    <init>();
+}
+
+-keep class com.squareup.leakcanary.internal.DisplayLeakActivity {
+    <init>();
+}
+
+-keep class com.squareup.leakcanary.internal.RequestStoragePermissionActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

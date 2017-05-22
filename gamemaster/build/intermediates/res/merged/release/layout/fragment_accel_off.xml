@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layerType="software"
+    android:orientation="vertical" >
+
+    <!-- layerType=software，是为了避免在某些手机上因为硬件加速而崩溃 -->
+    <!-- 加速按钮部分 -->
+
+    <FrameLayout
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/start_button_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/homepage_button_ring_nor" />
+
+        <ImageView
+            android:id="@+id/start_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/homepage_button_text_nor" />
+    </FrameLayout>
+
+    <!-- 提示的相关提示 -->
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="@dimen/space_size_184"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_50" >
+
+        <LinearLayout
+            android:id="@+id/pormpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/main_accel_off_shade_line" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_size_10"
+                android:drawableLeft="@drawable/homepage_instruction_ico"
+                android:drawablePadding="@dimen/space_size_5"
+                android:gravity="center_vertical"
+                android:text="加速后"
+                android:textColor="@color/color_game_11"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_size_14"
+                android:lineSpacingExtra="@dimen/space_size_8"
+                android:text="网速提升\n内存清理"
+                android:textColor="@color/color_game_6"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shade_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/pormpt"
+            android:layout_alignTop="@+id/pormpt"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/top_shade"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:background="@color/color_game_1" />
+
+            <View
+                android:id="@+id/top_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_accel_off_shade_line"
+                android:background="@color/color_game_9" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="0dip"
+                android:layout_weight="1" />
+
+            <View
+                android:id="@+id/bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_accel_off_shade_line"
+                android:background="@color/color_game_9" />
+
+            <View
+                android:id="@+id/bottom_shade"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:background="@color/color_game_1" />
+        </LinearLayout>
+        
+       
+    </RelativeLayout>
+    
+    <FrameLayout
+        android:id = "@+id/read_me_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        
+        <TextView 
+        android:id="@+id/vivo_read_me_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_30"
+        android:textSize="@dimen/text_size_15"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_game_11"
+        android:text="@string/vivo_read_me_text_view"
+        android:visibility="gone"
+        />
+         
+        <TextView 
+        android:id="@+id/miui_read_me_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_30"
+        android:textSize="@dimen/text_size_15"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_game_11"
+        android:text="@string/miui_read_me_text_view" 
+        android:visibility="gone"       
+        />
+    </FrameLayout>
+  
+   
+</LinearLayout>

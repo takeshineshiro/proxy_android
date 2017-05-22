@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/box_in_game_button_details_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_button_bg"
+        android:scaleType="fitStart"
+        android:src="@drawable/popup_window_background_butten_information_current"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/box_in_game_button_curve_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_button_bg"
+        android:scaleType="fitStart"
+        android:src="@drawable/popup_window_background_butten_graph_current"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/box_in_game_button_setting_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/float_button_bg"
+            android:contentDescription="@string/settings"
+            android:scaleType="fitStart"
+            android:src="@drawable/popup_window_background_butten_set_up_current" />
+
+        <ViewStub
+            android:id="@+id/box_in_game_button_setting_right_icon_remind"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignRight="@id/box_in_game_button_setting_right"
+            android:layout_alignTop="@id/box_in_game_button_setting_right"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="8dip"
+            android:inflatedId="@+id/red_point"
+            android:layout="@layout/red_point"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/box_in_game_button_log_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_button_bg"
+        android:contentDescription="日志上传"
+        android:scaleType="fitStart"
+        android:src="@drawable/popup_window_background_butten_update_current"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/box_in_game_button_screenshot_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/float_button_bg"
+        android:contentDescription="@string/settings"
+        android:scaleType="fitStart"
+        android:src="@drawable/popup_window_background_butten_shear_current" />
+
+</LinearLayout>

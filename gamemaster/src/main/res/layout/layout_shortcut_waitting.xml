@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wsds.gamemaster.ui.view.ViewWaitForInit xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:id="@+id/wait_for_init"
+    android:layout_width="@dimen/space_size_318"
+    android:layout_height="@dimen/space_size_245"
+    subao:background="@drawable/shape_shortcut"
+    subao:text="迅游手游正在初始化……"
+    subao:textColor="@color/color_game_6" />

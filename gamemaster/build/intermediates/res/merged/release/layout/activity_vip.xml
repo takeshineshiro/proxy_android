@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout
+        android:id="@+id/swipeRefresher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/space_size_4"
+            android:paddingRight="@dimen/space_size_4">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_36"
+                android:gravity="center_vertical">
+                <TextView android:layout_width="0dp"
+                    android:id="@+id/text_user"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_14"
+                    android:layout_marginLeft="@dimen/space_size_10"
+                    android:textColor="@color/color_game_6"
+                    android:text="@string/unlogin_text"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_login"
+                    android:layout_marginRight="@dimen/space_size_15"
+                    android:textSize="@dimen/text_size_14"
+                    android:textColor="@color/color_game_11"
+                    android:text="@string/login_text"/>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/service_introduce"
+                android:layout_marginLeft="@dimen/space_size_10"
+                android:layout_marginRight="@dimen/space_size_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_service_introduce"/>
+
+            <include
+                android:id="@+id/vip_products"
+                android:layout_marginLeft="@dimen/space_size_10"
+                android:layout_marginRight="@dimen/space_size_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_vip_products"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ButtonOrder" severity="ignore" />
+    <issue id="ButtonStyle" severity="ignore" />
+    <issue id="ClickableViewAccessibility" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="RtlHardcoded" severity="ignore" />
+    <issue id="TooManyViews" severity="ignore" />
+</lint>

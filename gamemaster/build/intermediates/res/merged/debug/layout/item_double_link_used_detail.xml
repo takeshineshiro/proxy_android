@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/setting_item_bg"
+              android:paddingLeft="@dimen/space_size_20"
+              android:paddingRight="@dimen/space_size_20">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/space_size_18"
+                  android:layout_marginTop="@dimen/space_size_18"
+                  android:layout_weight="2"
+                  android:text="@string/used_desc"
+                  android:textSize="@dimen/text_size_16"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="bottom"
+                  android:layout_marginBottom="@dimen/space_size_3"
+                  android:layout_weight="1"
+                  android:gravity="right"
+                  android:text="@string/doubel_accel_time"
+                  android:textSize="@dimen/text_size_12"/>
+        <!--<TextView android:layout_width="0dp"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:layout_gravity="bottom"-->
+                  <!--android:layout_marginBottom="@dimen/space_size_3"-->
+                  <!--android:layout_weight="1"-->
+                  <!--android:gravity="right"-->
+                  <!--android:text="@string/flow_used"-->
+                  <!--android:textSize="@dimen/text_size_12"/>-->
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:background="@color/color_game_4"/>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/color_game_4"
+            android:dividerHeight="0dp"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="true"
+            android:layoutAnimation="@anim/layout_push_left"
+            android:scrollbars="none"/>
+        <TextView
+            android:id="@+id/double_link_text_empty"
+            style="@style/list_empty_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="暂无使用记录"/>
+    </FrameLayout>
+</LinearLayout>

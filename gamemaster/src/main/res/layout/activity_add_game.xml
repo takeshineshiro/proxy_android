@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_34"
+        android:layout_margin="@dimen/space_size_10"
+        style="@style/user_group_style"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/add_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/homepage_game_add_new"
+            android:drawablePadding="@dimen/space_size_8"
+            android:gravity="center_vertical"
+            android:text="自定义添加"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_16"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout
+            android:id="@+id/swipeRefresher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <FrameLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"    >
+                
+                <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_game_34"
+                android:divider="@color/color_game_34"
+                android:dividerHeight="4dp"
+                android:scrollbars="none"                
+                /> 
+                        
+                 <ImageView 
+                 android:id = "@+id/add_all_game"                
+                 android:layout_width="260dp"
+                 android:layout_height="240dp"
+                 android:scaleType="fitXY"
+                 android:layout_gravity="center"
+                 android:src="@drawable/game_add_all"  
+                 android:visibility="gone"
+                  />
+                 
+                 <TextView
+                 android:id="@+id/text_load_failed"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity = "center_horizontal"
+                 android:layout_marginTop = "@dimen/space_size_110"
+                 android:drawableTop="@drawable/speed_details_pic_sorry"
+                 android:drawablePadding="@dimen/space_size_16"
+                 android:text="服务器异常，请稍后重试…"
+                 android:textColor="@color/color_game_31"
+                 android:textSize="@dimen/text_size_16"
+                 android:visibility="gone"
+                 tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                     
+                 <TextView
+                 android:id="@+id/text_loading"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity = "center_horizontal"
+                 android:layout_marginTop = "@dimen/space_size_110"
+                 android:drawableTop="@drawable/speed_details_pic_loading"
+                 android:drawablePadding="@dimen/space_size_16"
+                 android:text="正在上架中…"
+                 android:textColor="@color/color_game_31"
+                 android:textSize="@dimen/text_size_16"
+                 android:visibility="gone"
+                 tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                 
+                                       
+            </FrameLayout>
+                                                              
+        </cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout>
+        
+        
+    </FrameLayout>
+
+</LinearLayout>

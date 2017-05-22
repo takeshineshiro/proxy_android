@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">迅游手游加速器</string>
+    <string name="git">ee7642ea85308125400238ee956aaf1330ca0ee5</string>
+    <string name="cproxy_commit_id">I264551d63f78766031d5dd61d303165ca97c17f3</string>
+    <string name="qpp_commit_id">dd951225fd2376bf876082369e9ef9423bb31b45</string>
+    <!-- 页面Label -->
+    <string name="user_center">用户中心</string>
+    <string name="setting_accel">加速设置</string>
+    <string name="title_activity_instructions">功能介绍</string>
+    <string name="label_activity_message">消息中心</string>
+    <string name="label_activity_user_points_history">积分历史</string>
+    <string name="action_message">消息</string>
+    <string name="action_more">更多</string>
+    <string name="domain_website">http://xunyou.mobi</string>
+    <string name="purchase">购买</string>
+    <string name="score_exchange">积分兑换</string>
+    <string name="task_for_score">积分任务</string>
+    <string name="share_for_score">分享送积分</string>
+    <!-- 通用 -->
+    <string name="i_known">我知道了</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="settings">设置</string>
+    <string name="confirm">确认</string>
+    <string name="unknown">不详</string>
+    <string name="net_delay">网络延迟</string>
+    <string name="login_failed">登录失败</string>
+    <!-- <string name="server">服务器</string> -->
+    <!-- 以下是Debug页面所用 -->
+    <string name="title_activity_activity_debug">内部调试</string>
+    <string name="normal_server">正式服</string>
+    <string name="test_server">测试服</string>
+    <string name="node_choose">节点选择</string>
+    <string name="ip_address">IP地址</string>
+    <string name="log_level">日志级别</string>
+    <string name="float_in_game">游戏悬浮窗</string>
+    <string name="net_request">网络请求</string>
+    <string name="process_clean_setting">内存清理设置</string>
+    <string name="auto_process_clean_string">自动清理</string>
+    <!-- 主菜单 -->
+    <string name="main_menu_feedback">反馈意见</string>
+    <string name="main_menu_qa">常见问题</string>
+    <string name="main_menu_about">关于我们</string>
+    <!-- 设置页面 -->
+    <string name="float_wnd_switch">悬浮窗</string>
+    <string name="call_remind_gameplaying">游戏中来电提醒</string>
+    <string name="network_anomaly_analysis">网络日志分析</string>
+    <string name="version">版本</string>
+    <string name="exit_app">退出</string>
+    <string name="hasunread_feedback_mess">我们刚刚回复了您的意见，请立即查看。</string>
+    <string name="feedback_msg_hint">加速不满意？加速有问题？想要更多功能？\n统统放马过来！ლ(&gt;o&lt;ლ)\n迅游手游加速器需要您的吐槽和鼓励~</string>
+    <string name="feedback_contact_hint">QQ/电话/邮箱</string>
+    <string name="submit">提	交</string>
+    <!-- 关于我们界面 -->
+    <string name="qq_group_2">官方Q群：277135152</string>
+    <string name="qq_group_1">官方Q群：365585791</string>
+    <string name="qq_group_king_glory">官方Q群：140603530（王者荣耀专用）</string>
+    <string name="qq_customer_service">客服QQ：4006665166</string>
+    <string name="phone_customer_service">客服电话：4006665166</string>
+    <string name="device_model">设备标识：xx-xx-xx-xx</string>
+    <string name="qq_number_service">4006665166</string>
+    <!-- 主界面分享内容 -->
+    <string name="share_title_content">@string/app_name</string>
+    <string name="share_weixin_content">迅游手游加速器，手游好帮手！一键加速，拒绝延迟，支持数百款热门手游！快来下载吧！http://t.cn/R7MMmcC。</string>
+    <string name="share_qq_content">迅游手游加速器！手机网游加速神器！一键优化网络环境，降低游戏延迟，手游好帮手！下载：http://t.cn/R7MMmcC。</string>
+    <string name="share_qzone_content">用了迅游手游加速器后，再也不担心玩游戏卡了！降低延迟，实时网络状况一目了然！一起来用吧！http://t.cn/R7MMmcC。</string>
+    <string name="share_weibo_content"> 手游掉线？卡的心烦？别担心！#迅游手游加速器#，手游好帮手！优化网络，拒绝延迟，永久免费，快来一起用吧！@迅游手游加速器,下载http://t.cn/R7MMmcC。</string>
+    <string name="share_weixin_friends_content">迅游手游加速器！给力的手机网游加速器！</string>
+    <!-- 使用成就通知分享内容 -->
+    <!-- 
+    <string name="topgame_share_title_content">@string/app_name</string>
+    <string name="topgame_share_weixin_content">玩手游必备神器，网游加速度，防掉线。我正在用迅游手游手游加速%s，赶紧去下个吧!</string>
+    <string name="topgame_share_qq_content">玩手游必备神器，网游加速度，防掉线。我正在用迅游手游加速%s，赶紧去下个吧，永久免费的：http://t.cn/R7MMmcC。</string>
+    <string name="topgame_share_qzone_content">玩手游必备神器，网游加速度，防掉线。我正在用迅游手游加速%s，赶紧去下个吧，永久免费的：http://t.cn/R7MMmcC。</string>
+    <string name="topgame_share_weibo_content">玩手游必备神器，网游加速度，防掉线。我正在用迅游手游加速%s，永久免费的好工具，小伙伴们快来一起用吧！@迅游手游加速器下载http://t.cn/R7MMmcC。</string>
+    <string name="topgame_share_weixin_friends_content">我在用迅游手游加速器玩%s，亲们赶紧去下一个吧。</string>
+    -->
+    <!-- 杂项 -->
+    <string name="prompt_when_wifi_ap">您刚刚开启了WiFi热点，WiFi共享无法和VPN同时工作，共享用户将无法上网。</string>
+    <string name="gameaccel_result_delay">延迟平均降低%d%%</string>
+    <string name="send_notice">推送消息</string>
+    <string name="notice_accelresult_send">加速结果推送</string>
+    <string name="accel_desc">加速详情</string>
+    <string name="cannot_create_shortcut_when_no_games">未检测到可加速游戏，\n无法创建桌面快捷启动。</string>
+    <string name="message_title_instructions">迅游手游功能介绍</string>
+    <string name="message_title_prevent_clean">防止加速器被清理</string>
+    <string name="click_to_view">点击查看</string>
+    <string name="desc_listview">列表</string>
+    <string name="desc_message_item_flag">消息列表图标</string>
+    <string name="share">分享</string>
+    <string name="thank_your_share">感谢您的分享~</string>
+    <!-- 后台流量警告Taost所用文本 -->
+    <string name="use_flow_in_background">正在后台使用大量流量，</string>
+    <string name="slow_your_game_speed">影响你的游戏速度</string>
+    <string name="boot_autoaccel">开机自动加速</string>
+    <string name="game_download_effect_net_speed">游戏下载更新正在影响网络速度</string>
+    <string name="finish">完成</string>
+    <string name="our_net">我的网络</string>
+    <string name="gamemaster_cloud">加速节点</string>
+    <string name="game_server">服务器</string>
+    <string name="delay">实时延迟</string>
+    <string name="net_stability">稳定性</string>
+    <string name="floatwindow_switch_delay">显示延迟</string>
+    <string name="delay_chart_comment">注：曲线图数值仅为“我的网络”延迟值</string>
+    <string name="floatwnd_size_normal">标准</string>
+    <string name="floatwnd_size_large">超大</string>
+    <string name="floatwnd_size_small">迷你</string>
+    <string name="floatwnd_size">悬浮窗尺寸</string>
+    <!--用户设置-->
+    <string name="setting_phone_number">手机号</string>
+    <string name="setting_modify_password">修改密码</string>
+    <string name="setting_phone_binding">去绑定</string>
+    <string name="setting_point_history">积分历史</string>
+    <string name="setting_exit_login">退出登录</string>
+    <string name="exchange_center">兑换中心</string>
+    <!-- 用户注册 -->
+    <string name="register_button_text">完成注册</string>
+    <string name="register_award_desc">完成注册将赠送7天有效期及奖励积分</string>
+    <string name="register_recommend_desc">成功验证后推荐人将获得30天免费加速礼包</string>
+    <!-- 绑定手机号 -->
+    <string name="bind_phone_button_text">绑定</string>
+    <string name="bind_phone_award_desc">完成绑定将赠送7天有效期及奖励积分</string>
+    <string name="sign_in">签到</string>
+    <string name="already_signed">已签到</string>
+    <string name="already_sign_in_today">今日已签到</string>
+    <!-- 分享Toast -->
+    <string name="toast_share_succeed">分享成功！</string>
+    <string name="toast_share_fail">服务器异常，请稍后再试</string>
+    <string name="toast_share_cancel">分享已取消</string>
+    <string name="points_hirstory_nodata">没有更多了o(&gt;_&lt;)o</string>
+    <string name="list_refresh_neterror">网络已断开，请连网后再试</string>
+    <!-- <string name="list_refresh_neterror_empty">网络故障，请尝试手动刷新</string>
+    <string name="list_refresh_neterror">网络故障，请稍后重试</string> -->
+    <string name="list_refresh_server_error">服务器异常，请稍后重试</string>
+    <string name="list_refresh_empty_task">正在上架中&gt;-&lt;</string>
+    <string name="points_hirstory_empty">没有获得过积分，快去获取吧</string>
+    <string name="title_task_center">任务中心</string>
+    <string name="label_activity_exchange_center">兑换中心</string>
+    <!-- 推荐游戏列表 -->
+    <string name="label_activity_add_game">添加游戏</string>
+    <string name="name_recommand_game">游戏名称</string>
+    <string name="downloading">游戏下载中，请稍候…</string>
+    <string name="refresh_games_info_neterror">网络故障，请稍后重试</string>
+    <string name="refresh_games_info_server_exception">服务器异常，请稍后重试…</string>
+    <string name="already_latest">已是最新内容</string>
+    <string name="net_disconnected">网络已断开，请联网后再试</string>
+    <string name="title_activity_activity_goods_discription">@string/name_recommand_game</string>
+    <string name="title_activity_activity_exchange_history">兑换历史</string>
+    <string name="exchange_goods_empty">网络问题，请稍后重试</string>
+    <string name="exchange_hirstory_empty">您还没有进行过兑换</string>
+    <string name="unlogin_text">未登录</string>
+    <string name="login_text">登录</string>
+    <string name="double_accel">WiFi加速</string>
+    <!-- 渠道未知标签 -->
+    <string name="double_accel_disable">WiFi加速已关闭</string>
+    <string name="double_accel_enable">WiFi加速使用中</string>
+    <string name="flow_used">本月消耗流量</string>
+    <string name="used_desc">使用详情</string>
+    <string name="message_title_network_exception">让你的WiFi更快</string>
+    <string name="doubel_accel_time">WiFi加速时长</string>
+    <!-- 用户反馈 -->
+    <string name="user_feedback">"亲，感谢使用WiFi加速功能，迅游加速器正在等待您的反馈："</string>
+    <string name="excellent">"非常给力"</string>
+    <string name="just_ok">"马马虎虎"</string>
+    <string name="useless">"没有效果"</string>
+    <!-- 商城 -->
+    <string name="product_type">请选择您需要购买的套餐</string>
+    <string name="history_orders">历史订单</string>
+    <string name="product_detail">加速服务详情</string>
+    <string name="order_detail">订单详情</string>
+    <string name="pay_type">请选择支付方式</string>
+    <string name="to_pay">点击确认购买</string>
+    <string name="to_buy">购买</string>
+    <string name="month_card">VIP月卡</string>
+    <string name="season_card">VIP季卡</string>　
+    <string name="pay_weixin">微信支付</string>
+    <string name="pay_Ali">支付宝支付</string>
+    <string name="renew">续费</string>
+    <string name="string_no_prompt">不再提示</string>
+    <string name="string_VIP_expired">VIP服务已过期</string>
+    <string name="accel_checking">正在进行加速服务验证</string>
+    <string name="raccel_remind_login">您尚未登录，迅游加速无法开启</string>
+    <string name="accel_expired">您的账户已过期，请前往续费以继续享受VIP加速服务</string>
+    <string name="accel_will_expired">您的将于明天过期，请前往续费以继续享受VIP加速服务</string>
+    <string name="accel_success">迅游加速服务成功开启</string>
+    <string name="vip_time_unknown">VIP有效期无法获取</string>
+    <string name="login_on_other_device">您的账号在其他终端登录，迅游加速无法开启</string>
+    <string name="net_error_accel_open_failed">网络连接失败，加速无法开启</string>
+    <string name="exchange">兑换</string>
+    <string name="user_state_updatting">用户状态更新中，请稍后再试！</string>
+    <!-- vivo手机用户引导 -->
+    <string name="vivo_user_read_me">vivo手机用户必读</string>
+    <string name="vivo_read_me_text_view"><u>vivo手机用户必读</u></string>
+    <!-- 小米手机用户引导 -->
+    <string name="miui_user_read_me">小米手机用户必读</string>
+    <string name="miui_read_me_text_view"><u>小米手机用户必读</u></string>
+    
+    <!-- Android5.0以上手机用户，添加新游戏时的通知内容 -->
+    <string name="strict_os_new_game_notify_content">检测到您安装了新游戏，如需加速该游戏请重启加速</string>
+    <string name="float_window_text_desc">“WiFi加速”，能够自动在WiFi与移动网络之间选择最优的线路进行加速，助您游戏畅通无阻</string>
+    <string name="vip_center">会员中心</string>
+    <string name="accel_service">加速服务</string>
+    <string name="normal_accel">普通加速</string>
+    <string name="str_free_user">免费用户</string>
+    <string name="str_vip_user">VIP用户</string>
+    <string name="str_vip_product">VIP套餐</string>
+    <string name="str_my_permission">我的特权</string>
+    <string name="order_hirstory_empty">你尚无历史订单</string>
+    
+    <!--VIP 页面-->
+    <string name="server_clause"><u>服务条款</u></string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/space_size_8"
+            android:drawableTop="@drawable/speed_details_pic_sorry"
+            android:text="因为网络问题，暂时无法访问互联网"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_16"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/button_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_dialog_left_btn"
+            android:paddingBottom="@dimen/space_size_8"
+            android:paddingLeft="@dimen/space_size_16"
+            android:paddingRight="@dimen/space_size_16"
+            android:paddingTop="@dimen/space_size_8"
+            android:text="重试"
+            android:textColor="@color/color_game_11"
+            android:textSize="@dimen/text_size_16"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

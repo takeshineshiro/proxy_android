@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_line"
+        android:layout_below="@+id/top_line"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:contentDescription="setting group"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/floatwindow"
+                style="@style/setting_item_style"
+        		android:layout_marginTop="0dip"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50"
+                android:text="@string/float_wnd_switch" />
+
+            <LinearLayout
+                android:id="@+id/check_root_group"
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="root模式" />
+
+                <cn.wsds.gamemaster.ui.view.Switch
+                    android:id="@+id/check_root"
+                    style="@style/setting_check_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <!-- 游戏中来电提醒 -->
+
+            <LinearLayout
+                android:id="@+id/group_call_remind_gameplay"
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/call_remind_gameplaying" />
+
+                <cn.wsds.gamemaster.ui.view.Switch
+                    android:id="@+id/check_call_remind"
+                    style="@style/setting_check_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/call_remind_gameplaying" />
+            </LinearLayout>
+
+            <!-- 开机自动加速 -->
+
+            <LinearLayout
+                android:id="@+id/group_boot_autoaccel"
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/boot_autoaccel" />
+
+                <cn.wsds.gamemaster.ui.view.Switch
+                    android:id="@+id/check_boot_autoaccel"
+                    style="@style/setting_check_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/boot_autoaccel" />
+            </LinearLayout>
+
+            <!-- 推送消息 -->
+
+            <TextView
+                android:id="@+id/send_notice"
+                style="@style/setting_item_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50"
+                android:text="@string/send_notice" />
+
+            <!-- 内存加速管理 -->
+
+            <TextView
+                android:id="@+id/procces_clean"
+                style="@style/setting_item_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50"
+                android:text="@string/process_clean_setting" />
+
+            <!-- 上传错误日志 -->
+
+            <LinearLayout
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/network_anomaly_analysis" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/setting_text_upload_error_log"
+                    style="@style/setting_child_style"
+                    android:layout_width="@dimen/space_size_68"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/selector_dialog_right_btn"
+                    android:gravity="center"
+                    android:text="上传" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="添加桌面快捷启动" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/shortcut_create_button"
+                    style="@style/setting_child_style"
+                    android:layout_width="@dimen/space_size_68"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/selector_dialog_right_btn"
+                    android:gravity="center"
+                    android:text="添加" />
+            </LinearLayout>
+
+            <!-- 版本 -->
+
+            <RelativeLayout
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    android:id="@+id/version"
+                    style="@style/setting_child_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/version" />
+
+                <ImageView
+                    android:id="@+id/version_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@+id/version"
+                    android:layout_marginLeft="@dimen/space_size_5"
+                    android:layout_toRightOf="@+id/version"
+                    android:src="@drawable/set_up_version_update"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/update"
+                    style="@style/setting_child_style"
+                    android:layout_width="@dimen/space_size_68"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/selector_dialog_right_btn"
+                    android:gravity="center"
+                    android:text="更新" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/close_accel_group"
+                style="@style/setting_group_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50" >
+
+                <TextView
+                    style="@style/setting_child_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="关闭加速" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button_close_accel"
+                    style="@style/setting_child_style"
+                    android:layout_width="@dimen/space_size_68"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/selector_dialog_right_btn"
+                    android:gravity="center"
+                    android:text="关闭"
+                    android:textColor="@color/selector_button_text_color" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/exit_app"
+                style="@style/setting_item_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_size_50"
+                android:drawableRight="@null"
+                android:text="@string/exit_app" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind" />
+
+</RelativeLayout>

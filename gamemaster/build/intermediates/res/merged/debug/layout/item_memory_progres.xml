@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progres="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存占用"
+        tools:ignore="HardcodedText" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/memory_clean_progress_margin_top" >
+
+        <cn.wsds.gamemaster.ui.view.CircleProgres
+            android:id="@+id/circleProgres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            progres:outer_diameter="@dimen/memory_clean_progress_outer_diameter"
+            progres:ring_background_color="@color/memory_clean_progress_backgroun_color"
+            progres:ring_progres_color="@color/memory_clean_progress_color_noraml"
+            progres:ring_width="@dimen/memory_clean_progress_ring_width" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:id="@+id/text_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/text_size_22"
+                android:textColor="@color/color_game_7"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/text_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="@dimen/text_size_12"
+                android:textColor="@color/color_game_7"
+                tools:ignore="HardcodedText" />
+            
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

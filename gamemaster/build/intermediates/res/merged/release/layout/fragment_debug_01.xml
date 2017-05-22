@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/space_size_4" >
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/debug_radio_normalserver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_server" />
+
+            <RadioButton
+                android:id="@+id/debug_radio_testserver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_8"
+                android:text="@string/test_server" />
+
+            <Button
+                android:id="@+id/debug_button_choose_server"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_16"
+                android:text="@string/ok" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/debug_check_test_umeng_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用测试的友盟Key" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/node_choose" />
+
+            <EditText
+                android:id="@+id/debug_edit_node_choose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/ip_address"
+                android:maxLength="15" />
+
+            <Button
+                android:id="@+id/debug_button_node_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/node_choose" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_level" />
+
+            <Spinner
+                android:id="@+id/debug_spinner_log_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/log_level" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/debug_info_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_size_4"
+            android:autoLink="web"
+            android:padding="@dimen/space_size_4"
+            android:text="http://127.0.0.1:18900/main" />
+
+        <TextView
+            android:id="@+id/debug_text_network_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_size_4"
+            android:text="当前网络类型"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_2"
+        android:text="Gaming Sessions:" />
+
+    <ListView
+        android:id="@+id/listGamingSessions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/space_size_4"
+        android:background="@drawable/box" />
+
+</LinearLayout>

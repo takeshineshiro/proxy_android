@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:drawablePadding="8dp"
+    android:drawableTop="@drawable/speed_details_pic_sorry"
+    android:text="没有发现可以加速的游戏"
+    android:textColor="@color/color_game_6"
+    android:textSize="@dimen/text_size_14" />

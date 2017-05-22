@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whole_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    style="@style/about_page_item"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/icon_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_22"
+        android:layout_marginBottom="@dimen/space_size_22"
+        android:layout_marginLeft="@dimen/space_size_5"
+        android:src="@drawable/purchase_first_vip_90_pic"/>
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_8"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIP季卡"
+                android:textColor="@color/color_game_17"
+                android:textSize="@dimen/text_size_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id = "@+id/text_renew"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_text_renew_season"
+                android:layout_marginLeft="@dimen/space_size_4"
+                android:gravity="center"
+                android:text="续费"
+                android:textSize="@dimen/text_size_10"
+                android:textColor="@color/color_game_17"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id = "@+id/text_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:layout_gravity="bottom"
+            android:text="享受所有服务持续90天"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_12"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id = "@+id/text_old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_2"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_12"
+            android:text="￥45.0"/>
+
+        <TextView
+            android:id = "@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_24"
+            android:paddingBottom="@dimen/space_size_2"
+            android:text="￥36.0"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id = "@+id/icon_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_12"
+        android:layout_marginRight="@dimen/space_size_5"
+        android:src = "@drawable/purchase_first_next_icon"
+        android:contentDescription="@null"
+        />
+
+</LinearLayout>

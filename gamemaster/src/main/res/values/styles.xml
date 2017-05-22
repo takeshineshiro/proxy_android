@@ -1,0 +1,646 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/basepage_back</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_item_background</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowBackground">@color/color_game_1</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/color_game_2</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleStyle</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="MyActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="ActivityStart" parent="android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <!--
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+        -->
+    </style>
+
+    <!-- 分享面板返回后的Activity样式 -->
+    <style name="ShareCallBackActivityTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/dialog_background_color</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="ShortcutDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="app_list_style">
+        <item name="android:cacheColorHint">@color/color_game_7</item>
+        <!-- <item name="android:divider">@color/list_devider</item> -->
+        <item name="android:divider">@color/color_game_7</item>
+        <item name="android:dividerHeight">4dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Theme.Toast" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="setting_title_style">
+        <item name="android:textColor">@color/color_game_3</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_15</item>
+        <item name="android:background">@color/color_game_6</item>
+    </style>
+
+    <style name="item_group_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/setting_item_bg</item>
+    </style>
+
+    <style name="user_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginBottom">@dimen/space_size_5</item>
+        <item name="android:paddingLeft">@dimen/space_size_14</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+
+    <!-- 设置分组样式 -->
+    <style name="setting_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:layout_marginTop">@dimen/space_size_2</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_3</item>
+        <item name="android:paddingLeft">@dimen/space_size_20</item>
+        <item name="android:paddingRight">@dimen/space_size_18</item>
+    </style>
+
+    <style name="double_link_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:layout_marginTop">@dimen/space_size_4</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_3</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+
+    <style name="double_link_desc_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:paddingTop">@dimen/space_size_3</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_7</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+
+    <style name="setting_child_style">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="double_link_child_style">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+
+    <style name="setting_item_style" parent="@style/setting_group_style">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/about_page_list_bg</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+    </style>
+
+    <style name="setting_check_style">
+        <item name="android:layout_margin">6dp</item>
+    </style>
+
+    <style name="setting_check_title">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="group_secondpage">
+        <item name="android:background">@color/color_game_1</item>
+    </style>
+
+    <style name="group_dialog_floatwindow_help_background">
+        <item name="android:background">@drawable/dialog_floatwindow_help_background</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- 关于界面列表样式 -->
+    <style name="about_page_item">
+        <item name="android:background">@drawable/about_page_list_bg</item>
+        <item name="android:paddingLeft">@dimen/space_size_15</item>
+        <item name="android:paddingRight">@dimen/space_size_15</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+    </style>
+
+    <!-- 帮助页面，告诉用户“开启VPN时，系统会弹框授权 -->
+    <style name="vpn_impower_dialog_style">
+        <item name="android:windowBackground">@color/transparent_dd_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="feedback_label">
+        <item name="android:textColor">@color/feedback_content_hint</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:paddingLeft">@dimen/feedback_content_padding</item>
+    </style>
+
+    <style name="feedback_reply_text">
+        <item name="android:layout_marginBottom">@dimen/space_size_10</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="feedback_reply_label" parent="@style/feedback_reply_text">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:paddingLeft">@dimen/feedback_repley_paddiing</item>
+    </style>
+
+    <style name="feedback_reply_content" parent="@style/feedback_reply_text">
+        <item name="android:padding">@dimen/feedback_repley_paddiing</item>
+    </style>
+
+    <style name="feedback_content">
+        <item name="android:background">@drawable/bg_feedback_record</item>
+        <item name="android:paddingTop">@dimen/space_size_3</item>
+        <item name="android:paddingBottom">@dimen/space_size_3</item>
+        <item name="android:paddingLeft">@dimen/feedback_content_padding</item>
+        <item name="android:paddingRight">@dimen/feedback_content_padding</item>
+        <item name="android:textColorHint">@color/feedback_content_hint</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="feedback_record_content">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_5</item>
+        <item name="android:paddingRight">@dimen/space_size_5</item>
+    </style>
+
+    <style name="progress_dialog_bg" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="secondpage_header_icon">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="secondpage_footer_icon">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="floatwindow_group_root">
+        <item name="android:background">@drawable/suspension_dialogue_bg</item>
+    </style>
+
+    <style name="seleter_button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+
+    <style name="floatwindow_desc">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+
+    <style name="floatwindow_netdesc_tablerow">
+        <item name="android:background">@drawable/suspension_dialogue_line_behind</item>
+    </style>
+
+    <style name="floatwindow_netdesc_value">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="dialog_button">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="dialog_content">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <!-- 帮助界面相关Style -->
+    <style name="help_question">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:lineSpacingExtra">@dimen/space_size_10</item>
+    </style>
+
+    <style name="help_answer">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:lineSpacingExtra">@dimen/space_size_10</item>
+    </style>
+
+    <style name="activity_start_root">
+        <item name="android:background">#0f1112</item>
+    </style>
+
+    <style name="gamepaly_diver">
+        <item name="android:background">@color/color_game_1</item>
+    </style>
+
+    <style name="gameplay_desctext">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:paddingRight">@dimen/space_size_6</item>
+    </style>
+
+    <style name="desktop_activity" parent="AppDialogTheme">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="gameplay_achieve_time_value">
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="gameplay_achieve_time_unit">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="group_guide">
+        <item name="android:background">#a4c639</item>
+    </style>
+
+    <style name="group_error_log">
+        <item name="android:background">@color/color_game_6</item>
+    </style>
+
+    <style name="group_dock_for_hide">
+        <item name="android:background">@drawable/basepage_buttong_deep</item>
+    </style>
+
+    <style name="ShareDialogLiearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/space_size_8</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="SHareDialogTextView">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+
+    <style name="text_item_accel_details_desc">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+
+    <style name="text_item_accel_details_value">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AccelDescHeadTextTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AccelDescHeadTextContent">
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="instruction_head_text">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+
+    <style name="instruction_label_text">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+
+    <style name="instruction_page_group">
+        <item name="android:paddingLeft">@dimen/space_size_24</item>
+        <item name="android:paddingRight">@dimen/space_size_24</item>
+    </style>
+
+    <style name="instructions_image">
+        <item name="android:layout_marginLeft">@dimen/space_size_30</item>
+        <item name="android:layout_marginRight">@dimen/space_size_30</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="screenshot_button">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:background">@drawable/selector_dialog_right_btn</item>
+    </style>
+
+    <style name="screenshot_window">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="floatwindow_setting_radio">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">6dip</item>
+        <item name="android:background">@color/translation</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="floatwindow_setting_radio_inactive" parent="floatwindow_setting_radio">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:drawableTop">@drawable/seletor_floatwindow_type</item>
+    </style>
+
+    <style name="floatwindow_content">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="net_details_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/space_size_28</item>
+        <item name="android:background">@color/color_game_30</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_10</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <style name="MainHelpUI">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="MainHelpUIDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="MainHelpUIText">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/main_help_text_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="main_netname_pormpt">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="ThemeNull">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- 主页面游戏列表里“外服”“内嵌SDK”标签 -->
+    <style name="mark_on_main_page_list">
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/space_size_5</item>
+        <item name="android:paddingRight">@dimen/space_size_5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <!-- 加速流程里最左边label的文字 -->
+    <style name="accel_progress_label">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <!-- 加速流程里在边框内的文字 -->
+    <style name="accel_progress_message">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="floatwindow_netname">
+        <item name="android:textColor">@color/color_game_31</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="floatwindow_delayvalue">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="question_survey_radio">
+        <item name="android:drawableLeft">@drawable/seletor_floatwindow_type</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@color/translation</item>
+        <item name="android:layout_marginTop">@dimen/space_size_6</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_6</item>
+        <item name="android:drawablePadding">@dimen/space_size_20</item>
+        <item name="android:layout_marginLeft">@dimen/space_size_40</item>
+        <item name="android:textSize">@dimen/space_size_16</item>
+        <item name="android:textColor">@color/color_game_31</item>
+    </style>
+
+    <style name="question_survey_textview">
+        <item name="android:textSize">@dimen/space_size_16</item>
+        <item name="android:layout_marginLeft">@dimen/space_size_20</item>
+        <item name="android:layout_marginTop">@dimen/space_size_12</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_12</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+
+    <style name="setting_floatwindow_radio">
+        <item name="android:drawableRight">@drawable/seletor_floatwindow_type</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@color/translation</item>
+    </style>
+
+    <style name="setting_auto_clean_radio">
+        <item name="android:drawableLeft">@drawable/seletor_floatwindow_type</item>
+        <item name="android:drawablePadding">@dimen/space_size_8</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/selector_radio_button_text_color</item>
+        <item name="android:background">@color/translation</item>
+    </style>
+
+    <style name="box_in_game_flipper_content_margin">
+        <item name="android:layout_marginLeft">24dip</item>
+        <item name="android:layout_marginRight">24dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+    </style>
+
+    <style name="user_item">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+        <item name="android:drawablePadding">@dimen/space_size_16</item>
+        <item name="android:background">@drawable/selector_user_item_background</item>
+        <item name="android:paddingLeft">@dimen/space_size_20</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+
+    <!--
+    网络诊断
+    <style name="net_diagnose_button">
+        <item name="android:background">@drawable/selector_button_start_diagnose</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="main_tools_label">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:layout_marginLeft">@dimen/space_size_12</item>
+        <item name="android:layout_marginRight">@dimen/space_size_15</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="net_diagnose_fail_reason">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_31</item>
+    </style>
+
+    -->
+
+
+    <!-- 登录、注册等 -->
+    <style name="login_edit">
+        <item name="android:background">@drawable/bg_feedback_record</item>
+        <item name="android:drawablePadding">@dimen/space_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textColorHint">@color/color_game_32</item>
+        <item name="android:paddingLeft">@dimen/space_size_10</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+        <item name="android:paddingTop">@dimen/space_size_10</item>
+        <item name="android:paddingBottom">@dimen/space_size_10</item>
+    </style>
+
+    <style name="login_button">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="list_empty_textview">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_31</item>
+        <item name="android:drawableTop">@drawable/speed_details_pic_sorry</item>
+        <item name="android:drawablePadding">@dimen/space_size_8</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="price_unit">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="text_price">
+    <item name="android:textSize">@dimen/text_size_24</item>
+    </style>
+
+    <style name="dialog_upgrade_text">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="list_item_cell_seperator_layout">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/about_list_bg_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="4dp"
+        tools:ignore="UseCompoundDrawables,UselessParent" >
+
+        <ImageView
+            android:id="@+id/shortcut_game_icon"
+            android:layout_width="@dimen/space_size_50"
+            android:layout_height="@dimen/space_size_50"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/shortcut_game_label"
+            android:layout_width="@dimen/space_size_50"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size_10" />
+    </LinearLayout>
+
+</FrameLayout>

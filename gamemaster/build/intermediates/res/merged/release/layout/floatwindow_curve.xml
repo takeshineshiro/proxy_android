@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/floatwindow_submodule_background"
+        android:gravity="center"
+        android:text="@string/delay_chart_comment"
+        android:textColor="@color/color_game_31"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <cn.wsds.gamemaster.ui.NetDelayChart
+        android:id="@+id/net_delay_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        subao:line_color="@color/color_game_32"
+        subao:range_mark="false"
+        subao:right_vert_line="true"
+        subao:text_color="@color/color_game_6"
+        subao:text_size="10sp" />
+
+</LinearLayout>

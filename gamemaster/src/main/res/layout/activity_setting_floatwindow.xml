@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_head"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above" />
+
+    <!-- 悬浮窗 -->
+
+    <LinearLayout
+        android:id="@+id/floatwindow_switchgroup"
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50" >
+
+        <TextView
+            android:id="@+id/float_wnd_pormpt"
+            style="@style/setting_child_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/float_wnd_switch" />
+
+        <cn.wsds.gamemaster.ui.view.Switch
+            android:id="@+id/check_float_wnd"
+            style="@style/setting_check_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/floatwindow_mode"
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/floatwindow_mode_auto"
+            style="@style/setting_child_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动检测" />
+
+        <RadioButton
+            android:id="@+id/floatwindow_mode_1"
+            style="@style/setting_child_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模式一" />
+
+        <RadioButton
+            android:id="@+id/floatwindow_mode_2"
+            style="@style/setting_child_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模式二" />
+
+        <RadioButton
+            android:id="@+id/floatwindow_mode_3"
+            style="@style/setting_child_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模式三" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/floatwindow_visiable_delay"
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:visibility="gone" >
+
+        <TextView
+            style="@style/setting_child_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="显示延迟值" />
+
+        <cn.wsds.gamemaster.ui.view.Switch
+            android:id="@+id/check_visible_delay"
+            style="@style/setting_check_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_pormpt"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_size_40"
+        android:layout_marginLeft="@dimen/space_size_30"
+        android:gravity="center_vertical"
+        android:text="尺寸设置"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/floatwindow_type_group"
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio_mini"
+            style="@style/setting_floatwindow_radio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_40"
+            android:text="迷你版" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:background="@color/about_list_stroke_nomal_color" />
+
+        <RadioButton
+            android:id="@+id/radio_normal"
+            style="@style/setting_floatwindow_radio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_40"
+            android:layout_marginBottom="1dip"
+            android:checked="true"
+            android:text="标准版" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:background="@color/about_list_stroke_nomal_color" />
+
+        <RadioButton
+            android:id="@+id/radio_large"
+            style="@style/setting_floatwindow_radio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_40"
+            android:layout_marginBottom="1dip"
+            android:text="超大版" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/translation" />
+
+    <TextView
+        android:id="@+id/text_guide_pormpt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="找不到悬浮窗？点击设置"
+        android:textColor="@color/color_game_31"
+        android:textSize="@dimen/text_size_16"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/openguide_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_40"
+        android:layout_margin="@dimen/space_size_10"
+        android:gravity="center_horizontal"
+        tools:ignore="DisableBaselineAlignment" >
+
+        <View
+            android:id="@+id/space_left"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_impower_floatwindow"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/space_size_38"
+            android:layout_weight="1"
+            android:background="@drawable/setting_item_bg"
+            android:text="授权显示悬浮窗"
+            android:textSize="@dimen/text_size_14" />
+
+        <View
+            android:id="@+id/space_middle"
+            android:layout_width="@dimen/space_size_10"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:id="@+id/button_impower_usage_access"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/space_size_38"
+            android:layout_weight="1"
+            android:background="@drawable/setting_item_bg"
+            android:text="授权查看应用使用情况"
+            android:textSize="@dimen/text_size_14" />
+
+        <View
+            android:id="@+id/space_right"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/space_size_2"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</LinearLayout>

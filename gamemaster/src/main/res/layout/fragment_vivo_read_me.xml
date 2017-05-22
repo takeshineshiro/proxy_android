@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_15"
+        android:paddingLeft="@dimen/space_size_14"
+        android:paddingRight="@dimen/space_size_14"
+        android:contentDescription="setting group"
+        android:scrollbars="none" >
+         
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >    
+            
+           <TextView
+           android:id = "@+id/text_instrcution"
+           style="@style/instruction_label_text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"      
+           android:text="VIVO手机由于内置的省电管理功能可能导致加速器闪退，请确保开启该功能中加速器的开关，方法如下："
+           />
+       
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_20"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            
+            <TextView
+            android:id = "@+id/vivo_illustration_1"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="1.打开i管家应用;"
+            />
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            
+            <ImageView 
+                android:id = "@+id/vivo_ico_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/vivo_illustration_ico_1"/>
+        </LinearLayout>
+        
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_20"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            
+            <TextView
+            android:id = "@+id/vivo_illustration_2"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="2.点击右下角省电管理;"
+            />
+            
+            <View 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            
+            <ImageView 
+                android:id = "@+id/vivo_ico_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/vivo_illustration_ico_2"/>
+        </LinearLayout>
+            
+         <TextView
+            android:id = "@+id/vivo_illustration_3"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/space_size_30"    
+            android:text="3.点击最下方的后台高耗电;"
+            />
+         
+         <ImageView 
+                android:id = "@+id/vivo_ico_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/space_size_20"
+                android:src="@drawable/vivo_illustration_pic_1"/>
+            
+            
+           <TextView
+            android:id = "@+id/vivo_illustration_4"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/space_size_20"    
+            android:text="4.点击迅游手游加速器后面的开关使其打开;"
+            />
+         
+         <ImageView 
+                android:id = "@+id/vivo_ico_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_20"
+                android:scaleType="fitXY"
+                android:src="@drawable/vivo_illustration_pic_2"/>
+         
+         
+         <TextView
+            android:id = "@+id/vivo_illustration_5"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/space_size_20"    
+            android:text="5.打开加速器开始加速吧。"
+            />
+        </LinearLayout>
+            
+    </ScrollView>
+
+</RelativeLayout>

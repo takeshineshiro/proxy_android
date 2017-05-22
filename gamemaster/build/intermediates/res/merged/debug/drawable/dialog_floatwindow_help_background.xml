@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="@color/color_game_3"></solid>
+    
+    <stroke android:color="#41505b"
+        android:width="0.5dip"/>
+    
+    <corners android:radius="@dimen/dialog_radius" />
+
+</shape>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/floatwindow_setting_skin_normal_radio_type_top_margin"
+        layout="@layout/floatwindow_setting_skin_normal_radio_type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="12dip"
+        android:background="@color/floatwindow_submodule_background"
+        android:gravity="center"
+        android:orientation="horizontal" android:baselineAligned="false">
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_visible_delay"
+                style="@style/setting_check_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/floatwindow_switch_delay" />
+
+            <cn.wsds.gamemaster.ui.view.Switch
+                android:id="@+id/check_visible_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_5"
+                subao:checkbutton="@drawable/common_switch_on_floating_window"
+                subao:uncheckbutton="@drawable/common_switch_off_hunter_floating_window" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_double_link"
+                style="@style/setting_check_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/double_accel" />
+
+            <cn.wsds.gamemaster.ui.view.Switch
+                android:id="@+id/check_double_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_5"
+                subao:checkbutton="@drawable/common_switch_on_floating_window"
+                subao:uncheckbutton="@drawable/common_switch_off_hunter_floating_window" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

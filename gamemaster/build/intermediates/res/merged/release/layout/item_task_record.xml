@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_game_48"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_64"
+        android:background="@color/color_game_48"
+        android:paddingLeft="@dimen/space_size_10"
+        android:paddingRight="@dimen/space_size_10" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/text_action"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每日签到"
+                android:singleLine="true"
+                android:textColor="@color/color_game_7"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/text_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_8"
+                android:drawableLeft="@drawable/icon_jifen"
+                android:drawablePadding="@dimen/space_size_4"
+                android:gravity="center_vertical"
+                android:text="积分+1"
+                android:textColor="@color/color_game_6"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/text_action"
+            android:layout_width="@dimen/space_size_70"
+            android:layout_height="@dimen/space_size_35"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_dialog_right_btn"
+            android:gravity="center"
+            android:textColor="@color/selector_button_text_color"
+            android:text="1.5/2"
+            android:textSize="@dimen/text_size_16" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:visibility="gone"
+        android:background="@color/color_game_9" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_message"
+        style="@style/dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "@dimen/space_size_20"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="抱歉，你的加速已过期\n请绑定手机号，将获得7天免费时间"
+        android:textSize="@dimen/text_size_16"      
+        android:textColor="@color/color_game_7"/>
+    
+    <CheckBox
+        android:id="@+id/check_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_14"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/string_no_prompt"
+        android:textSize="@dimen/text_size_12"
+        android:textColor="@color/color_game_31"/>
+</LinearLayout>

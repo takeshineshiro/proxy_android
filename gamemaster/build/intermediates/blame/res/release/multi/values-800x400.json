@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/values-800x400/values-800x400.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/wong/Android_APP/gamemaster/src/main/res/values-800x400/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 61,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 62,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "/home/wong/Android_APP/gamemaster/src/main/res/values-800x400/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 47,
+                        "endColumn": 62,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 64,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "/home/wong/Android_APP/gamemaster/src/main/res/values-800x400/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 64,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 63,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/home/wong/Android_APP/gamemaster/src/main/res/values-800x400/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 63,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    }
+]

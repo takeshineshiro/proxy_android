@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_dialog_floatwindow_help_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_12"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:layout_marginRight="@dimen/space_size_14"
+        android:layout_marginTop="@dimen/space_size_14" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="授权“查看应用使用权限”"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_14"
+            tools:ignore="HardcodedText" />
+        
+        <Space android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="0dip"/>
+        
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guide_close_nor"/>
+        
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:background="#41505b" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:layout_marginRight="@dimen/space_size_14"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:gravity="center_vertical"
+        android:text="安卓5.0以上的系统需要获得“查看应用使用权限”的授权，否则可能无法正确显示悬浮窗。"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/notice_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_14"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:layout_marginRight="@dimen/space_size_14"
+        android:layout_marginBottom="@dimen/space_size_10"
+        android:src="@drawable/prompt_empower_suspension_example"
+        tools:ignore="ContentDescription" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="图片以华为手机为例"
+        android:textColor="@color/color_game_31"
+        android:layout_marginBottom="@dimen/space_size_14"
+        android:textSize="@dimen/text_size_10"
+        tools:ignore="HardcodedText" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/foot_dialog_floatwindow_help" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_dialog_floatwindow_help_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/head_floatwindow_help_dialog" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_size_20"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:gravity="center_vertical"
+        android:text="1.启用悬浮窗"
+        android:textColor="@color/color_game_11"
+        android:textSize="@dimen/text_size_18"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_size_12"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:layout_weight="2"
+        android:src="@drawable/xiaomi_notice_pic_1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_size_20"
+        android:gravity="center_vertical"
+        android:text="2.选择信任该程序并允许自启动"
+        android:textColor="@color/color_game_11"
+        android:textSize="@dimen/text_size_18"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/space_size_14"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:layout_weight="2"
+        android:src="@drawable/xiaomi_notice_pic_2"
+        tools:ignore="ContentDescription" />
+
+     <include 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/foot_dialog_floatwindow_help"/>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above" />
+
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind" />
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_line"
+        android:layout_marginBottom="@dimen/space_size_4"
+        android:layout_marginLeft="@dimen/about_linear_layout_margin_left"
+        android:layout_marginRight="@dimen/about_linear_layout_margin_right"
+        android:layout_marginTop="@dimen/space_size_16" >
+
+        <TextView
+            android:id="@+id/text_subaoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/color_game_31" />
+
+        <TextView
+            android:id="@+id/text_about_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/text_subaoid"
+            android:text="Nubia NJX507"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/text_about_android_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/text_about_model"
+            android:text="Android SDK 23"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/text_about_app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_about_android_version"
+            android:text="v2.1.2"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_12" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/about_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom"
+        android:layout_marginLeft="@dimen/about_linear_layout_margin_left"
+        android:layout_marginRight="@dimen/about_linear_layout_margin_right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_list_qq_group"
+            style="@style/about_page_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_linear_layout_height"
+            android:layout_marginTop="@dimen/about_linear_layout_margin_top"
+            android:contentDescription="qq group"
+            android:text="@string/qq_group_2" />
+
+        <TextView
+            android:id="@+id/about_list_qq_service"
+            style="@style/about_page_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_linear_layout_height"
+            android:layout_marginTop="@dimen/about_linear_layout_margin_top"
+            android:contentDescription="qq customer service"
+            android:text="@string/qq_customer_service" />
+
+        <LinearLayout
+            android:id="@+id/about_list_weibo"
+            style="@style/about_page_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_linear_layout_height"
+            android:layout_marginTop="@dimen/about_linear_layout_margin_top"
+            android:drawableRight="@null"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:text="官方微博：迅游手游加速器"
+                android:textColor="@color/color_game_6"
+                android:textSize="@dimen/text_size_14" />
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right|center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/about_us_sina" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/about_list_agreement"
+            style="@style/about_page_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_linear_layout_height"
+            android:layout_marginTop="@dimen/about_linear_layout_margin_top"
+            android:text="服务协议" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/about_list"
+        android:layout_below="@id/top_line"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/the_main_interface_about_icon" />
+
+        <TextView
+            android:id="@+id/about_ui_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/about_top_text_view_margin_top"
+            android:text="迅 游 手 游 加 速 器"
+            android:textColor="@color/color_game_6"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:id="@+id/text_url_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="@string/domain_website"
+            android:textColor="@color/selector_link_text_color"
+            android:textSize="@dimen/text_size_12" />
+    </LinearLayout>
+
+</RelativeLayout>

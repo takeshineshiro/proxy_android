@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/menu/information_actionbar_menu.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/menu/information_actionbar_menu.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/menu/menu_exchange_center.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/menu/menu_exchange_center.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/menu/activity_user.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/menu/activity_user.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/menu/menu_store.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/menu/menu_store.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/menu/activity_main.xml"
+    }
+]

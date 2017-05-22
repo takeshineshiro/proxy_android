@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="secondpage_header_icon">子界面头部图标</string>
+    <string name="secondpage_footer_icon">子界面底部图标</string>
+    <string name="guide_close_nor">悬浮窗引导关闭按钮</string>
+    
+</resources>

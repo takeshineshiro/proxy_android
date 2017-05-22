@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/phone_and_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_8"
+        android:layout_marginRight="@dimen/space_size_8"
+        layout="@layout/phone_and_password" />
+
+
+    <Button
+        android:id="@+id/button_confirm"
+        style="@style/login_button"
+        android:layout_width="@dimen/space_size_180"
+        android:layout_height="@dimen/space_size_55"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_size_50"
+        android:background="@drawable/selector_dialog_right_btn"
+        android:text="@string/register_button_text" />
+
+    <TextView
+        android:id="@+id/text_award_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:text="@string/register_award_desc"
+        android:textColor="@color/color_game_31"
+        android:textSize="@dimen/text_size_12" />
+
+</LinearLayout>

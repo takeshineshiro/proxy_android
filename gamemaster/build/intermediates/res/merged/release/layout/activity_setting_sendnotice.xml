@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_head"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:src="@drawable/basepage_line_above" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- 防流量偷跑 -->
+
+        <LinearLayout
+            style="@style/setting_group_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_50"
+            tools:ignore="UselessParent" >
+
+            <TextView
+                style="@style/setting_child_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/notice_accelresult_send" />
+
+            <cn.wsds.gamemaster.ui.view.Switch
+                android:id="@+id/check_accelresult_send"
+                style="@style/setting_check_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</LinearLayout>

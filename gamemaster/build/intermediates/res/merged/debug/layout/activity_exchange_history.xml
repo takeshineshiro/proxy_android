@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/space_size_4"
+    android:paddingRight="@dimen/space_size_4"
+    tools:context="cn.wsds.gamemaster.ui.exchange.ActivityExchangeHistory" >
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/space_size_10"
+        android:drawableTop="@drawable/speed_details_pic_sorry"
+        android:text="@string/points_hirstory_empty"
+        android:textColor="@color/color_game_31"
+        android:textSize="@dimen/text_size_14"
+        android:visibility="gone" />
+
+    <cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout
+        android:id="@+id/swipeRefresher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/space_size_4"
+            android:footerDividersEnabled="false"
+            android:scrollbars="none" />
+    </cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout>
+
+</FrameLayout>

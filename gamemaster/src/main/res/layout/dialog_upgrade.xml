@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_game_3"
+    android:orientation="vertical"
+    tools:ignore="Overdraw" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_4"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:layout_marginTop="@dimen/space_size_4"
+        android:text="发现新版本"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_1"
+        android:background="@color/color_game_1" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:layout_marginRight="@dimen/space_size_16"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:columnCount="2" >
+
+        <TextView
+            style="@style/dialog_upgrade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新版本：" />
+
+        <TextView
+            android:id="@+id/text_version_name"
+            style="@style/dialog_upgrade_text"
+            android:layout_gravity="left"
+            android:text="@string/version" />
+
+        <TextView
+            style="@style/dialog_upgrade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="发布时间：" />
+
+        <TextView
+            android:id="@+id/text_publish_time"
+            style="@style/dialog_upgrade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="2016-08-25" />
+
+        <TextView
+            style="@style/dialog_upgrade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="更新大小：" />
+
+        <TextView
+            android:id="@+id/text_size"
+            style="@style/dialog_upgrade_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="5,432 KB" />
+    </GridLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_180"
+        android:layout_marginBottom="@dimen/space_size_16"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:layout_marginRight="@dimen/space_size_16"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:fillViewport="false" >
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_14" />
+    </ScrollView>
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_90"
+        android:layout_marginBottom="@dimen/space_size_20"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:layout_marginRight="@dimen/space_size_16" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            layout="@layout/dialog_upgrade_ctrl" />
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            layout="@layout/dialog_upgrade_download" />
+    </ViewFlipper>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/service_introduce_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accel_service"
+        android:textColor="@color/color_game_6"
+        android:textSize="@dimen/text_size_15"
+        />
+    <include
+        android:id="@+id/head_service_introduce"
+        layout="@layout/head_service_introduce"/>
+    <include
+        android:id="@+id/head_vip_service_introduce"
+        layout="@layout/head_vip_service_introduce"
+        android:visibility="gone"/>
+
+    <cn.wsds.gamemaster.ui.view.InertiaListView
+        android:id="@+id/service_introduce_list"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:background="@drawable/purchase_service_introduce_list_background"
+        android:focusable="true"
+        android:divider="@color/color_game_9"
+        android:dividerHeight="1dp"
+        android:scrollbars="none">
+
+    </cn.wsds.gamemaster.ui.view.InertiaListView>
+
+</LinearLayout>

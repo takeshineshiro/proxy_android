@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/float_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dip"
+        android:background="@drawable/floating_window_open_time_delay_right"
+        android:gravity="center_vertical"
+        android:paddingLeft="21dip"
+        android:textColor="@color/color_game_7"
+        android:textSize="10sp"
+        android:text="已清理"
+        android:visibility="invisible"
+        tools:ignore="RtlSymmetry" />
+    
+    <ImageView
+        android:id="@+id/float_window_out_ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/floating_window_open_state" />
+    
+    <ImageView android:id="@+id/robot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/memory_auto_cleaning"/>
+
+    <ImageView
+        android:id="@+id/image_star_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_star_01" />
+
+    <ImageView
+        android:id="@+id/image_star_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_star_02" />
+
+    <ImageView
+        android:id="@+id/image_smoke_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_smoke_01" />
+
+    <ImageView
+        android:id="@+id/image_smoke_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_smoke_02" />
+
+    <ImageView
+        android:id="@+id/image_smoke_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_smoke_03" />
+
+    <ImageView
+        android:id="@+id/image_smoke_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_smoke_04" />
+
+    <ImageView
+        android:id="@+id/image_smoke_fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:src="@drawable/loating_window_flying_automatic_clean_smoke_05" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/float_window_out_ring"
+        android:layout_alignLeft="@+id/float_window_out_ring"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/float_window_out_ring"
+        android:layout_alignTop="@+id/float_window_out_ring"
+        android:gravity="center"
+        android:text="60个\n应用"
+        android:textColor="@color/color_game_6"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        tools:ignore="SmallSp" />
+
+</RelativeLayout>

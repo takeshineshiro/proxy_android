@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="scale_app_start_view_logo">13000</integer>
+    <integer name="scale_app_start_view_nearer_planet">15000</integer>
+    <integer name="scale_app_start_view_farther_planet">20000</integer>
+</resources>

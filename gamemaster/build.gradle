@@ -1,0 +1,160 @@
+apply plugin: 'com.android.application'
+
+def artifactVersion = "2.4.0"
+def dev = "${develop}"
+
+def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmm')
+    return formattedDate
+}
+
+def getDevelop(dev) {
+    return dev.contentEquals('develop')
+}
+
+group = 'mobi.xunyou.android'
+version = getDevelop(dev) ? 'develop' : artifactVersion
+status = 'integration'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "cn.wsds.gamemaster"
+        versionName APP_VERSION
+        resValue("string", 'app_version', APP_VERSION)
+        buildConfigField "boolean", "LEO_DEBUG", "true"
+        buildConfigField 'String', 'API_SERVER_URL', RELEASE_API_SERVER_URL
+        buildConfigField 'String', 'API_SERVER_URL_MALL', RELEASE_API_SERVER_URL_MALL
+        minSdkVersion 14
+        targetSdkVersion 19 // 重要，这里不要设置为大于19的值，因为6.0以上对WiFi加速的权限管理有了变化
+        multiDexEnabled true
+    }
+
+    sourceSets {
+        main {
+            jni.srcDirs = []
+        }
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'API_SERVER_URL', RELEASE_API_SERVER_URL
+            buildConfigField 'String', 'API_SERVER_URL_MALL', RELEASE_API_SERVER_URL_MALL
+            buildConfigField 'String', 'IM_SERVER_HOST', RELEASE_IM_SERVER_HOST
+            buildConfigField 'int', 'IM_SERVER_PORT', RELEASE_IM_SERVER_PORT
+            buildConfigField "boolean", "LEO_DEBUG", RELEASE_LEO_DEBUG
+
+            manifestPlaceholders = [JPUSH_APPKEY_VALUE: "b2ee1e6e06f417194bfb8bf2"]
+            minifyEnabled false
+
+            shrinkResources true
+        }
+
+        release {
+            buildConfigField 'String', 'API_SERVER_URL', RELEASE_API_SERVER_URL
+            buildConfigField 'String', 'API_SERVER_URL_MALL', RELEASE_API_SERVER_URL_MALL
+            buildConfigField 'String', 'IM_SERVER_HOST', RELEASE_IM_SERVER_HOST
+            buildConfigField 'int', 'IM_SERVER_PORT', RELEASE_IM_SERVER_PORT
+            buildConfigField "boolean", "LEO_DEBUG", RELEASE_LEO_DEBUG
+
+            minifyEnabled true
+
+            shrinkResources true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+
+            manifestPlaceholders = [JPUSH_APPKEY_VALUE: "01a6002d9550831a9fe1af48"]
+
+            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    //修改生成的apk名字
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def newName
+            def timeNow
+            def oldFile = output.outputFile
+            def outDirectory = oldFile.parent
+
+            def isJenkins = "true".equals(System.getProperty('IS_JENKINS'));
+            if (isJenkins) {
+                timeNow = System.getProperty('JENKINS_TIME')
+                def buidId = System.getenv('BUILD_NUMBER')
+                //println('hujd' + timeNow + 'id' + buidId);
+                newName = 'android-v' + APP_VERSION +
+                    '-' + buidId  + '-' + variant.buildType.name
+                if (!getDevelop(dev)) {
+                    version = newName
+                }
+                newName = newName + '.apk'
+            } else {
+                timeNow = getDate()
+                if (variant.buildType.name.equals('debug')) {
+                    newName = "android-v${APP_VERSION}-debug.apk"
+                } else {
+                    newName = 'android-v' +
+                            APP_VERSION + '-' + timeNow + '-' + variant.buildType.name + '.apk'
+                }
+            }
+
+            output.outputFile = new File(outDirectory, newName)
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    testOptions {
+        unitTests.all {
+            jvmArgs '-XX:MaxPermSize=1024m' //prevent OOM (PermGen space) while running tests
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+
+    compile project(':subaocommon')
+
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    //引入解决方法数超过 65535 限制的库
+    compile 'com.android.support:multidex:1.0.0'
+
+
+    //leakcanary
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.robolectric:robolectric:3.1'
+    testCompile 'com.squareup.okhttp3:mockwebserver:3.4.1'
+    testCompile 'org.mockito:mockito-core:2.2.27'
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/group_secondpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above" />
+    
+    <TextView
+        android:id="@+id/button_accel_setting"
+        style="@style/setting_item_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50"
+        android:text="@string/setting_accel"/>
+    
+    <TextView
+        android:id="@+id/button_feedback"
+        style="@style/setting_item_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50"
+        android:text="@string/main_menu_feedback"/>
+    
+     <TextView
+        android:id="@+id/button_qa"
+        style="@style/setting_item_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50"
+        android:text="@string/main_menu_qa"/>
+    
+    <TextView
+        android:id="@+id/button_about"
+        style="@style/setting_item_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50"
+        android:text="@string/main_menu_about"/>
+    
+
+</LinearLayout>

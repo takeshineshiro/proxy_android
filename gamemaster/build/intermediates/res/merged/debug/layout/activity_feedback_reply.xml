@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_head"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="@dimen/space_size_10"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/space_size_5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/feedback_reply_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您好，关于您反馈的："
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/feedback_content"
+                style="@style/feedback_reply_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#121f27"
+                android:text="手机网络明明开着的，软件却用不了，却说网络异常，只有WiFi能用，这是什么软件，这么大的bug不修复！！！"
+                android:textColor="@color/color_game_31"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text_reply_label"
+                style="@style/feedback_reply_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="由%d号客服回复如下："
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/reply_content"
+                style="@style/feedback_reply_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/feedback_reply_content"
+                android:text="您好，请问您手机设置或者第三方管家软件针对迅游手游加速器的网络权限有没有打开呢？如果网络权限被禁止了，那么就会出现断网而且游戏不能进入的现象，建议您查看下网络权限。"
+                android:textColor="@color/color_game_7"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="没有解决？点这里"
+        android:textColor="@color/color_game_9"
+        android:textSize="@dimen/text_size_12"
+        android:layout_marginBottom="@dimen/space_size_10"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</LinearLayout>

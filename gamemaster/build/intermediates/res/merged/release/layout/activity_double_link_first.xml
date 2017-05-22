@@ -1,0 +1,47 @@
+<LinearLayout style="@style/group_secondpage"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context="cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink">
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above"/>
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="@dimen/space_size_30"
+               android:layout_marginTop="@dimen/space_size_20"
+               android:src="@drawable/second_class_page_title"/>
+    <ImageView android:layout_width="@dimen/space_size_294"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:src="@drawable/second_class_page_pic"/>
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="@dimen/space_size_16"
+               android:layout_marginTop="@dimen/space_size_14"
+               android:src="@drawable/second_class_page_content"/>
+    <TextView android:id="@+id/click_text"
+              android:layout_width="@dimen/space_size_200"
+              android:layout_height="@dimen/space_size_50"
+              android:layout_marginBottom="@dimen/space_size_10"
+              android:background="@drawable/main_list_start_btn_bg_translucent"
+              android:gravity="center_horizontal|center"
+              android:text="我知道了"
+              android:textColor="@color/color_game_7"
+              android:textSize="@dimen/text_size_24"/>
+
+    <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind"/>
+</LinearLayout>

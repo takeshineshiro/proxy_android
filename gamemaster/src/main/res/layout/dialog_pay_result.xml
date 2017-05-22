@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/pay_result_dialog_width"
+    android:layout_height="wrap_content"
+	android:background="@drawable/dialog_floatwindow_help_background"
+	android:orientation="vertical" >
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pay_result_text_height" >
+         
+        <TextView 
+            android:id = "@+id/view_pay_success"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pay_result_success"
+            android:text="支付成功"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/color_game_7"
+            android:drawableTop="@drawable/pay_success_ico"
+            android:drawablePadding="@dimen/space_size_12"
+            android:paddingTop="@dimen/space_size_34"
+            android:gravity="center_horizontal"
+            />
+                    
+            <TextView 
+            android:id = "@+id/view_pay_failed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pay_result_failed"
+            android:text="支付失败"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/color_game_7"
+            android:drawableTop="@drawable/payment_failure_ico"
+            android:drawablePadding="@dimen/space_size_12"
+            android:paddingTop="@dimen/space_size_34"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            />
+   
+    </FrameLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+        android:orientation="vertical">
+                
+        <TextView 
+            android:id = "@+id/text_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_14"
+			android:layout_marginBottom="@dimen/space_size_5"
+            android:textColor="@color/color_game_7"
+            android:text = "30天加速套餐"
+            android:textSize="@dimen/text_size_15"/>
+                
+         <TextView 
+            android:id = "@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_game_7"
+            android:text = "￥15.00"
+            android:textSize="@dimen/text_size_20"/>
+
+		<TextView
+			android:id = "@+id/text_extras"
+			android:layout_width="85dp"
+			android:layout_height="14dp"
+			android:layout_marginTop="@dimen/space_size_12"
+			android:background="@drawable/bg_text_product_extras"
+			android:gravity="center"
+			android:text="另赠7天VIP加速"
+			android:textSize="@dimen/text_size_10"
+			android:textColor="@color/color_game_17"
+			android:visibility="gone"
+			/>
+    </LinearLayout>
+    
+
+	<LinearLayout
+		android:id = "@+id/btns_pay_result"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/pay_result_button_height"
+		android:layout_marginTop="@dimen/space_size_14"
+		android:layout_marginBottom="@dimen/space_size_20"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/button_left"
+			style="@style/dialog_button"
+			android:layout_width="140dp"
+			android:layout_height="match_parent"
+			android:layout_marginRight="@dimen/space_size_10"
+			android:background="@drawable/selector_dialog_left_btn"
+			android:text="查看订单" />
+
+		<TextView
+			android:id="@+id/button_right"
+			style="@style/dialog_button"
+			android:layout_width="140dp"
+			android:layout_height="match_parent"
+			android:background="@drawable/selector_dialog_right_btn"
+			android:text="去加速" />
+
+	</LinearLayout>
+
+</LinearLayout>

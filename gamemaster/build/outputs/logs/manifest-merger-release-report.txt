@@ -1,0 +1,862 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:2:1-457:12
+	package
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:6:5-47
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:9:5-12:39
+MERGED from [com.android.support:multidex:1.0.1] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.subao.gamemaster.sdk:subaocommon:1.0.1] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.subao.gamemaster.sdk/subaocommon/1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.3.0] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.5] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android-no-op/1.5/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+	tools:ignore
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:12:9-36
+	android:minSdkVersion
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:14:5-16:47
+	tools:ignore
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:15:9-62
+permission#cn.wsds.gamemaster.permission.JPUSH_MESSAGE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:18:5-20:47
+	android:protectionLevel
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:19:9-67
+uses-permission#cn.wsds.gamemaster.permission.JPUSH_MESSAGE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:22:22-80
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:24:5-84
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:24:22-81
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:25:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:27:5-76
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:27:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:28:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:29:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:30:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:31:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:32:5-75
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:32:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:33:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:34:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:35:5-68
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:35:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:36:22-75
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:37:22-81
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:38:5-72
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:38:22-69
+uses-permission#android.permission.REORDER_TASKS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:39:5-72
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:39:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:40:5-69
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:40:22-66
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:41:5-88
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:41:22-85
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:42:5-85
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:42:22-82
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:43:22-78
+uses-permission#android.permission.READ_LOGS
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:44:5-67
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:44:22-65
+application
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:46:5-455:19
+MERGED from [com.android.support:support-v4:23.3.0] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [in.srain.cube:ultra-ptr:1.0.11] /home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:50:9-41
+	android:supportsRtl
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:51:9-36
+	tools:ignore
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:53:9-39
+	android:allowBackup
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:48:9-35
+	android:icon
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:49:9-45
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:52:9-48
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:47:9-32
+meta-data#UMENG_APPKEY
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:55:3-57:56
+	android:value
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:57:13-53
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:56:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:58:9-60:42
+	android:value
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:60:13-39
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:59:13-41
+service#cn.wsds.gamemaster.service.GameVpnService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:62:9-69:19
+	android:process
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:65:13-38
+	android:permission
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:64:13-69
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:63:13-51
+intent-filter#android.net.VpnService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:66:13-68:29
+action#android.net.VpnService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:67:17-65
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:67:25-62
+activity#cn.wsds.gamemaster.ui.ActivityStart
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:71:9-82:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:74:13-45
+	android:hardwareAccelerated
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:72:13-48
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:73:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:77:13-81:29
+action#android.intent.action.MAIN
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:78:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:80:17-77
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:80:27-74
+activity#cn.wsds.gamemaster.ui.ActivityGuider
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:83:9-86:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:85:13-49
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:84:13-46
+activity#cn.wsds.gamemaster.ui.ActivitySettingSendNotice
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:90:13-57
+activity#cn.wsds.gamemaster.ui.ActivityProccesClean
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:93:9-95:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:94:13-52
+activity#cn.wsds.gamemaster.ui.ActivityGameAccelDesc
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:98:13-53
+activity#cn.wsds.gamemaster.debugger.ActivityDebuggerSecondPage
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:102:13-64
+activity#cn.wsds.gamemaster.ui.ActivityMain
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:104:9-108:58
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:107:13-49
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:106:13-44
+	android:windowSoftInputMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:108:13-55
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:105:13-44
+activity#cn.wsds.gamemaster.debugger.ActivityDebugMain
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:109:9-113:57
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:112:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:111:13-66
+	android:windowSoftInputMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:113:13-54
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:110:13-55
+activity#cn.wsds.gamemaster.ui.ActivitySetting
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:115:13-47
+activity#cn.wsds.gamemaster.ui.ActivityMessage
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:118:9-121:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:120:13-59
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:119:13-47
+activity#cn.wsds.gamemaster.ui.ActivityNewGamePlayAchieve
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:124:9-128:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:127:13-49
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:126:13-44
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:125:13-58
+activity#cn.wsds.gamemaster.ui.ActivityFeedback
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:130:9-133:55
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:132:13-49
+	android:windowSoftInputMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:133:13-52
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:131:13-48
+activity#cn.wsds.gamemaster.ui.ActivityNormalFeedback
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:135:9-138:55
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:138:13-52
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:136:13-54
+activity#cn.wsds.gamemaster.ui.ActivityFeedbackReply
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:140:9-143:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:143:13-49
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:142:13-44
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:141:13-53
+activity#cn.wsds.gamemaster.ui.ActivityQA
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:144:9-146:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:146:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:145:13-42
+activity#cn.wsds.gamemaster.ui.ActivityLicence
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:148:9-150:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:150:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:149:13-47
+activity#cn.wsds.gamemaster.ui.ActivityErrorLog
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:152:9-155:74
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:154:13-50
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:155:13-71
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:153:13-48
+activity#cn.wsds.gamemaster.ui.ActivityInstalled
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:156:9-158:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:158:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:157:13-49
+receiver#cn.wsds.gamemaster.event.BootRecerver
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:160:9-166:20
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:162:13-35
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:161:13-47
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:163:13-165:29
+	android:priority
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:163:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:164:17-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:164:25-76
+activity#cn.wsds.gamemaster.ui.ActivitySettingFloatWindow
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:168:9-170:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:170:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:169:13-58
+activity#cn.wsds.gamemaster.ui.ActivityAbout
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:171:9-173:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:172:13-45
+activity#com.tencent.tauth.AuthActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:177:9-189:20
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:179:13-44
+	android:noHistory
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:180:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:178:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:181:13-188:29
+action#android.intent.action.VIEW
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:182:17-69
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:182:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:184:17-76
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:184:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:185:17-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:185:27-75
+data
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:187:17-60
+	android:scheme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:187:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:190:9-193:75
+	android:configChanges
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:192:13-74
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:193:13-72
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:191:13-69
+activity#cn.wsds.gamemaster.wxapi.WXEntryActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:196:9-201:75
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:200:13-49
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:199:13-36
+	android:configChanges
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:198:13-74
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:201:13-72
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:197:13-50
+activity#cn.wsds.gamemaster.wxapi.WXPayEntryActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:203:9-116
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:203:84-114
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:203:60-83
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:203:19-59
+activity#cn.wsds.gamemaster.wxapi.SinaEntryActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:204:9-213:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:207:13-49
+	android:configChanges
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:206:13-63
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:205:13-52
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:208:13-212:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:209:17-92
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:209:25-89
+activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:214:9-220:48
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:218:13-49
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:217:13-37
+	android:windowSoftInputMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:219:13-55
+	tools:ignore
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:220:13-45
+	android:configChanges
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:216:13-63
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:215:13-72
+activity#cn.wsds.gamemaster.ui.ActivityBootPrompt
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:222:9-226:53
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:225:13-49
+	android:excludeFromRecents
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:224:13-46
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:226:13-50
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:223:13-50
+activity#cn.wsds.gamemaster.ui.ActivityInstructions
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:227:9-230:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:229:13-64
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:228:13-52
+activity#cn.wsds.gamemaster.ui.ActivityMessageView
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:231:9-233:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:233:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:232:13-51
+activity#cn.wsds.gamemaster.ui.ActivityMessageDetail
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:234:9-236:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:236:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:235:13-53
+activity#cn.wsds.gamemaster.ui.ActivityScreenShot
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:237:9-243:56
+	android:excludeFromRecents
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:239:13-46
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:240:13-44
+	android:noHistory
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:241:13-37
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:243:13-53
+	android:taskAffinity
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:242:13-68
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:238:13-50
+activity#cn.wsds.gamemaster.ui.ActivityShortcut
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:244:9-252:20
+	android:excludeFromRecents
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:246:13-46
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:248:13-55
+	android:taskAffinity
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:247:13-74
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:245:13-48
+intent-filter#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:249:13-251:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:250:17-80
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:250:25-77
+activity#cn.wsds.gamemaster.ui.ActivityFloatwindowOpenAccel
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:253:9-258:55
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:256:13-49
+	android:excludeFromRecents
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:255:13-46
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:258:13-52
+	android:taskAffinity
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:257:13-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:254:13-60
+activity#cn.wsds.gamemaster.ui.ActivityOpenGameInside
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:259:9-262:48
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:261:13-49
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:262:13-45
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:260:13-54
+activity#cn.wsds.gamemaster.ui.ActivityMessageGraphicsTextMixed
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:263:9-265:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:265:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:264:13-64
+activity#cn.wsds.gamemaster.ui.ActivityMemoryClean
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:266:9-268:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:268:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:267:13-51
+activity#cn.wsds.gamemaster.ui.ActivityUser
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:269:9-273:15
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:272:13-49
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:271:13-43
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:270:13-44
+activity#cn.wsds.gamemaster.ui.ActivityUserAccount
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:274:9-276:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:276:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:275:13-51
+activity#cn.wsds.gamemaster.ui.market.ActivityMarketWeb
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:277:9-280:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:280:13-49
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:279:13-44
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:278:13-56
+activity#cn.wsds.gamemaster.usersetting.ActivityUserSetting
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:281:9-283:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:283:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:282:13-60
+activity#cn.wsds.gamemaster.ui.user.ActivityUserPointsHistory
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:284:9-287:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:287:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:286:13-71
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:285:13-62
+activity#cn.wsds.gamemaster.ui.exchange.ActivityExchangeCenter
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:288:9-290:51
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:290:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:289:13-63
+activity#cn.wsds.gamemaster.ui.ActivityAddNewGame
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:291:9-295:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:295:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:293:13-60
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:294:13-43
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:292:13-50
+activity#cn.wsds.gamemaster.ui.user.ActivityTaskCenter
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:296:9-300:52
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:300:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:298:13-54
+	android:launchMode
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:299:13-43
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:297:13-55
+activity#cn.wsds.gamemaster.ui.exchange.ActivityExchangeHistory
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:301:9-305:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:304:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:303:13-77
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:302:13-64
+activity#cn.wsds.gamemaster.ui.exchange.ActivityGoodsDiscription
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:306:9-310:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:309:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:308:13-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:307:13-65
+activity#cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:311:9-315:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:313:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:314:13-49
+	android:hardwareAccelerated
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:311:19-54
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:312:13-61
+activity#cn.wsds.gamemaster.ui.store.ActivityVip
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:316:9-320:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:318:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:319:13-45
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:317:13-49
+activity#cn.wsds.gamemaster.ui.store.ActivityHistoryOrders
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:321:9-325:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:323:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:324:13-51
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:322:13-59
+activity#cn.wsds.gamemaster.ui.ActivityVivoUserReminder
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:326:9-330:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:328:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:329:13-54
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:327:13-56
+activity#cn.wsds.gamemaster.ui.ActivityMiuiUserReminder
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:331:9-335:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:333:13-49
+	android:label
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:334:13-54
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:332:13-56
+activity#cn.wsds.gamemaster.ui.ActivityJpushMessage
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:336:9-339:20
+	android:screenOrientation
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:338:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:337:13-52
+receiver#cn.wsds.gamemaster.event.VpnActionReceiver
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:341:9-353:20
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:344:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:343:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:342:13-52
+intent-filter#cn.wsds.vpn.action.ACCEL_MANAGER_CLOSE+cn.wsds.vpn.action.ADD_EVENT+cn.wsds.vpn.action.CLOSE+cn.wsds.vpn.action.OPEN+cn.wsds.vpn.action.SERVICE_CREATED+cn.wsds.vpn.action.START_FAILED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:345:13-352:29
+	android:priority
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:345:28-51
+action#cn.wsds.vpn.action.SERVICE_CREATED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:346:17-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:346:25-75
+action#cn.wsds.vpn.action.OPEN
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:347:17-67
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:347:25-64
+action#cn.wsds.vpn.action.START_FAILED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:348:17-75
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:348:25-72
+action#cn.wsds.vpn.action.CLOSE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:349:17-68
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:349:25-65
+action#cn.wsds.vpn.action.ACCEL_MANAGER_CLOSE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:350:17-82
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:350:25-79
+action#cn.wsds.vpn.action.ADD_EVENT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:351:17-72
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:351:25-69
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:356:9-360:20
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:359:13-37
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:358:13-49
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:357:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:363:9-373:20
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:367:13-37
+	android:configChanges
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:365:13-63
+	android:theme
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:366:13-60
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:364:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+cn.wsds.gamemaster
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:368:13-372:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:369:17-75
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:369:25-72
+category#cn.wsds.gamemaster
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:371:17-63
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:371:27-60
+service#cn.jpush.android.service.DownloadService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:375:9-379:19
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:377:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:378:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:376:13-68
+service#cn.jpush.android.service.PushService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:384:9-394:19
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:386:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:387:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:385:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:388:13-393:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:389:17-75
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:389:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:390:17-73
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:390:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:391:17-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:391:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:392:17-76
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:392:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:398:9-406:19
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:400:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:401:13-36
+	tools:ignore
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:401:37-67
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:399:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+cn.wsds.gamemaster
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:402:13-405:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:403:17-80
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:403:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:409:9-428:20
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:411:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:412:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:410:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+cn.wsds.gamemaster
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:413:14-416:29
+	android:priority
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:413:29-52
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:414:17-94
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:414:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:417:13-420:29
+action#android.intent.action.USER_PRESENT
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:418:17-77
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:418:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:419:17-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:419:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:422:13-426:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:423:17-78
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:423:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:424:17-80
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:424:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:431:9-99
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:431:73-97
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:431:19-72
+receiver#cn.wsds.gamemaster.event.JPushMessageReceiver
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:434:9-448:20
+	android:enabled
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:437:13-35
+	android:exported
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:436:13-37
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:435:13-73
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+cn.wsds.gamemaster
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:438:13-447:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:439:17-79
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:439:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:440:17-81
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:440:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:441:17-83
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:441:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:442:17-88
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:442:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:443:17-86
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:443:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:444:17-91
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:444:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:445:17-77
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:445:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:452:9-84
+	android:value
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:452:49-82
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:452:20-48
+meta-data#JPUSH_APPKEY
+ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:454:9-88
+	android:value
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:454:48-85
+		INJECTED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml
+	android:name
+		ADDED from /home/wong/Android_APP/gamemaster/src/main/AndroidManifest.xml:454:20-47

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#182329"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="@dimen/space_size_200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/space_size_6"
+        android:layout_marginTop="@dimen/space_size_6"
+        android:layout_marginBottom="@dimen/space_size_24"
+        android:paddingLeft="@dimen/space_size_4"
+        android:paddingRight="@dimen/space_size_4"
+        android:background="@drawable/item_record_time_bg">
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="最近延迟记录"
+	        android:layout_alignParentLeft="true"
+	        android:textColor="@color/color_game_32"
+	        android:textSize="@dimen/text_size_12"/>
+	    <TextView
+	        android:id="@+id/item_record_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="今日15:34-15:39"
+	        android:textColor="@color/color_game_31"
+	        android:textSize="@dimen/text_size_12"/>
+	</RelativeLayout>
+	<cn.wsds.gamemaster.ui.NetDelayChart
+	    android:id="@+id/item_delay_chart"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    subao="@dimen/text_size_12"
+	    subao:text_color="@color/color_game_32"
+	    subao:line_color="@color/color_game_32"
+	    subao:right_vert_line="false"
+	    subao:range_mark="true" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/space_size_64"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <TextView
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="平均"
+	        	android:textColor="@color/color_game_31"
+	        	android:textSize="@dimen/text_size_12"/>
+	        <TextView
+	            android:id="@+id/item_average_delay_value"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="112ms"
+	        	android:textColor="@color/color_game_11"
+	        	android:textSize="@dimen/text_size_14"/>
+	    </LinearLayout>
+	    <ImageView
+	        android:layout_width="1dp"
+	        android:layout_height="@dimen/space_size_36"
+	        android:src="@drawable/item_delay_divider"/>
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.5"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <TextView
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="超时"
+	        	android:textColor="@color/color_game_31"
+	        	android:textSize="@dimen/text_size_12"/>
+
+	        <TextView
+	            android:id="@+id/item_timeout_percent"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="3%"
+	            android:textColor="@color/color_game_16"
+	            android:textSize="@dimen/text_size_14" />
+
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

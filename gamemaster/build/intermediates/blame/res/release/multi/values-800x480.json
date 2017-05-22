@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/values-800x480/values-800x480.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "/home/wong/Android_APP/gamemaster/src/main/res/values-800x480/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 76,
+                        "endColumn": 50,
+                        "endOffset": 122
+                    }
+                }
+            }
+        ]
+    }
+]

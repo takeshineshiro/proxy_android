@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+    
+    
+    <item android:drawable="@drawable/loating_window_flying_saucer_normal" android:duration="100"/>
+    <item android:drawable="@drawable/loating_window_flying_saucer_right" android:duration="100"/>
+    <item android:drawable="@drawable/loating_window_flying_saucer_back" android:duration="100"/>
+    <item android:drawable="@drawable/loating_window_flying_saucer_left" android:duration="100"/>
+
+</animation-list>

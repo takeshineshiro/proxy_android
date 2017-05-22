@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_error_group"
+    android:background="@drawable/dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_2"
+        android:layout_marginTop="@dimen/space_size_22"
+        android:src="@drawable/start_the_game_load_failed"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text_mess"
+        style="@style/dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/text_size_18"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_10"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment" >
+
+        <LinearLayout
+            android:id="@+id/cancel_group"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button_continue"
+                style="@style/dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dialog_button_height"
+                android:layout_marginBottom="@dimen/space_size_8"
+                android:layout_marginLeft="@dimen/space_size_8"
+                android:layout_marginTop="@dimen/space_size_8"
+                android:background="@drawable/selector_dialog_left_btn" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/space_size_8"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/confirm_group"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button_notstart"
+                style="@style/dialog_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dialog_button_height"
+                android:layout_marginBottom="@dimen/space_size_8"
+                android:layout_marginRight="@dimen/space_size_8"
+                android:layout_marginTop="@dimen/space_size_8"
+                android:background="@drawable/selector_dialog_right_btn"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

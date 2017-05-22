@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:columnCount="2"
+        android:padding="@dimen/space_size_4" >
+
+        <Button
+            android:id="@+id/debug_button_clear_root"
+            android:layout_gravity="right"
+            android:text="清除Root权限"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_clear_subaoid"
+            android:text="清除SubaoID"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_netdesc"
+            android:layout_gravity="right"
+            android:text="网络状态描述"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_gameachieve"
+            android:text="使用成就"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_gameaccel_result"
+            android:layout_gravity="right"
+            android:text="推送通知"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_notice_open_game_inside"
+            android:text="通知：APP内启动游戏"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_delay_value"
+            android:layout_gravity="right"
+            android:text="两段延迟"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/button_memory_clean"
+            android:text="内存清理"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_ping"
+            android:layout_gravity="right"
+            android:text="PING ..."
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_copy_base_data"
+            android:text="Copy Base Data"
+            android:textSize="@dimen/text_size_14" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_16"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/space_size_4" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2" >
+
+            <EditText
+                android:id="@+id/debug_edit_delay_close_vpn"
+                android:layout_gravity="right"
+                android:ems="3"
+                android:inputType="number"
+                android:text="300"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:text="秒后关闭VPN"
+                android:textSize="@dimen/text_size_14" />
+
+            <EditText
+                android:id="@+id/debug_edit_delay_reopen_vpn"
+                android:layout_gravity="right"
+                android:ems="3"
+                android:inputType="numberSigned"
+                android:text="-1"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:text="秒后自动重连（负值表示不重连）"
+                android:textSize="@dimen/text_size_14" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/debug_button_delay_close_vpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="执行" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/debug_switch_client_pre_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:text="用户系统客户端预判断"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout>

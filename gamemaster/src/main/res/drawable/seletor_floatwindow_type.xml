@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:state_checked="true" android:drawable="@drawable/set_up_floating_window_open_size_open"/>
+    <item android:state_checked="false" android:drawable="@drawable/set_up_floating_window_open_size_off"/>    
+
+</selector>

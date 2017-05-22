@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/space_size_4"
+              android:paddingRight="@dimen/space_size_4"
+              style="@style/group_secondpage">
+    
+    <TextView 
+             android:id= "@+id/text_message"
+	         android:layout_width="match_parent"                        
+	         android:layout_height="wrap_content"
+             android:textSize="@dimen/text_size_14"
+             android:layout_marginTop="@dimen/space_size_10"
+             android:layout_marginLeft="@dimen/space_size_10"
+             android:layout_marginBottom="@dimen/space_size_10"
+             android:textColor="@color/color_game_6"
+             android:text="@string/product_type"/>
+</LinearLayout>
+

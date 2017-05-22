@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="4dip" >
+
+        <EditText
+            android:id="@+id/debug_edit_gameachieve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="使用成就提醒单位秒为基数"
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/debug_button_gameachieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="4dip" >
+
+        <EditText
+            android:id="@+id/debug_edit_acceltime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="加速时长单位秒为基数"
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/debug_button_acceltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/debug_button_sendnotice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹通知"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

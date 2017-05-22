@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/space_size_6"
+    android:paddingLeft="@dimen/space_size_8"
+    android:paddingRight="@dimen/space_size_8" >
+
+    <ViewFlipper
+        android:id="@+id/view_flipper_in_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_224"
+        android:background="@color/game_detail_background" >
+
+        <include layout="@layout/item_page_one" />
+
+        <include layout="@layout/item_page_two" />
+    </ViewFlipper>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@drawable/item_record_divider"
+        tools:ignore="ContentDescription" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_40"
+        layout="@layout/expand_list_item_reaccel_and_history" />
+
+</LinearLayout>

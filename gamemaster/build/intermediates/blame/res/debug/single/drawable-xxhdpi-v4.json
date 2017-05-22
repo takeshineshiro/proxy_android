@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/jpush_notification_icon.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-xxhdpi/jpush_notification_icon.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/leak_canary_icon.png",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/drawable-xxhdpi-v4/leak_canary_icon.png"
+    }
+]

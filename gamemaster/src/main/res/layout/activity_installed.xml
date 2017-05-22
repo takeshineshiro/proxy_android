@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.wsds.gamemaster.ui.ActivityInstalled" >
+
+    <RadioGroup
+        android:id="@+id/installed_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:checkedButton="0"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/installed_radio_user"
+            android:checked="true"
+            android:padding="4dp"
+            android:text="普通应用" />
+
+        <RadioButton
+            android:id="@+id/installed_radio_sys"
+            android:layout_marginLeft="8dp"
+            android:padding="4dp"
+            android:text="系统应用" />
+        <RadioButton
+            android:id="@+id/installed_radio_support"
+            android:layout_marginLeft="8dp"
+            android:padding="2dp"
+            android:text="支持游戏" />
+    </RadioGroup>
+
+    <ViewFlipper
+        android:id="@+id/installed_view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/installed_list_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/installed_list_sys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        
+        <ListView
+            android:id="@+id/installed_list_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </ViewFlipper>
+
+</LinearLayout>

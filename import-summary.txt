@@ -1,0 +1,142 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* add_suppress_warnings.bat
+* build_proto.bat
+* build_proto.sh
+* protobuf/
+* protobuf/data_trans/
+* protobuf/data_trans/closeQosAccelInfo.proto
+* protobuf/data_trans/createConnectInfo.proto
+* protobuf/data_trans/directTransInfo.proto
+* protobuf/data_trans/gameConnectedInfo.proto
+* protobuf/data_trans/linkEndData.proto
+* protobuf/data_trans/messageUserIdUpdate.proto
+* protobuf/data_trans/modifyQosAccelInfo.proto
+* protobuf/data_trans/nodeDetectInfo.proto
+* protobuf/data_trans/openQosAccelInfo.proto
+* protobuf/data_trans/qPPVicePathFlowInfo.proto
+* protobuf/data_trans/repairConnectionInfo.proto
+* protobuf/data_trans/tencentSGameDelayInfo.proto
+* protobuf/data_trans/transData.proto
+* protobuf/hr_protobuf/
+* protobuf/hr_protobuf/user/
+* protobuf/hr_protobuf/user/couponCenter.proto
+* protobuf/hr_protobuf/user/games.proto
+* protobuf/hr_protobuf/user/getPointsHistory.proto
+* protobuf/hr_protobuf/user/getUserInfo.proto
+* protobuf/hr_protobuf/user/globalConfig.proto
+* protobuf/hr_protobuf/user/loginUsePhoneNum.proto
+* protobuf/hr_protobuf/user/logout.proto
+* protobuf/hr_protobuf/user/modifyUser.proto
+* protobuf/hr_protobuf/user/pointsChangeRecord.proto
+* protobuf/hr_protobuf/user/refreshToken.proto
+* protobuf/hr_protobuf/user/regist.proto
+* protobuf/hr_protobuf/user/retrievePasswd.proto
+* protobuf/hr_protobuf/user/sessionInfo.proto
+* protobuf/hr_protobuf/user/taskCenter.proto
+* protobuf/hr_protobuf/user/thirdPartLogin.proto
+* protobuf/hr_protobuf/user/userInfo.proto
+* protobuf/hr_protobuf/user/verificationCode.proto
+* protobuf/proto.proto
+* protobuf/proto_grpc/
+* protobuf/proto_grpc/app.proto
+* protobuf/proto_grpc/device.proto
+* protobuf/proto_grpc/event.proto
+* protobuf/proto_grpc/fault.proto
+* protobuf/proto_grpc/gaming.proto
+* protobuf/proto_grpc/id.proto
+* protobuf/proto_grpc/installation.proto
+* protobuf/proto_grpc/link.proto
+* protobuf/proto_grpc/network.proto
+* protobuf/proto_grpc/service.proto
+* protobuf/proto_grpc/speed.proto
+* protobuf/proto_grpc/start.proto
+* protobuf/proto_grpc/upgrade.proto
+* protobuf/proto_grpc/version.proto
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.2.1
+gson-2.7.jar => com.google.code.gson:gson:2.7
+protobuf-java-3.0.0-beta-1.jar => com.google.protobuf:protobuf-java:2.6.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.7.jar => version 2.7 in com.google.code.gson:gson:2.7
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* jni/ => app/src/main/jni/
+* libs/alipaySdk-20160516.jar => app/libs/alipaySdk-20160516.jar
+* libs/armeabi-v7a/libBugly.so => app/src/main/jniLibs/armeabi-v7a/libBugly.so
+* libs/armeabi-v7a/libjpush220.so => app/src/main/jniLibs/armeabi-v7a/libjpush220.so
+* libs/armeabi-v7a/libsubao_gamemaster_core.so => app/src/main/jniLibs/armeabi-v7a/libsubao_gamemaster_core.so
+* libs/armeabi-v7a/libvpn.so => app/src/main/jniLibs/armeabi-v7a/libvpn.so
+* libs/armeabi/libBugly.so => app/src/main/jniLibs/armeabi/libBugly.so
+* libs/armeabi/libjpush220.so => app/src/main/jniLibs/armeabi/libjpush220.so
+* libs/armeabi/libsubao_gamemaster_core.so => app/src/main/jniLibs/armeabi/libsubao_gamemaster_core.so
+* libs/armeabi/libvpn.so => app/src/main/jniLibs/armeabi/libvpn.so
+* libs/bugly_crash_release.jar => app/libs/bugly_crash_release.jar
+* libs/jpush-android-2.2.0.jar => app/libs/jpush-android-2.2.0.jar
+* libs/libammsdk.jar => app/libs/libammsdk.jar
+* libs/open_sdk_r5509_lite.jar => app/libs/open_sdk_r5509_lite.jar
+* libs/sinaopenapi.jar => app/libs/sinaopenapi.jar
+* libs/subao_common.jar => app/libs/subao_common.jar
+* libs/ultra-ptr-1.0.11.jar => app/libs/ultra-ptr-1.0.11.jar
+* libs/umeng-analytics-v5.6.4.jar => app/libs/umeng-analytics-v5.6.4.jar
+* libs/universalimageloader.jar => app/libs/universalimageloader.jar
+* libs/utils.jar => app/libs/utils.jar
+* libs/weibosdkcore.jar => app/libs/weibosdkcore.jar
+* lint.xml => app/lint.xml
+* proguard-project.txt => app/proguard-project.txt
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/android/telephony/NeighboringCellInfo.aidl => app/src/main/aidl/android/telephony/NeighboringCellInfo.aidl
+* src/cn/wsds/gamemaster/service/aidl/IGameVpnService.aidl => app/src/main/aidl/cn/wsds/gamemaster/service/aidl/IGameVpnService.aidl
+* src/cn/wsds/gamemaster/service/aidl/JNIKeyValue.aidl => app/src/main/aidl/cn/wsds/gamemaster/service/aidl/JNIKeyValue.aidl
+* src/cn/wsds/gamemaster/service/aidl/VPNStartParamTransporter.aidl => app/src/main/aidl/cn/wsds/gamemaster/service/aidl/VPNStartParamTransporter.aidl
+* src/cn/wsds/gamemaster/service/aidl/VpnSupportGame.aidl => app/src/main/aidl/cn/wsds/gamemaster/service/aidl/VpnSupportGame.aidl
+* src/com/android/internal/telephony/ITelephony.aidl => app/src/main/aidl/com/android/internal/telephony/ITelephony.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

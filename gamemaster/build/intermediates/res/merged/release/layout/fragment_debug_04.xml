@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Switch
+            android:id="@+id/debug_switch_qos_always_succeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Qos开启总是成功(fake)"
+            android:textSize="@dimen/text_size_14" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:background="@drawable/box"
+            android:orientation="vertical"
+            android:padding="@dimen/space_size_4" >
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="4" >
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="会话ID"
+                    android:textSize="@dimen/text_size_14" />
+
+                <EditText
+                    android:id="@+id/edit_session_id"
+                    android:layout_columnSpan="3"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/space_size_4"
+                    android:ems="3"
+                    android:inputType="number"
+                    android:text="1"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="目标地址"
+                    android:textSize="@dimen/text_size_14" />
+
+                <EditText
+                    android:id="@+id/edit_dest_ip"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/space_size_4"
+                    android:ems="8"
+                    android:inputType="number|textUri"
+                    android:text="61.135.169.125"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:text=":"
+                    android:textSize="@dimen/text_size_14" />
+
+                <EditText
+                    android:id="@+id/edit_dest_port"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/space_size_4"
+                    android:ems="3"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:text="80"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:layout_gravity="right"
+                    android:text="私网地址"
+                    android:textSize="@dimen/text_size_14" />
+
+                <EditText
+                    android:id="@+id/edit_src_ip"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/space_size_4"
+                    android:ems="8"
+                    android:enabled="false"
+                    android:inputType="none"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:text=":"
+                    android:textSize="@dimen/text_size_14" />
+
+                <EditText
+                    android:id="@+id/edit_src_port"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/space_size_4"
+                    android:ems="3"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:textSize="@dimen/text_size_14" />
+            </GridLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_group_protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio_tcp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="TCP"
+                    android:textSize="@dimen/text_size_14" />
+
+                <RadioButton
+                    android:id="@+id/radio_udp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:text="UDP"
+                    android:textSize="@dimen/text_size_14" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提速/续订（秒）"
+                android:textSize="@dimen/text_size_14" />
+
+            <EditText
+                android:id="@+id/edit_accel_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:inputType="number"
+                android:textSize="@dimen/text_size_14" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:padding="@dimen/space_size_8" >
+
+            <Button
+                android:id="@+id/button_qos_request_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_4"
+                android:text="开启"
+                android:textSize="@dimen/text_size_14" />
+
+            <Button
+                android:id="@+id/button_qos_request_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_16"
+                android:layout_toRightOf="@id/button_qos_request_open"
+                android:text="续订"
+                android:textSize="@dimen/text_size_14" />
+
+            <Button
+                android:id="@+id/button_qos_request_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:text="关闭"
+                android:textSize="@dimen/text_size_14" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

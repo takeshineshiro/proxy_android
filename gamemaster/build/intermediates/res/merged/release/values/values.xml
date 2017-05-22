@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instructions_0">
+        <item>网络延迟=“我的网络”延迟+“加速网络”延迟，</item>
+        <item>代表您的手机网络到达服务器需要的时间，单位为毫秒。</item>
+        <item>延迟数值越小越好。</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>DEBUG</item>
+        <item>INFO</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+        <item>FATAL</item>
+    </string-array>
+    <string-array name="new_game_submit_text_1">
+        <item>请输入您想添加的</item>
+        <item>游戏的正确名字</item>
+    </string-array>
+    <string-array name="new_game_submit_text_2">
+        <item>您输入的内容并非游戏。加速普通应用建议使用迅游手游的胞兄</item>
+        <item>网速大师</item>
+        <item>\u2014\u2014加速省流量专家。</item>
+    </string-array>
+    <string-array name="pormpt_user_center">
+        <item>进入</item>
+        <item>用户中心</item>
+        <item>\n注册分享</item>
+        <item>送好礼</item>
+        <item>~</item>
+    </string-array>
+    <string-array name="qa_answer_0">
+        <item>1.延迟是手机网络到达游戏服务器所用的时间，单位是毫秒（ms）\n2.第一段延迟</item>
+        <item>由手机网络情况/类型</item>
+        <item>决定快慢，即“我的网络”</item>
+        <item>\n</item>>
+        <item>3.第二段延迟为成功开启加速后，从加速节点到游戏服务器的时间，即“加速网络”，</item>
+        <item>此段延迟最高可降低80%\n</item>
+        <item>4.</item>
+        <item>实际延迟=“我的网络”延迟+“加速网络”延迟</item>
+    </string-array>
+    <string-array name="qa_answer_1">
+        <item>1.网络如路，网速的载体如车，</item>
+        <item>VPN权限即高速公路入口\n</item>
+        <item>2.只有授权并开启加速，才能进入“高速公路”</item>
+    </string-array>
+    <string-array name="qa_answer_2">
+        <item>【加速可解决】\n1.未加速前，原本网络线路上的不通畅，网速无法稳定发挥的情况\n2.“加速网络”遭遇突发情况，导致第二段延迟变红，一般</item>
+        <item>重新加速</item>
+        <item>即可解决\n\n【加速不可解决】\n1.</item>
+        <item>“我的网络”类型本身不够好、信号不够稳定</item>
+        <item>。用户可以尝试开关飞行模式重启网络模块或更换网络解决\n2.手机配置与游戏要求配置不符导致游戏画面卡</item>
+    </string-array>
+    <string-array name="qa_answer_3">
+        <item>1.流量是车辆往返于用户网络与游戏服务器间的油耗。只要玩游戏，流量消耗就会有\n2.因为接管了网络模块，</item>
+        <item>连接期间的流量都通过了迅游手游</item>
+        <item>，因此流量消耗被统计在了迅游手游上\n3.迅游手游不会消耗用户正常游戏外的流量\n4.使用特定应用流量包的用户（如音乐包月套餐），请在使用流量套餐时关闭加速。</item>
+    </string-array>
+    <string-array name="qa_answer_4">
+        <item>WiFi加速功能仅支持安卓5.0及以上版本手机。\nWiFi加速将同时使用WiFi和移动数据连接，在二者中自动选择最快的线路而无需用户开关或者切换网络。\nWiFi质量好时即默认使用WiFi，WiFi效果不佳时才会自动使用流量。\n您可以在WiFi加速页面查看到自己使用的流量。</item>
+    </string-array>
+    <string-array name="qa_questions">
+        <item>两段延迟</item>
+        <item>VPN是什么</item>
+        <item>卡了怎么办</item>
+        <item>关于流量</item>
+        <item>WiFi加速</item>
+    </string-array>
+    <string-array name="vpn_impower_help_texts">
+        <item>勾选“</item>
+        <item>我信任</item>
+        <item>”点击“</item>
+        <item>确定</item>
+        <item>”开启加速</item>
+    </string-array>
+    <attr name="aniScaleType">
+        <enum name="raw" value="0"/>
+        <enum name="fill" value="1"/>
+        <enum name="fillX" value="2"/>
+        <enum name="fillY" value="3"/>
+        <enum name="zoomByX" value="4"/>
+        <enum name="zoomByY" value="5"/>
+    </attr>
+    <attr format="reference" name="background"/>
+    <attr format="integer" name="percent"/>
+    <attr format="reference|string" name="text"/>
+    <attr format="reference|color" name="textColor"/>
+    <attr format="dimension" name="textSize"/>
+    <color name="about_list_bg_color">@color/color_game_48</color>
+    <color name="about_list_stroke_nomal_color">#26455b</color>
+    <color name="about_list_stroke_press_color">#bdff1e</color>
+    <color name="accel_desc_line">#0d6d6c</color>
+    <color name="accel_progress_box_bkgnd">#1e2d35</color>
+    <color name="accel_progress_box_gradient_end">#e000bcba</color>
+    <color name="actionbar_color">@color/color_game_2</color>
+    <color name="actionbar_text_color">#c7d9e7</color>
+    <color name="color_game_1">#0b1216</color>
+    <color name="color_game_10">#bdff1e</color>
+    <color name="color_game_11">#00bcba</color>
+    <color name="color_game_12">#1e262a</color>
+    <color name="color_game_16">#ee1826</color>
+    <color name="color_game_17">#ffd800</color>
+    <color name="color_game_18">#ee3939</color>
+    <color name="color_game_2">#000000</color>
+    <color name="color_game_20">#ffae2f</color>
+    <color name="color_game_21">#dedede</color>
+    <color name="color_game_3">#232d34</color>
+    <color name="color_game_30">#1e2d35</color>
+    <color name="color_game_31">#7b8c97</color>
+    <color name="color_game_32">#435562</color>
+    <color name="color_game_33">#11191e</color>
+    <color name="color_game_34">#0b1216</color>
+    <color name="color_game_3_1">#0e1519</color>
+    <color name="color_game_4">#2b3740</color>
+    <color name="color_game_41">#858d9d</color>
+    <color name="color_game_44">#ad9e73</color>
+    <color name="color_game_45">#2081ef</color>
+    <color name="color_game_46">#34cf90</color>
+    <color name="color_game_48">#1b252d</color>
+    <color name="color_game_5">#161d20</color>
+    <color name="color_game_50">#ff7815</color>
+    <color name="color_game_51">#ff0808</color>
+    <color name="color_game_54">#1a2c36</color>
+    <color name="color_game_54_half">#801a2c36</color>
+    <color name="color_game_55">#ffc410</color>
+    <color name="color_game_56">#ff7e28</color>
+    <color name="color_game_57">#4f667a</color>
+    <color name="color_game_6">#c7d9e7</color>
+    <color name="color_game_7">#ffffff</color>
+    <color name="color_game_8">#b0f900</color>
+    <color name="color_game_9">#26455b</color>
+    <color name="color_guid_remind">#007dc1</color>
+    <color name="dialog_background_color">#000000</color>
+    <color name="feedback_content_hint">@color/color_game_31</color>
+    <color name="floatwindow_submodule_background">#3729455b</color>
+    <color name="game_achieve_content_text_date_color">#009bd4</color>
+    <color name="game_achieve_content_text_normal_color">#242424</color>
+    <color name="game_achieve_content_text_time_color">#ee212d</color>
+    <color name="game_detail_background">#151f24</color>
+    <color name="help_mask">#C0000000</color>
+    <color name="memory_clean_progress_backgroun_color">@color/color_game_32</color>
+    <color name="memory_clean_progress_color_bad">@color/color_game_51</color>
+    <color name="memory_clean_progress_color_noraml">@color/color_game_11</color>
+    <color name="memory_clean_progress_color_poor">@color/color_game_50</color>
+    <color name="order_status_failed">#eb6100</color>
+    <color name="order_status_paying">@color/color_game_20</color>
+    <color name="order_status_success">#dbff1e</color>
+    <color name="pay_result_failed">#eb6100</color>
+    <color name="pay_result_success">#48c000</color>
+    <color name="screenshot_share_layout">#AC000000</color>
+    <color name="setting_list_bg_color">@color/color_game_48</color>
+    <color name="translation">#00000000</color>
+    <color name="transparent_bg">#00000000</color>
+    <color name="transparent_dd_bg">#ddffffff</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AccelProgressBox"><attr name="markType"><enum name="succeed" value="0"/><enum name="warning" value="1"/><enum name="error" value="2"/></attr><attr format="reference|string" name="message"/></declare-styleable>
+    <declare-styleable name="AccelProgressGroup"><attr format="string" name="group_label"/><attr format="reference|string" name="group_icon"/><attr format="reference|string" name="group_message"/><attr format="reference|string" name="group_second_message"/><attr format="dimension" name="group_line_size"/></declare-styleable>
+    <declare-styleable name="AccelProgressIcon"><attr format="reference" name="icon"/></declare-styleable>
+    <declare-styleable name="AppIcon"><attr format="dimension" name="icon_width"/><attr format="dimension" name="icon_height"/><attr format="reference" name="icon_image"/><attr format="dimension" name="icon_marginRight"/><attr format="reference" name="mark_image"/><attr format="boolean" name="mark_visible"/></declare-styleable>
+    <declare-styleable name="AppStartView"><attr format="integer" name="aniTime"/><attr name="aniScaleType"/></declare-styleable>
+    <declare-styleable name="CircleProgres"><attr format="integer" name="start_angle"/><attr format="integer" name="outer_diameter"/><attr format="integer" name="ring_width"/><attr format="color" name="ring_progres_color"/><attr format="color" name="ring_background_color"/></declare-styleable>
+    <declare-styleable name="GIFView"><attr format="reference" name="src"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="integer" name="gifWidth"/><attr name="aniScaleType"/><attr format="integer" name="gifHeight"/><attr format="boolean" name="gifLoop"/><attr format="reference" name="gifSrc"/><attr format="string" name="gifAsset"/><attr format="color|reference" name="gifBackground"/></declare-styleable>
+    <declare-styleable name="ImageViewAlpha"><attr format="reference" name="image"/><attr format="integer" name="drawAlpha"/></declare-styleable>
+    <declare-styleable name="LoadingRing"><attr format="integer" name="duration"/><attr format="integer" name="min_duration"/></declare-styleable>
+    <declare-styleable name="NetDelayChart"><attr format="boolean" name="right_vert_line"/><attr format="boolean" name="range_mark"/><attr format="color" name="text_color"/><attr format="color" name="line_color"/><attr format="dimension" name="text_size"/></declare-styleable>
+    <declare-styleable name="PercentRing"><attr format="reference" name="backgroundRing"/><attr format="reference" name="foregroundRing"/><attr name="percent"/></declare-styleable>
+    <declare-styleable name="PtrClassicHeader"><attr format="integer" name="ptr_rotate_ani_time"/></declare-styleable>
+    <declare-styleable name="PtrFrameLayout"><attr format="reference" name="ptr_header"/><attr format="reference" name="ptr_content"/><attr format="float" name="ptr_resistance"/><attr format="float" name="ptr_ratio_of_header_height_to_refresh"/><attr format="integer" name="ptr_duration_to_close"/><attr format="integer" name="ptr_duration_to_close_header"/><attr format="boolean" name="ptr_pull_to_fresh"/><attr format="boolean" name="ptr_keep_header_when_refresh"/></declare-styleable>
+    <declare-styleable name="ScoreStar"><attr format="dimension" name="spaceBetweenStar"/><attr format="integer" name="score"/></declare-styleable>
+    <declare-styleable name="SubaoProgressBar"><attr name="textSize"/><attr name="textColor"/><attr format="reference" name="bar"/><attr format="boolean" name="showText"/><attr name="percent"/></declare-styleable>
+    <declare-styleable name="Switch"><attr format="integer" name="uncheckbutton"/><attr format="reference" name="checkbutton"/></declare-styleable>
+    <declare-styleable name="TimeTextView"><attr name="type"><enum name="clock" value="0"/><enum name="elapsed" value="1"/></attr><attr format="string" name="clockFormat"/><attr format="integer" name="elapsedSeconds"/></declare-styleable>
+    <declare-styleable name="ViewWaitForInit"><attr name="background"/><attr name="textColor"/><attr name="text"/><attr name="textSize"/></declare-styleable>
+    <dimen name="about_linear_layout_height">49dp</dimen>
+    <dimen name="about_linear_layout_margin_left">30dp</dimen>
+    <dimen name="about_linear_layout_margin_right">30dp</dimen>
+    <dimen name="about_linear_layout_margin_top">5dp</dimen>
+    <dimen name="about_list_line_width">0.5dp</dimen>
+    <dimen name="about_top_text_view_margin_top">10dp</dimen>
+    <dimen name="accel_progress_box_height">44dp</dimen>
+    <dimen name="accel_progress_box_width">184dp</dimen>
+    <dimen name="accel_progress_line_width">2dp</dimen>
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="cornersaccel_details_value_bg">2dp</dimen>
+    <dimen name="dialog_button_height">46dp</dimen>
+    <dimen name="dialog_launch_game_progress_cornor">5dp</dimen>
+    <dimen name="dialog_radius">2dp</dimen>
+    <dimen name="dilog_diver_width">1dp</dimen>
+    <dimen name="feedback_content_padding">12dip</dimen>
+    <dimen name="feedback_margin_space">10dp</dimen>
+    <dimen name="feedback_repley_paddiing">8dp</dimen>
+    <dimen name="floatwindow_panel_left_space">16dip</dimen>
+    <dimen name="floatwindow_panel_right_space">16dip</dimen>
+    <dimen name="floatwindow_setting_skin_normal_radio_type_top_margin">10dp</dimen>
+    <dimen name="font_size_of_vpn_impower_toast">16sp</dimen>
+    <dimen name="guide_page_padding_bottom">@dimen/space_size_75</dimen>
+    <dimen name="guide_page_padding_top">@dimen/space_size_40</dimen>
+    <dimen name="height_item_accel_details_head_group">50dp</dimen>
+    <dimen name="height_item_accel_details_progrss_delay">10dp</dimen>
+    <dimen name="height_item_accel_details_space_bottom">10dp</dimen>
+    <dimen name="height_item_accel_details_space_top">10dp</dimen>
+    <dimen name="height_item_background_intercept">76dp</dimen>
+    <dimen name="list_item_arrow_margin_right">9dp</dimen>
+    <dimen name="list_item_height">46dp</dimen>
+    <dimen name="list_item_icon_margin_left">10dp</dimen>
+    <dimen name="list_item_icon_margin_right">10dp</dimen>
+    <dimen name="list_item_margin_bottom">15dp</dimen>
+    <dimen name="list_item_margin_left">18dp</dimen>
+    <dimen name="list_item_margin_right">10dp</dimen>
+    <dimen name="list_item_margin_top">15dp</dimen>
+    <dimen name="list_item_text_height">40dp</dimen>
+    <dimen name="list_item_text_margin_right">9dp</dimen>
+    <dimen name="list_item_text_width">72dp</dimen>
+    <dimen name="list_item_width">46dp</dimen>
+    <dimen name="login_edit_height">@dimen/space_size_50</dimen>
+    <dimen name="main_accel_off_shade_line">0.5dp</dimen>
+    <dimen name="main_help_text_size">14sp</dimen>
+    <dimen name="mainpage_three_icon_height">@dimen/space_size_78</dimen>
+    <dimen name="mainpage_three_icon_width">@dimen/space_size_78</dimen>
+    <dimen name="margin_item_accel_details_net_icon">3dp</dimen>
+    <dimen name="margin_left_item_accel_details_body_line">70dp</dimen>
+    <dimen name="margin_left_item_accel_details_details_group">14dp</dimen>
+    <dimen name="margin_left_item_accel_details_potin_group">65dp</dimen>
+    <dimen name="margin_left_item_accel_details_progrss_delay_layout">20dp</dimen>
+    <dimen name="margin_left_item_accel_details_text_delay_progress">6dp</dimen>
+    <dimen name="margin_right_item_accel_details_details_group">30dp</dimen>
+    <dimen name="margin_right_item_accel_details_text_time">5dp</dimen>
+    <dimen name="margin_top_item_accel_details_desc_accel_time">8dp</dimen>
+    <dimen name="margin_top_item_accel_details_desc_consumption_flow">8dp</dimen>
+    <dimen name="margin_top_of_vpn_impower_toast">124dp</dimen>
+    <dimen name="margin_vertical_item_accel_details_net_icon">2dp</dimen>
+    <dimen name="memory_clean_progress_margin_top">20dip</dimen>
+    <dimen name="memory_clean_progress_outer_diameter">68dp</dimen>
+    <dimen name="memory_clean_progress_ring_width">2dip</dimen>
+    <dimen name="order_item_title_height">26dp</dimen>
+    <dimen name="order_list_width">312dp</dimen>
+    <dimen name="padding_horizontal_item_accel_details_text_date">5dp</dimen>
+    <dimen name="padding_left_of_vpn_impower_toast">16dp</dimen>
+    <dimen name="padding_top_of_vpn_impower_toast">16dp</dimen>
+    <dimen name="padding_vertical_item_accel_details_details_group">10dp</dimen>
+    <dimen name="padding_vertical_item_accel_details_text_date">2dp</dimen>
+    <dimen name="pay_result_button_height">50dp</dimen>
+    <dimen name="pay_result_button_width">200dp</dimen>
+    <dimen name="pay_result_dialog_width">312dp</dimen>
+    <dimen name="pay_result_text_height">184dp</dimen>
+    <dimen name="product_description_layout_height">68dp</dimen>
+    <dimen name="product_grid_column_width">140dp</dimen>
+    <dimen name="product_grid_view_with">304dp</dimen>
+    <dimen name="progress_text_left_space">20dp</dimen>
+    <dimen name="screenshot_button_margin">9dp</dimen>
+    <dimen name="share_item_height">@dimen/space_size_30</dimen>
+    <dimen name="share_item_width">@dimen/space_size_30</dimen>
+    <dimen name="space_size_1">1dp</dimen>
+    <dimen name="space_size_10">10dp</dimen>
+    <dimen name="space_size_100">100dp</dimen>
+    <dimen name="space_size_110">110dp</dimen>
+    <dimen name="space_size_112">112dp</dimen>
+    <dimen name="space_size_118">118dp</dimen>
+    <dimen name="space_size_12">12dp</dimen>
+    <dimen name="space_size_120">120dp</dimen>
+    <dimen name="space_size_124">124dp</dimen>
+    <dimen name="space_size_129">129dp</dimen>
+    <dimen name="space_size_135">135dp</dimen>
+    <dimen name="space_size_14">14dp</dimen>
+    <dimen name="space_size_15">15dp</dimen>
+    <dimen name="space_size_150">150dp</dimen>
+    <dimen name="space_size_16">16dp</dimen>
+    <dimen name="space_size_160">160dp</dimen>
+    <dimen name="space_size_18">18dp</dimen>
+    <dimen name="space_size_180">180dp</dimen>
+    <dimen name="space_size_184">184dp</dimen>
+    <dimen name="space_size_194">194dp</dimen>
+    <dimen name="space_size_2">2dp</dimen>
+    <dimen name="space_size_20">20dp</dimen>
+    <dimen name="space_size_200">200dp</dimen>
+    <dimen name="space_size_21">21dp</dimen>
+    <dimen name="space_size_22">22dp</dimen>
+    <dimen name="space_size_224">224dp</dimen>
+    <dimen name="space_size_239">239dp</dimen>
+    <dimen name="space_size_24">24dp</dimen>
+    <dimen name="space_size_245">245dp</dimen>
+    <dimen name="space_size_25">25dp</dimen>
+    <dimen name="space_size_26">26dp</dimen>
+    <dimen name="space_size_28">28dp</dimen>
+    <dimen name="space_size_294">294dp</dimen>
+    <dimen name="space_size_3">3dp</dimen>
+    <dimen name="space_size_30">30dp</dimen>
+    <dimen name="space_size_310">310dp</dimen>
+    <dimen name="space_size_318">318dp</dimen>
+    <dimen name="space_size_32">32dp</dimen>
+    <dimen name="space_size_33">33dp</dimen>
+    <dimen name="space_size_34">34dp</dimen>
+    <dimen name="space_size_35">35dp</dimen>
+    <dimen name="space_size_36">36dp</dimen>
+    <dimen name="space_size_38">38dp</dimen>
+    <dimen name="space_size_4">4dp</dimen>
+    <dimen name="space_size_40">40dp</dimen>
+    <dimen name="space_size_42">42dp</dimen>
+    <dimen name="space_size_45">45dp</dimen>
+    <dimen name="space_size_46">46dp</dimen>
+    <dimen name="space_size_48">48dp</dimen>
+    <dimen name="space_size_49">49dp</dimen>
+    <dimen name="space_size_5">5dp</dimen>
+    <dimen name="space_size_50">50dp</dimen>
+    <dimen name="space_size_52">52dp</dimen>
+    <dimen name="space_size_54">54dp</dimen>
+    <dimen name="space_size_55">55dp</dimen>
+    <dimen name="space_size_6">6dp</dimen>
+    <dimen name="space_size_60">60dp</dimen>
+    <dimen name="space_size_61">61dp</dimen>
+    <dimen name="space_size_64">64dp</dimen>
+    <dimen name="space_size_68">68dp</dimen>
+    <dimen name="space_size_7">7dp</dimen>
+    <dimen name="space_size_70">70dp</dimen>
+    <dimen name="space_size_74">74dp</dimen>
+    <dimen name="space_size_75">75dp</dimen>
+    <dimen name="space_size_78">78dp</dimen>
+    <dimen name="space_size_79">79dp</dimen>
+    <dimen name="space_size_8">8dp</dimen>
+    <dimen name="space_size_80">80dp</dimen>
+    <dimen name="space_size_9">9dp</dimen>
+    <dimen name="space_size_90">90dp</dimen>
+    <dimen name="space_size_94">94dp</dimen>
+    <dimen name="space_size_95">95dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="textsize_item_background_intercept">@dimen/text_size_14</dimen>
+    <dimen name="toast_ex_abnormal_text_size">12sp</dimen>
+    <dimen name="toast_ex_text_size">14sp</dimen>
+    <dimen name="width_item_accel_details_head_group">141dp</dimen>
+    <dimen name="width_item_accel_details_line">1dp</dimen>
+    <dimen name="width_item_accel_details_net_icon_diver">1dp</dimen>
+    <dimen name="width_item_accel_details_potin_group">11dp</dimen>
+    <dimen name="width_item_accel_details_progrss_delay">60dp</dimen>
+    <drawable name="actionbar_bg">@color/actionbar_color</drawable>
+    <drawable name="opaque_weak">#40ffffff</drawable>
+    <drawable name="transparent">@android:color/transparent</drawable>
+    <drawable name="user_item_background_pressed">#293035</drawable>
+    <string name="accel_checking">正在进行加速服务验证</string>
+    <string name="accel_desc">加速详情</string>
+    <string name="accel_expired">您的账户已过期，请前往续费以继续享受VIP加速服务</string>
+    <string name="accel_service">加速服务</string>
+    <string name="accel_success">迅游加速服务成功开启</string>
+    <string name="accel_will_expired">您的将于明天过期，请前往续费以继续享受VIP加速服务</string>
+    <string name="action_message">消息</string>
+    <string name="action_more">更多</string>
+    <string name="already_latest">已是最新内容</string>
+    <string name="already_sign_in_today">今日已签到</string>
+    <string name="already_signed">已签到</string>
+    <string name="app_name">迅游手游加速器</string>
+    <string name="app_version" translatable="false">3.0.0_dev</string>
+    <string name="auto_process_clean_string">自动清理</string>
+    <string name="bind_phone_award_desc">完成绑定将赠送7天有效期及奖励积分</string>
+    <string name="bind_phone_button_text">绑定</string>
+    <string name="boot_autoaccel">开机自动加速</string>
+    <string name="call_remind_gameplaying">游戏中来电提醒</string>
+    <string name="cancel">取消</string>
+    <string name="cannot_create_shortcut_when_no_games">未检测到可加速游戏，\n无法创建桌面快捷启动。</string>
+    <string name="click_to_view">点击查看</string>
+    <string name="close">关闭</string>
+    <string name="confirm">确认</string>
+    <string name="cproxy_commit_id">I264551d63f78766031d5dd61d303165ca97c17f3</string>
+    <string name="cube_ptr_hours_ago"> hours ago</string>
+    <string name="cube_ptr_last_update">last update: </string>
+    <string name="cube_ptr_minutes_ago"> minutes ago</string>
+    <string name="cube_ptr_pull_down">Pull Down</string>
+    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_refresh_complete">Updated.</string>
+    <string name="cube_ptr_refreshing">Updating...</string>
+    <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
+    <string name="cube_ptr_seconds_ago"> seconds ago</string>
+    <string name="delay">实时延迟</string>
+    <string name="delay_chart_comment">注：曲线图数值仅为“我的网络”延迟值</string>
+    <string name="desc_listview">列表</string>
+    <string name="desc_message_item_flag">消息列表图标</string>
+    <string name="device_model">设备标识：xx-xx-xx-xx</string>
+    <string name="domain_website">http://xunyou.mobi</string>
+    <string name="doubel_accel_time">WiFi加速时长</string>
+    <string name="double_accel">WiFi加速</string>
+    <string name="double_accel_disable">WiFi加速已关闭</string>
+    <string name="double_accel_enable">WiFi加速使用中</string>
+    <string name="downloading">游戏下载中，请稍候…</string>
+    <string name="excellent">"非常给力"</string>
+    <string name="exchange">兑换</string>
+    <string name="exchange_center">兑换中心</string>
+    <string name="exchange_goods_empty">网络问题，请稍后重试</string>
+    <string name="exchange_hirstory_empty">您还没有进行过兑换</string>
+    <string name="exit_app">退出</string>
+    <string name="feedback_contact_hint">QQ/电话/邮箱</string>
+    <string name="feedback_msg_hint">加速不满意？加速有问题？想要更多功能？\n统统放马过来！ლ(>o&lt;ლ)\n迅游手游加速器需要您的吐槽和鼓励~</string>
+    <string name="finish">完成</string>
+    <string name="float_in_game">游戏悬浮窗</string>
+    <string name="float_window_text_desc">“WiFi加速”，能够自动在WiFi与移动网络之间选择最优的线路进行加速，助您游戏畅通无阻</string>
+    <string name="float_wnd_switch">悬浮窗</string>
+    <string name="floatwindow_switch_delay">显示延迟</string>
+    <string name="floatwnd_size">悬浮窗尺寸</string>
+    <string name="floatwnd_size_large">超大</string>
+    <string name="floatwnd_size_normal">标准</string>
+    <string name="floatwnd_size_small">迷你</string>
+    <string name="flow_used">本月消耗流量</string>
+    <string name="game_download_effect_net_speed">游戏下载更新正在影响网络速度</string>
+    <string name="game_server">服务器</string>
+    <string name="gameaccel_result_delay">延迟平均降低%d%%</string>
+    <string name="gamemaster_cloud">加速节点</string>
+    <string name="git">ee7642ea85308125400238ee956aaf1330ca0ee5</string>
+    <string name="guide_close_nor">悬浮窗引导关闭按钮</string>
+    <string name="hasunread_feedback_mess">我们刚刚回复了您的意见，请立即查看。</string>
+    <string name="history_orders">历史订单</string>
+    <string name="i_known">我知道了</string>
+    <string name="ip_address">IP地址</string>
+    <string name="just_ok">"马马虎虎"</string>
+    <string name="label_activity_add_game">添加游戏</string>
+    <string name="label_activity_exchange_center">兑换中心</string>
+    <string name="label_activity_message">消息中心</string>
+    <string name="label_activity_user_points_history">积分历史</string>
+    <string name="list_refresh_empty_task">正在上架中>-&lt;</string>
+    <string name="list_refresh_neterror">网络已断开，请连网后再试</string>
+    <string name="list_refresh_server_error">服务器异常，请稍后重试</string>
+    <string name="log_level">日志级别</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_on_other_device">您的账号在其他终端登录，迅游加速无法开启</string>
+    <string name="login_text">登录</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_feedback">反馈意见</string>
+    <string name="main_menu_qa">常见问题</string>
+    <string name="message_title_instructions">迅游手游功能介绍</string>
+    <string name="message_title_network_exception">让你的WiFi更快</string>
+    <string name="message_title_prevent_clean">防止加速器被清理</string>
+    <string name="miui_read_me_text_view"><u>小米手机用户必读</u></string>
+    <string name="miui_user_read_me">小米手机用户必读</string>
+    <string name="month_card">VIP月卡</string>
+    <string name="name_recommand_game">游戏名称</string>
+    <string name="net_delay">网络延迟</string>
+    <string name="net_disconnected">网络已断开，请联网后再试</string>
+    <string name="net_error_accel_open_failed">网络连接失败，加速无法开启</string>
+    <string name="net_request">网络请求</string>
+    <string name="net_stability">稳定性</string>
+    <string name="network_anomaly_analysis">网络日志分析</string>
+    <string name="node_choose">节点选择</string>
+    <string name="normal_accel">普通加速</string>
+    <string name="normal_server">正式服</string>
+    <string name="notice_accelresult_send">加速结果推送</string>
+    <string name="ok">确定</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_hirstory_empty">你尚无历史订单</string>
+    <string name="our_net">我的网络</string>
+    <string name="pay_Ali">支付宝支付</string>
+    <string name="pay_type">请选择支付方式</string>
+    <string name="pay_weixin">微信支付</string>
+    <string name="phone_customer_service">客服电话：4006665166</string>
+    <string name="points_hirstory_empty">没有获得过积分，快去获取吧</string>
+    <string name="points_hirstory_nodata">没有更多了o(>_&lt;)o</string>
+    <string name="process_clean_setting">内存清理设置</string>
+    <string name="product_detail">加速服务详情</string>
+    <string name="product_type">请选择您需要购买的套餐</string>
+    <string name="prompt_when_wifi_ap">您刚刚开启了WiFi热点，WiFi共享无法和VPN同时工作，共享用户将无法上网。</string>
+    <string name="purchase">购买</string>
+    <string name="qpp_commit_id">dd951225fd2376bf876082369e9ef9423bb31b45</string>
+    <string name="qq_customer_service">客服QQ：4006665166</string>
+    <string name="qq_group_1">官方Q群：365585791</string>
+    <string name="qq_group_2">官方Q群：277135152</string>
+    <string name="qq_group_king_glory">官方Q群：140603530（王者荣耀专用）</string>
+    <string name="qq_number_service">4006665166</string>
+    <string name="raccel_remind_login">您尚未登录，迅游加速无法开启</string>
+    <string name="refresh_games_info_neterror">网络故障，请稍后重试</string>
+    <string name="refresh_games_info_server_exception">服务器异常，请稍后重试…</string>
+    <string name="register_award_desc">完成注册将赠送7天有效期及奖励积分</string>
+    <string name="register_button_text">完成注册</string>
+    <string name="register_recommend_desc">成功验证后推荐人将获得30天免费加速礼包</string>
+    <string name="renew">续费</string>
+    <string name="score_exchange">积分兑换</string>
+    <string name="season_card">VIP季卡</string>
+    <string name="secondpage_footer_icon">子界面底部图标</string>
+    <string name="secondpage_header_icon">子界面头部图标</string>
+    <string name="send_notice">推送消息</string>
+    <string name="server_clause"><u>服务条款</u></string>
+    <string name="setting_accel">加速设置</string>
+    <string name="setting_exit_login">退出登录</string>
+    <string name="setting_modify_password">修改密码</string>
+    <string name="setting_phone_binding">去绑定</string>
+    <string name="setting_phone_number">手机号</string>
+    <string name="setting_point_history">积分历史</string>
+    <string name="settings">设置</string>
+    <string name="share">分享</string>
+    <string name="share_for_score">分享送积分</string>
+    <string name="share_qq_content">迅游手游加速器！手机网游加速神器！一键优化网络环境，降低游戏延迟，手游好帮手！下载：http://t.cn/R7MMmcC。</string>
+    <string name="share_qzone_content">用了迅游手游加速器后，再也不担心玩游戏卡了！降低延迟，实时网络状况一目了然！一起来用吧！http://t.cn/R7MMmcC。</string>
+    <string name="share_title_content">@string/app_name</string>
+    <string name="share_weibo_content"> 手游掉线？卡的心烦？别担心！#迅游手游加速器#，手游好帮手！优化网络，拒绝延迟，永久免费，快来一起用吧！@迅游手游加速器,下载http://t.cn/R7MMmcC。</string>
+    <string name="share_weixin_content">迅游手游加速器，手游好帮手！一键加速，拒绝延迟，支持数百款热门手游！快来下载吧！http://t.cn/R7MMmcC。</string>
+    <string name="share_weixin_friends_content">迅游手游加速器！给力的手机网游加速器！</string>
+    <string name="sign_in">签到</string>
+    <string name="slow_your_game_speed">影响你的游戏速度</string>
+    <string name="str_free_user">免费用户</string>
+    <string name="str_my_permission">我的特权</string>
+    <string name="str_vip_product">VIP套餐</string>
+    <string name="str_vip_user">VIP用户</string>
+    <string name="strict_os_new_game_notify_content">检测到您安装了新游戏，如需加速该游戏请重启加速</string>
+    <string name="string_VIP_expired">VIP服务已过期</string>
+    <string name="string_no_prompt">不再提示</string>
+    <string name="submit">提	交</string>
+    <string name="task_for_score">积分任务</string>
+    <string name="test_server">测试服</string>
+    <string name="thank_your_share">感谢您的分享~</string>
+    <string name="title_activity_activity_debug">内部调试</string>
+    <string name="title_activity_activity_exchange_history">兑换历史</string>
+    <string name="title_activity_activity_goods_discription">@string/name_recommand_game</string>
+    <string name="title_activity_instructions">功能介绍</string>
+    <string name="title_task_center">任务中心</string>
+    <string name="to_buy">购买</string>
+    <string name="to_pay">点击确认购买</string>
+    <string name="toast_share_cancel">分享已取消</string>
+    <string name="toast_share_fail">服务器异常，请稍后再试</string>
+    <string name="toast_share_succeed">分享成功！</string>
+    <string name="unknown">不详</string>
+    <string name="unlogin_text">未登录</string>
+    <string name="use_flow_in_background">正在后台使用大量流量，</string>
+    <string name="used_desc">使用详情</string>
+    <string name="useless">"没有效果"</string>
+    <string name="user_center">用户中心</string>
+    <string name="user_feedback">"亲，感谢使用WiFi加速功能，迅游加速器正在等待您的反馈："</string>
+    <string name="user_state_updatting">用户状态更新中，请稍后再试！</string>
+    <string name="version">版本</string>
+    <string name="vip_center">会员中心</string>
+    <string name="vip_time_unknown">VIP有效期无法获取</string>
+    <string name="vivo_read_me_text_view"><u>vivo手机用户必读</u></string>
+    <string name="vivo_user_read_me">vivo手机用户必读</string>
+    <style name="AccelDescHeadTextContent">
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="AccelDescHeadTextTitle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ActivityStart" parent="android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <!--
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+
+        -->
+    </style>
+    <style name="AppDialogTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MainHelpUI">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MainHelpUIDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    <style name="MainHelpUIText">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/main_help_text_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/color_game_2</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleStyle</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="MyActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/basepage_back</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_item_background</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowBackground">@color/color_game_1</item>
+    </style>
+    <style name="MyActionBarTitleStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="SHareDialogTextView">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+    <style name="ShareCallBackActivityTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/dialog_background_color</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="ShareDialogLiearLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/space_size_8</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ShortcutDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.Toast" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ThemeNull">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="about_page_item">
+        <item name="android:background">@drawable/about_page_list_bg</item>
+        <item name="android:paddingLeft">@dimen/space_size_15</item>
+        <item name="android:paddingRight">@dimen/space_size_15</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+    </style>
+    <style name="accel_progress_label">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+    <style name="accel_progress_message">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="activity_start_root">
+        <item name="android:background">#0f1112</item>
+    </style>
+    <style name="app_list_style">
+        <item name="android:cacheColorHint">@color/color_game_7</item>
+        <!-- <item name="android:divider">@color/list_devider</item> -->
+        <item name="android:divider">@color/color_game_7</item>
+        <item name="android:dividerHeight">4dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+    <style name="box_in_game_flipper_content_margin">
+        <item name="android:layout_marginLeft">24dip</item>
+        <item name="android:layout_marginRight">24dip</item>
+        <item name="android:layout_marginTop">20dip</item>
+    </style>
+    <style name="desktop_activity" parent="AppDialogTheme">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="dialog_button">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="dialog_content">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="dialog_upgrade_text">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="double_link_child_style">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+    <style name="double_link_desc_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:paddingTop">@dimen/space_size_3</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_7</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+    <style name="double_link_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:layout_marginTop">@dimen/space_size_4</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_3</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+    <style name="feedback_content">
+        <item name="android:background">@drawable/bg_feedback_record</item>
+        <item name="android:paddingTop">@dimen/space_size_3</item>
+        <item name="android:paddingBottom">@dimen/space_size_3</item>
+        <item name="android:paddingLeft">@dimen/feedback_content_padding</item>
+        <item name="android:paddingRight">@dimen/feedback_content_padding</item>
+        <item name="android:textColorHint">@color/feedback_content_hint</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+    <style name="feedback_label">
+        <item name="android:textColor">@color/feedback_content_hint</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:paddingLeft">@dimen/feedback_content_padding</item>
+    </style>
+    <style name="feedback_record_content">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_5</item>
+        <item name="android:paddingRight">@dimen/space_size_5</item>
+    </style>
+    <style name="feedback_reply_content" parent="@style/feedback_reply_text">
+        <item name="android:padding">@dimen/feedback_repley_paddiing</item>
+    </style>
+    <style name="feedback_reply_label" parent="@style/feedback_reply_text">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:paddingLeft">@dimen/feedback_repley_paddiing</item>
+    </style>
+    <style name="feedback_reply_text">
+        <item name="android:layout_marginBottom">@dimen/space_size_10</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="floatwindow_content">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+    <style name="floatwindow_delayvalue">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="floatwindow_desc">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+    <style name="floatwindow_group_root">
+        <item name="android:background">@drawable/suspension_dialogue_bg</item>
+    </style>
+    <style name="floatwindow_netdesc_tablerow">
+        <item name="android:background">@drawable/suspension_dialogue_line_behind</item>
+    </style>
+    <style name="floatwindow_netdesc_value">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="floatwindow_netname">
+        <item name="android:textColor">@color/color_game_31</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="floatwindow_setting_radio">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">6dip</item>
+        <item name="android:background">@color/translation</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="floatwindow_setting_radio_inactive" parent="floatwindow_setting_radio">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:drawableTop">@drawable/seletor_floatwindow_type</item>
+    </style>
+    <style name="gamepaly_diver">
+        <item name="android:background">@color/color_game_1</item>
+    </style>
+    <style name="gameplay_achieve_time_unit">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="gameplay_achieve_time_value">
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="gameplay_desctext">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:paddingRight">@dimen/space_size_6</item>
+    </style>
+    <style name="group_dialog_floatwindow_help_background">
+        <item name="android:background">@drawable/dialog_floatwindow_help_background</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="group_dock_for_hide">
+        <item name="android:background">@drawable/basepage_buttong_deep</item>
+    </style>
+    <style name="group_error_log">
+        <item name="android:background">@color/color_game_6</item>
+    </style>
+    <style name="group_guide">
+        <item name="android:background">#a4c639</item>
+    </style>
+    <style name="group_secondpage">
+        <item name="android:background">@color/color_game_1</item>
+    </style>
+    <style name="help_answer">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:lineSpacingExtra">@dimen/space_size_10</item>
+    </style>
+    <style name="help_question">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_8</item>
+        <item name="android:lineSpacingExtra">@dimen/space_size_10</item>
+    </style>
+    <style name="instruction_head_text">
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+    <style name="instruction_label_text">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+    <style name="instruction_page_group">
+        <item name="android:paddingLeft">@dimen/space_size_24</item>
+        <item name="android:paddingRight">@dimen/space_size_24</item>
+    </style>
+    <style name="instructions_image">
+        <item name="android:layout_marginLeft">@dimen/space_size_30</item>
+        <item name="android:layout_marginRight">@dimen/space_size_30</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="item_group_style">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/setting_item_bg</item>
+    </style>
+    <style name="list_empty_textview">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_31</item>
+        <item name="android:drawableTop">@drawable/speed_details_pic_sorry</item>
+        <item name="android:drawablePadding">@dimen/space_size_8</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="list_item_cell_seperator_layout">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/about_list_bg_color</item>
+    </style>
+    <style name="login_button">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="login_edit">
+        <item name="android:background">@drawable/bg_feedback_record</item>
+        <item name="android:drawablePadding">@dimen/space_size_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textColorHint">@color/color_game_32</item>
+        <item name="android:paddingLeft">@dimen/space_size_10</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+        <item name="android:paddingTop">@dimen/space_size_10</item>
+        <item name="android:paddingBottom">@dimen/space_size_10</item>
+    </style>
+    <style name="main_netname_pormpt">
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="mark_on_main_page_list">
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/space_size_5</item>
+        <item name="android:paddingRight">@dimen/space_size_5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="net_details_info">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/space_size_28</item>
+        <item name="android:background">@color/color_game_30</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_10</item>
+        <item name="android:textColor">@color/color_game_6</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="price_unit">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="progress_dialog_bg" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="question_survey_radio">
+        <item name="android:drawableLeft">@drawable/seletor_floatwindow_type</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@color/translation</item>
+        <item name="android:layout_marginTop">@dimen/space_size_6</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_6</item>
+        <item name="android:drawablePadding">@dimen/space_size_20</item>
+        <item name="android:layout_marginLeft">@dimen/space_size_40</item>
+        <item name="android:textSize">@dimen/space_size_16</item>
+        <item name="android:textColor">@color/color_game_31</item>
+    </style>
+    <style name="question_survey_textview">
+        <item name="android:textSize">@dimen/space_size_16</item>
+        <item name="android:layout_marginLeft">@dimen/space_size_20</item>
+        <item name="android:layout_marginTop">@dimen/space_size_12</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_12</item>
+        <item name="android:textColor">@color/color_game_7</item>
+    </style>
+    <style name="screenshot_button">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:background">@drawable/selector_dialog_right_btn</item>
+    </style>
+    <style name="screenshot_window">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+    <style name="secondpage_footer_icon">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="secondpage_header_icon">
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="seleter_button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+    <style name="setting_auto_clean_radio">
+        <item name="android:drawableLeft">@drawable/seletor_floatwindow_type</item>
+        <item name="android:drawablePadding">@dimen/space_size_8</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/selector_radio_button_text_color</item>
+        <item name="android:background">@color/translation</item>
+    </style>
+    <style name="setting_check_style">
+        <item name="android:layout_margin">6dp</item>
+    </style>
+    <style name="setting_check_title">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="setting_child_style">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="setting_floatwindow_radio">
+        <item name="android:drawableRight">@drawable/seletor_floatwindow_type</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@color/translation</item>
+    </style>
+    <style name="setting_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginLeft">@dimen/space_size_10</item>
+        <item name="android:layout_marginRight">@dimen/space_size_10</item>
+        <item name="android:layout_marginTop">@dimen/space_size_2</item>
+        <item name="android:layout_marginBottom">@dimen/space_size_3</item>
+        <item name="android:paddingLeft">@dimen/space_size_20</item>
+        <item name="android:paddingRight">@dimen/space_size_18</item>
+    </style>
+    <style name="setting_item_style" parent="@style/setting_group_style">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/about_page_list_bg</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+    </style>
+    <style name="setting_title_style">
+        <item name="android:textColor">@color/color_game_3</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/space_size_15</item>
+        <item name="android:background">@color/color_game_6</item>
+    </style>
+    <style name="text_item_accel_details_desc">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/color_game_6</item>
+    </style>
+    <style name="text_item_accel_details_value">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="text_price">
+    <item name="android:textSize">@dimen/text_size_24</item>
+    </style>
+    <style name="user_group_style" parent="@style/item_group_style">
+        <item name="android:layout_marginBottom">@dimen/space_size_5</item>
+        <item name="android:paddingLeft">@dimen/space_size_14</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+    <style name="user_item">
+        <item name="android:textColor">@color/color_game_7</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:drawableRight">@drawable/game_detailed</item>
+        <item name="android:drawablePadding">@dimen/space_size_16</item>
+        <item name="android:background">@drawable/selector_user_item_background</item>
+        <item name="android:paddingLeft">@dimen/space_size_20</item>
+        <item name="android:paddingRight">@dimen/space_size_10</item>
+    </style>
+    <style name="vpn_impower_dialog_style">
+        <item name="android:windowBackground">@color/transparent_dd_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+</resources>

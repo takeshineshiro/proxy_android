@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/two_section_delay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:id="@+id/our_net_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:background="@drawable/selector_floatwindow_net_delay"
+                android:contentDescription="加速状态背景"
+                android:scaleType="center"
+                android:src="@drawable/home_page_network_state_your_network"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/local_net"
+                style="@style/floatwindow_netname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:gravity="center_horizontal"
+                android:text="@string/our_net" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="UseCompoundDrawables" >
+
+            <TextView
+                android:id="@+id/local_delay"
+                style="@style/floatwindow_delayvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6ms"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/local_delay_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suspension_network_state_progress_bar_normal"
+                tools:ignore="HardcodedText,ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:id="@+id/gamemaster_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:background="@drawable/selector_floatwindow_net_delay"
+                android:contentDescription="加速状态背景"
+                android:src="@drawable/home_page_network_state_own_open"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/gamemaster_cloud"
+                style="@style/floatwindow_netname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:text="@string/gamemaster_cloud" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            tools:ignore="UseCompoundDrawables" >
+
+            <TextView
+                android:id="@+id/remote_delay"
+                style="@style/floatwindow_delayvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8ms"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/remote_delay_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suspension_network_state_progress_bar_normal"
+                tools:ignore="HardcodedText,ContentDescription" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/server_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_floatwindow_net_delay"
+                    android:src="@drawable/floatwindow_network_state_external_network"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/gamemaster_server"
+                    style="@style/floatwindow_netname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dip"
+                    android:text="@string/game_server" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_foreign_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="7dip"
+                android:contentDescription="外网服务器"
+                android:src="@drawable/home_page_network_state_foreign"
+                tools:ignore="HardcodedText" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/pormpt_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dip" >
+
+        <!-- 1.稳定性及加速模式 -->
+
+        <LinearLayout
+            android:id="@+id/model_stability"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="14dip"
+            android:background="@color/floatwindow_submodule_background"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dip"
+                android:src="@drawable/suspension_state_line_point"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dip"
+                    android:text="@string/net_stability"
+                    android:textColor="@color/color_game_7"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+
+                <TextView
+                    android:id="@+id/text_stability"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="好"
+                    android:textColor="@color/color_game_46"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="24dip"
+                android:src="@drawable/suspension_state_line_point"
+                tools:ignore="ContentDescription" />
+
+            <!--
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dip"
+                    android:text="累计断线重连"
+                    android:textColor="@color/color_game_7"
+                    android:textSize="10sp"
+                    tools:ignore="SmallSp" />
+
+                <TextView
+                    android:id="@+id/text_break_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="模式二"
+                    android:textColor="@color/color_game_46"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            -->
+
+
+
+        </LinearLayout>
+
+        <!-- 显示我的网络的信息 -->
+
+        <LinearLayout
+            android:id="@+id/local_pormpt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/floatwindow_panel_left_space"
+            android:layout_marginRight="@dimen/floatwindow_panel_left_space"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dip"
+                android:src="@drawable/suspension_network_state_textbox_arrow"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/ournet_mess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_net_delay_pormpt"
+                android:textColor="@color/color_game_7"
+                android:gravity="center_vertical"
+                android:textSize="10sp"
+                android:padding="8dip"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <!-- 显示极速云的信息 -->
+
+        <LinearLayout
+            android:id="@+id/gamemaster_pormpt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/floatwindow_panel_left_space"
+            android:layout_marginRight="@dimen/floatwindow_panel_left_space"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/suspension_network_state_textbox_arrow"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/gamemaster_mess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_net_delay_pormpt"
+                android:gravity="center_vertical"
+                android:padding="8dip"
+                android:textColor="@color/color_game_7"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+        
+         <!-- 显示极速云的信息 -->
+        <LinearLayout
+            android:id="@+id/server_pormpt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/floatwindow_panel_left_space"
+            android:layout_marginRight="@dimen/floatwindow_panel_left_space"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="18dip"
+                android:src="@drawable/suspension_network_state_textbox_arrow"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/server_mess"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dip"
+                android:background="@drawable/bg_net_delay_pormpt"
+                android:gravity="center_vertical"
+                android:padding="8dip"
+
+
+                android:textColor="@color/color_game_7"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <!--
+                 android:text="延迟是手机网络到达游戏服务器所用的时间，单位是毫秒，数值越小越好。"
+                 -->
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

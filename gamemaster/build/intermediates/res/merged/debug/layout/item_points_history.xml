@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_game_33"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_year"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_35"
+        android:background="@color/color_game_3_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/space_size_20"
+        android:text="2016"
+        android:textColor="@color/color_game_6"
+        android:textSize="@dimen/text_size_12"
+        tools:ignore="RtlSymmetry" />
+
+    <View
+        android:id="@+id/diver"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="@dimen/space_size_10"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:background="@color/color_game_9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_48"
+        android:layout_marginLeft="@dimen/space_size_20"
+        android:layout_marginRight="@dimen/space_size_20"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="流量兑换失败"
+            android:textColor="@color/color_game_7"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_size_10"
+            android:src="@drawable/icon_jifen" />
+
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="积分 +180"
+            android:textColor="@color/color_game_6"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1/18"
+            android:textColor="@color/color_game_41"
+            android:textSize="@dimen/text_size_12" />
+    </LinearLayout>
+
+</LinearLayout>

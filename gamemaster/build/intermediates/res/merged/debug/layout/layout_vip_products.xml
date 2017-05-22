@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_vip_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:layout_marginBottom="@dimen/space_size_6"
+        android:text="VIP套餐"
+        android:textColor="@color/color_game_6"
+        android:textSize="@dimen/text_size_15" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id = "@+id/error_view"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/empty_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/space_size_10"
+                android:drawableTop="@drawable/ahistorical_page_pic"
+                android:layout_marginTop="@dimen/space_size_78"
+                android:text="  网络请求失败\n请检测您的网络"
+                android:textColor="@color/color_game_31"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id = "@+id/text_refresh_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/no_network_page_refurbish"
+                android:drawablePadding="@dimen/space_size_4"
+                android:layout_marginTop="@dimen/space_size_18"
+                android:text="下拉刷新"
+                android:textColor="@color/color_game_31"
+                android:textSize="@dimen/text_size_10" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_product"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:background="@color/color_game_34"
+            android:divider="@color/color_game_34"
+            android:dividerHeight="8dp"
+            android:footerDividersEnabled="false"
+            android:scrollbars="none" />
+
+    </FrameLayout>
+
+</LinearLayout>

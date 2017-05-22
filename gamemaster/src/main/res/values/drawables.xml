@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">@android:color/transparent</drawable>
+    <drawable name="actionbar_bg">@color/actionbar_color</drawable>
+    <drawable name="opaque_weak">#40ffffff</drawable>
+    <drawable name="user_item_background_pressed">#293035</drawable>
+</resources>

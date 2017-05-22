@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:drawable="@drawable/floating_window_open_state_full_signal"
+    android:clipOrientation="horizontal"
+    android:gravity="left">
+</clip>

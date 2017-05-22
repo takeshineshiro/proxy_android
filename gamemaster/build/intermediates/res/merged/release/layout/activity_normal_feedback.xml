@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image_bottom"
+        android:layout_below="@+id/imageView1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/feedback_margin_space"
+        android:paddingRight="@dimen/feedback_margin_space" >
+
+        <TextView
+            style="@style/feedback_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="意见反馈"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/feedback_msg"
+            style="@style/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/space_size_8"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:layout_weight="0.26"
+            android:contentDescription="feedback_msg"
+            android:hint="@string/feedback_msg_hint"
+            tools:ignore="HardcodedText,ContentDescription" />
+
+        <TextView
+            style="@style/feedback_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方式"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/feedback_contact"
+            style="@style/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_30"
+            android:layout_marginBottom="@dimen/space_size_8"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:contentDescription="feedback_contact"
+            android:gravity="center_vertical"
+            android:hint="@string/feedback_contact_hint"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_size_8" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/feedback_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/space_size_10"
+                    android:layout_weight="0.5"
+                    android:text="手机型号"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    style="@style/feedback_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="版本号"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_8" >
+
+                <EditText
+                    android:id="@+id/feedback_phone_model"
+                    style="@style/feedback_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_marginRight="@dimen/space_size_10"
+                    android:layout_weight="0.5"
+                    android:gravity="center_vertical"
+                    android:hint="未识别"
+                    tools:ignore="ContentDescription,HardcodedText,RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/feedback_version_name"
+                    style="@style/feedback_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_size_30"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:gravity="center_vertical"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+        </TableLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="提交成功后需耐心等待1-2天"
+            android:textColor="@color/color_game_6"
+            android:textSize="@dimen/text_size_14"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/space_size_8"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:orientation="horizontal" >
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33" />
+
+            <Button
+                android:id="@+id/feedback_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:background="@drawable/selector_dialog_right_btn"
+                android:text="@string/submit"
+                android:textSize="@dimen/text_size_18" />
+
+            <Space
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</RelativeLayout>

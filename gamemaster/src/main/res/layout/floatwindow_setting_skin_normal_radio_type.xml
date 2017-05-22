@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:gravity="center_horizontal"
+        android:text="@string/floatwnd_size"
+        android:textColor="@color/color_game_7"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <RadioGroup
+        android:id="@+id/setting_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_mini"
+            style="@style/floatwindow_setting_radio_inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/floatwnd_size_small" />
+
+        <RadioButton
+            android:id="@+id/radio_normal"
+            style="@style/floatwindow_setting_radio_inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:checked="true"
+            android:text="@string/floatwnd_size_normal" />
+
+        <RadioButton
+            android:id="@+id/radio_large"
+            style="@style/floatwindow_setting_radio_inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/floatwnd_size_large" />
+    </RadioGroup>
+
+</LinearLayout>

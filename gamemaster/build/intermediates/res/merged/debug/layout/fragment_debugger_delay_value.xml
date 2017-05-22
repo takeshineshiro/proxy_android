@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_size_8" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_size_8" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="锁定第一段延迟值(ms)："
+            android:textColor="@color/color_game_7" />
+
+        <EditText
+            android:id="@+id/test_edit_first_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="numberSigned"
+            android:textColor="@color/color_game_11" />
+
+        <Button
+            android:id="@+id/test_button_first_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/space_size_8" >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="@dimen/space_size_2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UID"
+                android:layout_gravity="right"
+                android:textColor="@color/color_game_7" />
+
+            <EditText
+                android:id="@+id/test_edit_uid_for_second_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="numberSigned"
+                android:textColor="@color/color_game_11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置第二段延迟值(ms)"
+                android:textColor="@color/color_game_7" />
+
+            <EditText
+                android:id="@+id/test_edit_second_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="numberSigned"
+                android:textColor="@color/color_game_11" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/test_button_second_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/space_size_8" >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="@dimen/space_size_2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="UID"
+                android:textColor="@color/color_game_7" />
+
+            <EditText
+                android:id="@+id/test_edit_uid_for_direct_trans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="number"
+                android:textColor="@color/color_game_11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="端口"
+                android:textColor="@color/color_game_7" />
+
+            <EditText
+                android:id="@+id/test_edit_port"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="number"
+                android:textColor="@color/color_game_11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="透传值(ms)"
+                android:textColor="@color/color_game_7" />
+
+            <EditText
+                android:id="@+id/test_edit_direct_trans_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:inputType="numberSigned"
+                android:textColor="@color/color_game_11" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/test_button_direct_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="触发透传事件" />
+    </LinearLayout>
+
+</LinearLayout>

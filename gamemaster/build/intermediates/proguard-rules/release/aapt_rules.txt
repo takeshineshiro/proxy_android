@@ -1,0 +1,283 @@
+# view res/layout/activity_debug_main.xml #generated:14
+-keep class android.support.v4.view.PagerTabStrip { <init>(...); }
+
+# view res/layout/activity_debug_main.xml #generated:2
+# view res/layout/activity_guide_normal.xml #generated:6
+# view res/layout/activity_instructions.xml #generated:35
+# view res/layout/activity_vivo_read_me.xml #generated:24
+# view res/layout/layout_shortcut.xml #generated:20
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:425
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:369
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:403
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:377
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:349
+-keep class cn.jpush.android.ui.PopWinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:356
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class cn.wsds.gamemaster.AppMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class cn.wsds.gamemaster.debugger.ActivityDebugMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class cn.wsds.gamemaster.debugger.ActivityDebuggerSecondPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class cn.wsds.gamemaster.event.BootRecerver { <init>(...); }
+
+# view AndroidManifest.xml #generated:430
+-keep class cn.wsds.gamemaster.event.JPushMessageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:334
+-keep class cn.wsds.gamemaster.event.VpnActionReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class cn.wsds.gamemaster.service.GameVpnService { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class cn.wsds.gamemaster.ui.ActivityAbout { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class cn.wsds.gamemaster.ui.ActivityAddNewGame { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class cn.wsds.gamemaster.ui.ActivityBootPrompt { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class cn.wsds.gamemaster.ui.ActivityErrorLog { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class cn.wsds.gamemaster.ui.ActivityFeedback { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class cn.wsds.gamemaster.ui.ActivityFeedbackReply { <init>(...); }
+
+# view AndroidManifest.xml #generated:246
+-keep class cn.wsds.gamemaster.ui.ActivityFloatwindowOpenAccel { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class cn.wsds.gamemaster.ui.ActivityGameAccelDesc { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class cn.wsds.gamemaster.ui.ActivityGuider { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class cn.wsds.gamemaster.ui.ActivityInstalled { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class cn.wsds.gamemaster.ui.ActivityInstructions { <init>(...); }
+
+# view AndroidManifest.xml #generated:329
+-keep class cn.wsds.gamemaster.ui.ActivityJpushMessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class cn.wsds.gamemaster.ui.ActivityLicence { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class cn.wsds.gamemaster.ui.ActivityMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class cn.wsds.gamemaster.ui.ActivityMemoryClean { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class cn.wsds.gamemaster.ui.ActivityMessage { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class cn.wsds.gamemaster.ui.ActivityMessageDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class cn.wsds.gamemaster.ui.ActivityMessageGraphicsTextMixed { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class cn.wsds.gamemaster.ui.ActivityMessageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:324
+-keep class cn.wsds.gamemaster.ui.ActivityMiuiUserReminder { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class cn.wsds.gamemaster.ui.ActivityNewGamePlayAchieve { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class cn.wsds.gamemaster.ui.ActivityNormalFeedback { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class cn.wsds.gamemaster.ui.ActivityOpenGameInside { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class cn.wsds.gamemaster.ui.ActivityProccesClean { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class cn.wsds.gamemaster.ui.ActivityQA { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class cn.wsds.gamemaster.ui.ActivityScreenShot { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class cn.wsds.gamemaster.ui.ActivitySetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class cn.wsds.gamemaster.ui.ActivitySettingFloatWindow { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class cn.wsds.gamemaster.ui.ActivitySettingSendNotice { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class cn.wsds.gamemaster.ui.ActivityShortcut { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class cn.wsds.gamemaster.ui.ActivityStart { <init>(...); }
+
+# view AndroidManifest.xml #generated:262
+-keep class cn.wsds.gamemaster.ui.ActivityUser { <init>(...); }
+
+# view AndroidManifest.xml #generated:266
+-keep class cn.wsds.gamemaster.ui.ActivityUserAccount { <init>(...); }
+
+# view AndroidManifest.xml #generated:319
+-keep class cn.wsds.gamemaster.ui.ActivityVivoUserReminder { <init>(...); }
+
+# view res/layout/floatwindow_curve.xml #generated:22
+# view res/layout/fragment_debugger_netdelay_chart.xml #generated:9
+# view res/layout/item_page_two.xml #generated:34
+-keep class cn.wsds.gamemaster.ui.NetDelayChart { <init>(...); }
+
+# view res/layout/accel_progress.xml #generated:11
+# view res/layout/accel_progress.xml #generated:20
+# view res/layout/accel_progress.xml #generated:31
+# view res/layout/accel_progress.xml #generated:42
+-keep class cn.wsds.gamemaster.ui.accel.progress.AccelProgressGroup { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityExchangeCenter { <init>(...); }
+
+# view AndroidManifest.xml #generated:293
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityExchangeHistory { <init>(...); }
+
+# view AndroidManifest.xml #generated:298
+-keep class cn.wsds.gamemaster.ui.exchange.ActivityGoodsDiscription { <init>(...); }
+
+# view res/layout/activity_main_accel_on.xml #generated:75
+-keep class cn.wsds.gamemaster.ui.mainfragment.FragmentList { <init>(...); }
+
+# view res/layout/activity_main_accel_on.xml #generated:41
+-keep class cn.wsds.gamemaster.ui.mainfragment.FragmentNetState { <init>(...); }
+
+# view AndroidManifest.xml #generated:269
+-keep class cn.wsds.gamemaster.ui.market.ActivityMarketWeb { <init>(...); }
+
+# view res/layout/activity_memory_clean.xml #generated:69
+-keep class cn.wsds.gamemaster.ui.memoryclean.animation.SmoothGridView { <init>(...); }
+
+# view res/layout/activity_add_game.xml #generated:34
+# view res/layout/activity_exchange_center.xml #generated:45
+# view res/layout/activity_exchange_history.xml #generated:22
+# view res/layout/activity_history_orders.xml #generated:47
+# view res/layout/activity_points_history.xml #generated:34
+# view res/layout/activity_vip.xml #generated:8
+-keep class cn.wsds.gamemaster.ui.pullrefresh.PtrSubaoFrameLayout { <init>(...); }
+
+# view res/layout/layout_pay_result_watting.xml #generated:16
+-keep class cn.wsds.gamemaster.ui.pullrefresh.SubaoHeader { <init>(...); }
+
+# view AndroidManifest.xml #generated:314
+-keep class cn.wsds.gamemaster.ui.store.ActivityHistoryOrders { <init>(...); }
+
+# view AndroidManifest.xml #generated:309
+-keep class cn.wsds.gamemaster.ui.store.ActivityVip { <init>(...); }
+
+# view AndroidManifest.xml #generated:288
+-keep class cn.wsds.gamemaster.ui.user.ActivityTaskCenter { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class cn.wsds.gamemaster.ui.user.ActivityUserPointsHistory { <init>(...); }
+
+# view res/layout/item_memory_progres.xml #generated:22
+-keep class cn.wsds.gamemaster.ui.view.CircleProgres { <init>(...); }
+
+# view res/layout/activity_qa.xml #generated:18
+# view res/layout/fragment_list.xml #generated:56
+-keep class cn.wsds.gamemaster.ui.view.ExpandableListViewCatchDispatchDraw { <init>(...); }
+
+# view res/layout/item_speed_app.xml #generated:10
+-keep class cn.wsds.gamemaster.ui.view.ImageViewAlpha { <init>(...); }
+
+# view res/layout/layout_service_introduce.xml #generated:22
+-keep class cn.wsds.gamemaster.ui.view.InertiaListView { <init>(...); }
+
+# view res/layout/activity_accel_desc.xml #generated:224
+# view res/layout/dialog_add_game.xml #generated:170
+# view res/layout/floatwindow_netcheck.xml #generated:2
+# view res/layout/user_signin_dialog.xml #generated:77
+# view res/layout/user_signin_fail_dialog.xml #generated:65
+-keep class cn.wsds.gamemaster.ui.view.LoadingRing { <init>(...); }
+
+# view res/layout/dialog_contains_edit.xml #generated:86
+# view res/layout/floatwindow_log_upload.xml #generated:54
+-keep class cn.wsds.gamemaster.ui.view.SubaoProgressBar { <init>(...); }
+
+# view res/layout/activity_double_link.xml #generated:30
+# view res/layout/activity_process_clean.xml #generated:48
+# view res/layout/activity_setting.xml #generated:51
+# view res/layout/activity_setting.xml #generated:73
+# view res/layout/activity_setting.xml #generated:97
+# view res/layout/activity_setting_floatwindow.xml #generated:35
+# view res/layout/activity_setting_floatwindow.xml #generated:96
+# view res/layout/activity_setting_sendnotice.xml #generated:41
+# view res/layout/floatwindow_setting.xml #generated:33
+# view res/layout/floatwindow_setting_double_accel.xml #generated:36
+# view res/layout/floatwindow_setting_double_accel.xml #generated:56
+# view res/layout/layout_shortcut.xml #generated:68
+-keep class cn.wsds.gamemaster.ui.view.Switch { <init>(...); }
+
+# view res/layout/item_service_introduce.xml #generated:34
+-keep class cn.wsds.gamemaster.ui.view.TickView { <init>(...); }
+
+# view res/layout/item_service_introduce.xml #generated:41
+-keep class cn.wsds.gamemaster.ui.view.TickViewAni { <init>(...); }
+
+# view res/layout/box_in_game_main_panel.xml #generated:82
+-keep class cn.wsds.gamemaster.ui.view.TimeTextView { <init>(...); }
+
+# view res/layout/layout_shortcut_waitting.xml #generated:2
+-keep class cn.wsds.gamemaster.ui.view.ViewWaitForInit { <init>(...); }
+
+# view AndroidManifest.xml #generated:273
+-keep class cn.wsds.gamemaster.usersetting.ActivityUserSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class cn.wsds.gamemaster.wxapi.SinaEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class cn.wsds.gamemaster.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class cn.wsds.gamemaster.wxapi.WXPayEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+

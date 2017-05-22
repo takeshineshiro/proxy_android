@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/drawable-mdpi-v4/jpush_notification_icon.png",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/drawable-mdpi/jpush_notification_icon.png"
+    }
+]

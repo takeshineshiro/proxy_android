@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/view_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent" >
+
+        <!-- 外圈 -->
+
+        <ImageView
+            android:id="@+id/float_window_out_ring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/floating_window_open_state"
+            tools:ignore="ContentDescription" />
+
+        <!-- 内部内容 -->
+
+        <RelativeLayout
+            android:id="@+id/float_window_inner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <View
+                android:id="@+id/float_window_delay_center0"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/float_window_delay_value0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/float_window_delay_center0"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:text="100"
+                android:textColor="@color/color_game_7"
+                android:textSize="@dimen/text_size_14"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/float_window_delay_unit0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/float_window_delay_center0"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:text="ms"
+                android:textColor="@color/color_game_7"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

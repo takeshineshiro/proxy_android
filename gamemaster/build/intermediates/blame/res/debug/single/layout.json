@@ -1,0 +1,814 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_history_order.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_history_order.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/miui_floatwindow_help_dialog_v6.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/miui_floatwindow_help_dialog_v6.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_qa.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_qa.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/leak_canary_ref_top_row.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/layout/leak_canary_ref_top_row.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_feedback_reply.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_feedback_reply.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/instructions_4.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/instructions_4.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_02.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_02.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_double_link.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_double_link.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/load_more_footer.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/load_more_footer.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_user_login.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_user_login.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_activity_day_of_vipexchange.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_activity_day_of_vipexchange.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/phone_intercept_landscape.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/phone_intercept_landscape.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_points_history.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_points_history.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/include_goods_discription.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/include_goods_discription.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/toast_flow_warning.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/toast_flow_warning.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/usage_state_help_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/usage_state_help_dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_00_listitem.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_00_listitem.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_00.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_00.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_screenshot.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_screenshot.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_twosection_delay.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_twosection_delay.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_licence.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_licence.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_installed.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_installed.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_vivo_read_me_tab.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_vivo_read_me_tab.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/message_prevenr_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/message_prevenr_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/instructions_2.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/instructions_2.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_product.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_product.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/accel_progress.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/accel_progress.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_user_setting.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_user_setting.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_pay_result.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_pay_result.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_exchange_history.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_exchange_history.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_user_update_password.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_user_update_password.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/expand_list_item_reaccel_and_history.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/expand_list_item_reaccel_and_history.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/head_floatwindow_help_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/head_floatwindow_help_dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_shortcut_waitting.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_shortcut_waitting.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_openvpn.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_openvpn.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/emui_floatwindow_help_dialog_high_version.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/emui_floatwindow_help_dialog_high_version.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/ptr_subao_header.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/ptr_subao_header.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_toast_memory_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_toast_memory_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_normal_feedback.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_normal_feedback.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_message_view_exception.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_message_view_exception.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/actionbar_main_view.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/actionbar_main_view.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_double_link_used_detail.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_double_link_used_detail.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_04.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_04.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_setting_skin_normal_radio_type.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_setting_skin_normal_radio_type.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_installed.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_installed.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_guide_normal.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_guide_normal.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_add_game.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_add_game.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/guide_item1.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/guide_item1.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/small_float_window_ring.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/small_float_window_ring.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_speed_app.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_speed_app.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/main_clear_mem.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/main_clear_mem.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_memory_progres.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_memory_progres.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/leak_canary_heap_dump_toast.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/layout/leak_canary_heap_dump_toast.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_market_web.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_market_web.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_instructions.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_instructions.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/box_in_game_main_panel.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/box_in_game_main_panel.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/prompt_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/prompt_dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/head_vip_service_introduce.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/head_vip_service_introduce.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/cube_ptr_simple_loading.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/layout/cube_ptr_simple_loading.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/leak_canary_display_leak.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/layout/leak_canary_display_leak.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/user_signin_fail_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/user_signin_fail_dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_task_record.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_task_record.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_notice_accel_result.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_notice_accel_result.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_senior_accel_remind.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_senior_accel_remind.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/remind_ring.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/remind_ring.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_update_reminder.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_update_reminder.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_notice_gameachieve.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_notice_gameachieve.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_curve.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_curve.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/accel_progress_box.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/accel_progress_box.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/emui_floatwindow_help_dialog_lower_version.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/emui_floatwindow_help_dialog_lower_version.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_qa_answer.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_qa_answer.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_setting.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_setting.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_new_game_play_achieve.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_new_game_play_achieve.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_double_link.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_double_link.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_user_bind.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_user_bind.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/new_function_prompt.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/new_function_prompt.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_exchange_goods.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_exchange_goods.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/box_in_game_buttons.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/box_in_game_buttons.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_upgrade.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_upgrade.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_service_introduce.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_service_introduce.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_05.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_05.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/red_point.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/red_point.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_user_account.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_user_account.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_task_label.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_task_label.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/instructions_0.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/instructions_0.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_exchange_history_flow.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_exchange_history_flow.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_main_accel_on.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_main_accel_on.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_process_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_process_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_miui_read_me.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_miui_read_me.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_06.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_06.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_upgrade_download.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_upgrade_download.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_memory_clean_auto.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_memory_clean_auto.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/phone_and_password.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/phone_and_password.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/cube_ptr_classic_default_header.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.11/res/layout/cube_ptr_classic_default_header.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_share.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_share.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/hint_start_game_inside.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/hint_start_game_inside.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_vip_products.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_vip_products.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/accel_progress_box_second_line.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/accel_progress_box_second_line.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_log_upload.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_log_upload.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_ping.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_ping.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/leak_canary_ref_row.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/layout/leak_canary_ref_row.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_order_detail.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_order_detail.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_launchgame_error.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_launchgame_error.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_procces_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_procces_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_netdelay_chart.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_netdelay_chart.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_net_state.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_net_state.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_launch_game.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_launch_game.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/qa_list_header.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/qa_list_header.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/instructions_3.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/instructions_3.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_exchange_center.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_exchange_center.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_03.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_03.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_screenshot_mask.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_screenshot_mask.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_feedback.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_accel_details.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_accel_details.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_debug_main.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_debug_main.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_setting_sendnotice.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_setting_sendnotice.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_recommand_game.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_recommand_game.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_service_introduce.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_service_introduce.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/leak_canary_leak_row.xml",
+        "source": "/home/wong/Android_APP/gamemaster/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/res/layout/leak_canary_leak_row.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/miui_floatwindow_help_dialog_v5.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/miui_floatwindow_help_dialog_v5.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_message_graphics_text_mixed.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_message_graphics_text_mixed.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/actionbar_no_arrow_view.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/actionbar_no_arrow_view.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/box_in_game.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/box_in_game.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_vivo_read_me.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_vivo_read_me.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_vivo_read_me2.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_vivo_read_me2.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_product_detail.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_double_link_first.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_double_link_first.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_shortcut_item.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_shortcut_item.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_points_history.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_points_history.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_memory_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_memory_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/instructions_1.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/instructions_1.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/notification_gameaccel_result.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/notification_gameaccel_result.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_user.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_user.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_add_game.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_add_game.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/small_float_window_box.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/small_float_window_box.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/vpn_impower_help.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/vpn_impower_help.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_setting_double_accel.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_setting_double_accel.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_user_feedback.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_user_feedback.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/head_service_introduce.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/head_service_introduce.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_user_register.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_user_register.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/no_games.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/no_games.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_message.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_message.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_pay_result_watting.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_pay_result_watting.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_net_state_tablerow.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_net_state_tablerow.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/foot_dialog_floatwindow_help.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/foot_dialog_floatwindow_help.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_upgrade_ctrl.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_upgrade_ctrl.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_shortcut.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_shortcut.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/small_float_window_ring_child_wait.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/small_float_window_ring_child_wait.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_01.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_01.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debug_07.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debug_07.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_setting_floatwindow.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_setting_floatwindow.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/pormpt_user_center.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/pormpt_user_center.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_pay_mode.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_pay_mode.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_accel_desc.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_accel_desc.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/user_signin_item.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/user_signin_item.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_memory_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_memory_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/gaming_session_list_item.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/gaming_session_list_item.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_goods_discription.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_goods_discription.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_qa_question.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_qa_question.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_memory_clean_manual.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_memory_clean_manual.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_user_reset_password.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_user_reset_password.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/phone_intercept_portrait.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/phone_intercept_portrait.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_accel_off.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_accel_off.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_double_link_total_detail.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_double_link_total_detail.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_history_orders.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_history_orders.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_page_one.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_page_one.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_message_view.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_message_view.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/expand_list_item.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/expand_list_item.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/screenshot_share_landcape.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/screenshot_share_landcape.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_message.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_message.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/pormpt_double_accel.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/pormpt_double_accel.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_activity_recommend_register.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_activity_recommend_register.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_message_detail.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_message_detail.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_page_two.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_page_two.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/user_signin_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/user_signin_dialog.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/guide_item2.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/guide_item2.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_list.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_list.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_delay_value.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_delay_value.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/line_accel_desc_list.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/line_accel_desc_list.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/item_memory_clean_icon.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/item_memory_clean_icon.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_all_effect.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_all_effect.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_guide_exchange_upgrade.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_guide_exchange_upgrade.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/layout_share_img_points.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/layout_share_img_points.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_jpush_message.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_jpush_message.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/guide_item3.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/guide_item3.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_vivo_read_me.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_vivo_read_me.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/floatwindow_netcheck.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/floatwindow_netcheck.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_exchange_history.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_exchange_history.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_vip.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_vip.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_reaccel.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_reaccel.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_error_log.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_error_log.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_guide.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/meizu_floatwindow_help_dialog_high_version.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/meizu_floatwindow_help_dialog_high_version.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/progress.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/progress.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/activity_debugger_secondpage.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/activity_debugger_secondpage.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/fragment_debugger_log_dump.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/fragment_debugger_log_dump.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/dialog_contains_edit.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/dialog_contains_edit.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/layout/user_signin_sucess_dialog.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/layout/user_signin_sucess_dialog.xml"
+    }
+]

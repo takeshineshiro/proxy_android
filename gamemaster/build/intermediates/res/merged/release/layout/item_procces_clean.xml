@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/whole_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_game_12"
+    android:contentDescription="item procces clean"
+    android:paddingRight="@dimen/space_size_10"
+    tools:ignore="Overdraw,RtlSymmetry" >
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="@dimen/space_size_46"
+        android:layout_height="@dimen/height_item_background_intercept"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_size_16"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:paddingBottom="@dimen/space_size_15"
+        android:paddingTop="@dimen/space_size_15"
+        android:scaleType="centerInside"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/text_app_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/space_size_30"
+        android:layout_toLeftOf="@+id/text_app_flag"
+        android:layout_toRightOf="@+id/image_icon"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/space_size_200"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/textsize_item_background_intercept"/>
+
+    <TextView
+        android:id="@+id/text_app_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/check_clean"
+        android:textColor="@color/color_game_6"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:textSize="@dimen/text_size_14"/>
+
+    <CheckBox
+        android:id="@+id/check_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@null"
+        android:contentDescription="memory clean check box"
+        android:drawablePadding="0dip"
+        android:drawableRight="@drawable/seletor_procces_clean"
+        android:maxHeight="@dimen/space_size_38"
+        android:maxWidth="@dimen/space_size_38"/>
+
+</RelativeLayout>

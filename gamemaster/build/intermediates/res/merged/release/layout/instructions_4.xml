@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/instruction_page_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/instruction_label_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内存清理：\n游戏中可清理无关进程，让手机运行更快。"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/img_2"
+            style="@style/instructions_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_10"
+            android:src="@drawable/introdution_memory_clean"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables" >
+
+        <TextView
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="异常流量提醒:\n检测后台下载更新，防止影响游戏网速。"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            style="@style/instructions_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_20"
+            android:src="@drawable/introdution_suspension_pic_5" />
+    </LinearLayout>
+
+</LinearLayout>

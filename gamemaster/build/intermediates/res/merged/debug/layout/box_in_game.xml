@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- 注意：这里在最外层多包了一个Layout，是因为在切换皮肤的时候需要做一个改变Alpha的动画。如果没有外层这个Layout，动画将无效 -->
+
+    <LinearLayout
+        android:id="@+id/box_in_game_whole_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="6dip"
+        android:paddingTop="6.5dip"
+        tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+        <include
+            android:id="@+id/panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/box_in_game_main_panel" />
+
+        <include
+            android:id="@+id/box_in_game_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/box_in_game_buttons" />
+    </LinearLayout>
+
+</FrameLayout>

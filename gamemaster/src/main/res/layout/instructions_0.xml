@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/instruction_page_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables" >
+
+    <TextView
+        android:id="@+id/text_instruction_0"
+        style="@style/instruction_label_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络延迟=本地延迟+外网延迟"
+        android:textColor="@color/color_game_46" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_hint_top"
+            style="@style/instructions_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/introdution_delay_pic_1_top" />
+
+        <ImageView
+            style="@style/instructions_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/introdution_delay_pic_1_mid" />
+
+        <ImageView
+            android:id="@+id/img_hint_bottom"
+            style="@style/instructions_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/introdution_delay_pic_1_below" />
+
+    </LinearLayout>
+
+</RelativeLayout>

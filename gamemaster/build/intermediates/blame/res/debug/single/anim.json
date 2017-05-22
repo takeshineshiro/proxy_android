@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/layout_push_left.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/layout_push_left.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/slide_out_top.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/slide_out_top.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/floatwindow_enter.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/floatwindow_enter.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/accel_progress_out.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/accel_progress_out.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/vpn_impower_toast_fade_out.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/vpn_impower_toast_fade_out.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_flow_warning_hide.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_flow_warning_hide.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_in.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_in.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_out.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_out.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_flow_warning_text_out.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_flow_warning_text_out.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_flow_warning_show.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_flow_warning_show.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/memory_clean_exit.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/memory_clean_exit.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/push_left_in.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/push_left_in.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/float_box_scale_in.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/float_box_scale_in.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/toast_flow_warning_text_in.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/toast_flow_warning_text_in.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/fade_in_memory_clean.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/fade_in_memory_clean.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/vpn_impower_toast_fade_in.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/vpn_impower_toast_fade_in.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/slide_in_bottom.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/debug/anim/float_box_scale_out.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/anim/float_box_scale_out.xml"
+    }
+]

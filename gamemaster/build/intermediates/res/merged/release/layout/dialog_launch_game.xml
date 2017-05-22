@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/launch_game_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- 注：外层Flipper是必要的，因为还有一个在代码里动态添加的子控件 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlSymmetry,RtlHardcoded,UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_224"
+            android:layout_marginTop="@dimen/space_size_16"
+    		android:background="@drawable/dialog_bg"
+            android:orientation="vertical" >
+            
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/space_size_5"
+                android:background="@drawable/dialog_launch_game_title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/progress_text_left_space"
+                    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="UselessParent" >
+
+                        <TextView
+                            android:id="@+id/progress_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/foreign_server_progress_pointer"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/space_size_6"
+                            android:textColor="@color/color_game_7"
+                            android:textSize="@dimen/text_size_12" />
+
+                        <ImageView
+                            android:id="@+id/progress_group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/progress_text"
+                            android:layout_marginLeft="@dimen/space_size_12"
+                            android:layout_marginRight="@dimen/space_size_30"
+                            android:layout_marginTop="@dimen/space_size_3"
+                            android:contentDescription="进度条包裹框图"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/start_the_game_progress_of_the_background"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+
+                        <ImageView
+                            android:id="@+id/image_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/progress_group"
+                            android:layout_alignLeft="@+id/progress_group"
+                            android:layout_alignRight="@+id/progress_group"
+                            android:layout_alignTop="@+id/progress_group"
+                            android:layout_marginBottom="@dimen/space_size_10"
+                            android:layout_marginLeft="@dimen/space_size_10"
+                            android:layout_marginRight="@dimen/space_size_10"
+                            android:layout_marginTop="@dimen/space_size_10"
+                            android:contentDescription="进度条"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/launch_game_progress"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/launch_progress_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_size_30"
+                    android:text="正在配置最优加速线路…"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/foreign_server_progress_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/foreign_server_progress_title" />
+    </FrameLayout>
+
+</ViewFlipper>

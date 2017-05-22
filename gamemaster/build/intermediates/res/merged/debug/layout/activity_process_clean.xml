@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/records_group"
+    style="@style/group_secondpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image_head"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above"/>
+    <TextView
+        android:id="@+id/text_process_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_size_30"
+        android:layout_marginTop="@dimen/space_size_16"
+        android:layout_marginBottom="@dimen/space_size_16"
+        android:layout_gravity="left"
+        android:text="@string/process_clean_setting"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+    <LinearLayout
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/floatwindow_switchgroup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_55">
+            <TextView
+                android:id="@+id/float_wnd_pormpt"
+                style="@style/setting_child_style"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/auto_process_clean_string"/>
+
+            <cn.wsds.gamemaster.ui.view.Switch
+                android:id="@+id/auto_process_clean"
+                style="@style/setting_check_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:background="@color/about_list_stroke_nomal_color"/>
+        <RadioGroup
+            android:id="@+id/process_setting_group"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_size_64"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/five_process_clean"
+                style="@style/setting_auto_clean_radio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="五分钟"/>
+            <RadioButton
+                android:id="@+id/ten_process_clean"
+                style="@style/setting_auto_clean_radio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="十分钟"/>
+            <RadioButton
+                android:id="@+id/fifteen_process_clean"
+                style="@style/setting_auto_clean_radio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="十五分钟"/>
+        </RadioGroup>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_size_48"
+        android:layout_marginLeft="@dimen/space_size_30"
+        android:gravity="center_vertical"
+        android:layout_gravity="left"
+        android:text="内存清理名单"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dip"
+        android:layout_marginLeft="@dimen/space_size_10"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:layout_weight="1">
+
+
+        <ListView
+            android:id="@+id/list_records"
+            style="@style/app_list_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_game_1"
+            android:contentDescription="listview"
+            android:divider="@color/color_game_1"
+            android:layoutAnimation="@anim/layout_push_left"
+            android:listSelector="@color/color_game_1">
+        </ListView>
+
+        <TextView
+            android:id="@+id/records_text_empty"
+            style="@style/list_empty_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="没有可清理的应用" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind"/>
+
+</LinearLayout>

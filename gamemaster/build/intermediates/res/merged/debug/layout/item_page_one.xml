@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:drawablePadding="@dimen/space_size_15"
+    android:drawableTop="@drawable/speed_details_pic_sorry"
+    android:gravity="center"
+    android:text="没有发现任何加速记录，赶紧去开启吧~"
+    android:textColor="@color/color_game_31"
+    android:textSize="@dimen/text_size_12" />

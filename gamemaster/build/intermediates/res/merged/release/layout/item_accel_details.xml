@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_game_12"
+    tools:ignore="Overdraw" >
+
+    <RelativeLayout
+        android:id="@+id/head_group"
+        android:layout_width="@dimen/width_item_accel_details_head_group"
+        android:layout_height="@dimen/height_item_accel_details_head_group"
+        android:layout_alignParentTop="true" >
+
+        <include
+            android:id="@+id/head_top_line"
+            android:layout_width="@dimen/width_item_accel_details_line"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/text_date"
+            android:layout_centerHorizontal="true"
+            layout="@layout/line_accel_desc_list"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/text_date"
+            style="@style/text_item_accel_details_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_accel_details_time_bg"
+            android:paddingBottom="@dimen/padding_vertical_item_accel_details_text_date"
+            android:paddingLeft="@dimen/padding_horizontal_item_accel_details_text_date"
+            android:paddingRight="@dimen/padding_horizontal_item_accel_details_text_date"
+            android:paddingTop="@dimen/padding_vertical_item_accel_details_text_date"
+            android:text="2014/12/15"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/head_bottom_line"
+            android:layout_width="@dimen/width_item_accel_details_line"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text_date"
+            android:layout_centerHorizontal="true"
+            layout="@layout/line_accel_desc_list"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Space
+        android:id="@+id/space_top"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_item_accel_details_space_top"
+        android:layout_below="@+id/head_group" />
+
+    <Space
+        android:id="@+id/space_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_item_accel_details_space_bottom"
+        android:layout_below="@+id/details_group" />
+
+    <LinearLayout
+        android:id="@+id/layout_net_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/details_group"
+        android:layout_below="@+id/space_top"
+        android:background="@drawable/speed_details_frame_text_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/speed_details_icon_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_item_accel_details_net_icon"
+            android:layout_marginRight="@dimen/margin_item_accel_details_net_icon"
+            android:src="@drawable/speed_details_icon_wifi" />
+
+        <View
+            android:id="@+id/speed_details_icon_line"
+            android:layout_width="@dimen/width_item_accel_details_net_icon_diver"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_vertical_item_accel_details_net_icon"
+            android:layout_marginTop="@dimen/margin_vertical_item_accel_details_net_icon"
+            android:background="#090d10" />
+
+        <ImageView
+            android:id="@+id/speed_details_icon_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_item_accel_details_net_icon"
+            android:layout_marginRight="@dimen/margin_item_accel_details_net_icon"
+            android:src="@drawable/speed_details_icon_flow" />
+
+        <ImageView
+            android:id="@+id/speed_details_icon_unknow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_item_accel_details_net_icon"
+            android:layout_marginRight="@dimen/margin_item_accel_details_net_icon"
+            android:src="@drawable/speed_details_icon_break" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_net_desc"
+        android:layout_marginLeft="@dimen/margin_left_item_accel_details_details_group"
+        android:layout_marginRight="@dimen/margin_right_item_accel_details_details_group"
+        android:layout_toRightOf="@+id/body_top_line"
+        android:background="@drawable/shape_item_accel_details_value"
+        android:paddingBottom="@dimen/padding_vertical_item_accel_details_details_group"
+        android:paddingTop="@dimen/padding_vertical_item_accel_details_details_group"
+        android:gravity="center_horizontal"
+        android:visibility="invisible" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent" >
+
+            <TextView
+                android:id="@+id/desc_delay_range"
+                style="@style/text_item_accel_details_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="平均降低延迟"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/progress_delay_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/desc_delay_range"
+                android:layout_alignTop="@+id/desc_delay_range"
+                android:layout_marginLeft="@dimen/margin_left_item_accel_details_progrss_delay_layout"
+                android:layout_toRightOf="@+id/desc_delay_range"
+                android:gravity="center_vertical" >
+
+                <ProgressBar
+                    android:id="@+id/progress_delay"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="@dimen/width_item_accel_details_progrss_delay"
+                    android:layout_height="@dimen/height_item_accel_details_progrss_delay"
+                    android:progress="80"
+                    android:progressDrawable="@drawable/progress_gameplay_achieve"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_delay_progress"
+                style="@style/text_item_accel_details_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_item_accel_details_text_delay_progress"
+                android:layout_toRightOf="@+id/progress_delay_layout"
+                android:text="12%"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/desc_accel_time"
+                style="@style/text_item_accel_details_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc_delay_range"
+                android:layout_marginTop="@dimen/margin_top_item_accel_details_desc_accel_time"
+                android:text="本次加速时长"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/text_accel_time"
+                style="@style/text_item_accel_details_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/desc_accel_time"
+                android:layout_alignLeft="@+id/progress_delay_layout"
+                android:text="3小时17分"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/desc_consumption_flow"
+                style="@style/text_item_accel_details_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc_accel_time"
+                android:layout_marginTop="@dimen/margin_top_item_accel_details_desc_consumption_flow"
+                android:text="游戏使用流量"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/text_consumption_flow"
+                style="@style/text_item_accel_details_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/desc_consumption_flow"
+                android:layout_alignBottom="@+id/desc_consumption_flow"
+                android:layout_alignLeft="@+id/text_accel_time"
+                android:text="347K"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <include
+        android:id="@+id/body_top_line"
+        android:layout_width="@dimen/width_item_accel_details_line"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/details_group"
+        android:layout_alignTop="@+id/space_top"
+        android:layout_below="@+id/head_group"
+        android:layout_marginLeft="@dimen/margin_left_item_accel_details_body_line"
+        layout="@layout/line_accel_desc_list"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/body_bottom_line"
+        android:layout_width="@dimen/width_item_accel_details_line"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/space_bottom"
+        android:layout_below="@+id/body_top_line"
+        android:layout_marginLeft="@dimen/margin_left_item_accel_details_body_line"
+        layout="@layout/line_accel_desc_list"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="@dimen/width_item_accel_details_potin_group"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_net_desc"
+        android:layout_marginLeft="@dimen/margin_left_item_accel_details_potin_group"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/speed_details_time_point"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignRight="@+id/body_top_line"
+        android:layout_marginRight="@dimen/margin_right_item_accel_details_text_time"
+        android:text="12:45"
+        android:textSize="@dimen/text_size_13"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+	{
+		"bad_label":["掌上英雄联盟"],
+		"bad_package":[
+			"com.kugou.android",
+			"com.huluxia.mctool",
+			"com.tencent.qt.sns"
+		]
+	}

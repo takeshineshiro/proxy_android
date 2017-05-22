@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/log_upload_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:text="上传网络日志可以让我们帮助您分析您所遇到的加速问题，提高服务质量。该功能需要消耗少量流量。"
+        android:textColor="@color/color_game_6"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <ViewFlipper
+        android:id="@+id/log_upload_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/floatwindow_submodule_background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络日志"
+                android:textColor="@color/color_game_7"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/log_upload_button_execute"
+                style="@style/dialog_button"
+                android:layout_width="96dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/selector_dialog_right_btn"
+                android:text="上传"
+                tools:ignore="RtlHardcoded,HardcodedText" />
+        </LinearLayout>
+
+        <cn.wsds.gamemaster.ui.view.SubaoProgressBar
+            android:id="@+id/log_upload_progress"
+            android:layout_width="180dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/upload_progress_bkgnd"
+            subao:bar="@drawable/upload_progress_bar"
+            subao:textColor="@color/color_game_7"
+            subao:textSize="12sp" />
+    </ViewFlipper>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/group_secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        style="@style/secondpage_header_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:contentDescription="@string/secondpage_header_icon"
+        android:src="@drawable/basepage_line_above"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/qq_group_2"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:contentDescription="qq group"
+        android:text="@string/qq_group_2"
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+    
+    <TextView
+        android:id="@+id/qq_group_1"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:contentDescription="qq group"
+        android:text="@string/qq_group_1"
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+    
+    <TextView
+        android:id="@+id/qq_group_king_glory"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:contentDescription="qq group"
+        android:text="@string/qq_group_king_glory"
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+
+    <TextView
+        android:id="@+id/qq_customer_service"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:contentDescription="qq customer service"
+        android:text="@string/qq_customer_service" 
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+
+    <TextView
+        android:id="@+id/feedback"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:contentDescription="qq group"
+        android:text="留言反馈"
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+    
+     <TextView
+        android:id="@+id/device_model"
+        style="@style/about_page_item"
+        android:layout_width="match_parent"
+         android:singleLine="true"
+        android:layout_height="@dimen/about_linear_layout_height"
+        android:layout_marginLeft="@dimen/feedback_margin_space"
+        android:layout_marginRight="@dimen/feedback_margin_space"
+        android:layout_marginBottom="@dimen/space_size_5"
+        android:contentDescription="qq customer service"
+        android:text="@string/device_model" 
+        android:drawableRight="@null"
+        android:textColor="@color/color_game_7"
+        tools:ignore="RtlHardcoded,HardcodedText" />
+    
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind" />
+
+</LinearLayout>

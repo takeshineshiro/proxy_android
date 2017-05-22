@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ActivityStart"
+    android:background="@drawable/achievement_to_share_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/selector_game_achieve_close"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/space_size_20"
+            android:layout_marginRight="@dimen/space_size_20"
+            android:background="@drawable/achievement_to_share_content_of_the_plate"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_20"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/space_size_5"
+                android:text="您已经是迅游忠实的小伙伴了\n我们为您*了%d时%d分%d秒\n*降低延迟%d%%"
+                android:textColor="@color/game_achieve_content_text_normal_color"
+                android:textSize="@dimen/text_size_16"
+                android:layout_marginBottom="@dimen/space_size_16"
+                tools:ignore="HardcodedText" />
+
+
+            <View
+                android:layout_width="290dip"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10.5dip"
+                android:layout_marginRight="10.5dip"
+                android:background="@color/color_game_21" />
+
+            <TextView
+                android:id="@+id/text_achieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_size_25"
+                android:layout_marginTop="@dimen/space_size_10"
+                android:gravity="center_horizontal"
+                android:text="恭喜你击败了%d%%的小伙伴"
+                android:textColor="@color/color_game_1"
+                android:textSize="@dimen/text_size_16"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/achievement_to_share_content_of_medal"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:id="@+id/point"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_alignBottom="@+id/content"
+            android:layout_marginBottom="@dimen/space_size_9"
+            android:contentDescription="定位点"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/point"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/selector_game_achieve_share"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</RelativeLayout>

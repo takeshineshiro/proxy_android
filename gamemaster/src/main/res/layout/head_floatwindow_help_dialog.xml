@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:id="@+id/prompt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_close"
+        android:layout_alignTop="@+id/image_close"
+        android:layout_marginLeft="@dimen/space_size_14"
+        android:gravity="left|center_vertical"
+        android:text="开启游戏悬浮窗，实时掌握游戏延迟"
+        android:textColor="@color/color_game_7"
+        android:textSize="@dimen/text_size_14"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/image_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/space_size_10"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:contentDescription="@string/guide_close_nor"
+        android:src="@drawable/guide_close_nor" />
+
+    <LinearLayout
+        android:id="@+id/floatwindow_demo_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/space_size_12"
+        android:layout_marginTop="@dimen/space_size_12"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_page_guide_instructions_network_status_good"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_40"
+            android:src="@drawable/home_page_guide_instructions_network_status_poor"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_40"
+            android:src="@drawable/home_page_guide_instructions_network_status_bad"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:background="#41505b"
+        android:layout_below="@+id/floatwindow_demo_group"
+        android:layout_marginBottom="@dimen/space_size_12"/>
+
+</RelativeLayout>

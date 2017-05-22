@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_exchange_item_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_exchange_item_color.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_radio_button_text_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_radio_button_text_color.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_vivo_tab_title_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_vivo_tab_title_color.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_button_text_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_button_text_color.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_text_signin_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_text_signin_color.xml"
+    },
+    {
+        "merged": "/home/wong/Android_APP/gamemaster/build/intermediates/res/merged/release/color/selector_link_text_color.xml",
+        "source": "/home/wong/Android_APP/gamemaster/src/main/res/color/selector_link_text_color.xml"
+    }
+]

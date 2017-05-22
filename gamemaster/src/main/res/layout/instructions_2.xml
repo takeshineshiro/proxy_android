@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/instruction_page_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/instruction_label_text"
+        android:text="当发生网络异常，信号中断，WiFi/流量切换等情况时，可自动重连，防止游戏中断。" />
+    
+     <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.1" />
+
+    <ImageView
+        android:id="@+id/img_1"
+        style="@style/instructions_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/introdution_suspension_pic_2" />
+    
+     <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.1" />
+
+    <TextView
+        style="@style/instruction_label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="断线重连提示框：" />
+
+    <ImageView
+        style="@style/instructions_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_20"
+        android:src="@drawable/introdution_suspension_pic_6" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.4" />
+
+</LinearLayout>

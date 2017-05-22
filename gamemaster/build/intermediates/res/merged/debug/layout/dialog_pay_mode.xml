@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="326dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/about_page_list_bg_nomal"
+    android:padding="1dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_size_10"
+        android:text="请选择支付方式"
+        android:textSize="@dimen/text_size_13"
+        android:textColor="@color/color_game_7"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_accel_off_shade_line"
+        android:background="@color/color_game_9" />
+
+    <LinearLayout
+        android:id = "@+id/layout_pay_Ali"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/bg_style_pay_mode"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/purchase_mode_of_payment_zhifubao_icon"
+            android:drawablePadding="@dimen/space_size_8"
+            android:layout_marginLeft="@dimen/space_size_24"
+            android:layout_marginTop="@dimen/space_size_14"
+            android:layout_marginBottom="@dimen/space_size_14"
+            android:text="@string/pay_Ali"
+            android:textSize="@dimen/text_size_13"
+            android:textColor="@color/color_game_7"
+            android:gravity="center_vertical"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id = "@+id/text_discount"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_text_discount"
+            android:gravity="center"
+            android:text="优惠"
+            android:textSize="@dimen/text_size_10"
+            android:textColor="@color/order_status_success"
+            android:visibility="gone"
+            />
+
+
+        <ImageView
+            android:id = "@+id/icon_pay_Ali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_8"
+            android:layout_marginRight="@dimen/space_size_24"
+            android:src = "@drawable/purchase_first_next_icon"
+            android:contentDescription="@null"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_accel_off_shade_line"
+        android:layout_marginLeft="@dimen/space_size_24"
+        android:layout_marginRight="@dimen/space_size_24"
+        android:background="@color/color_game_9" />
+
+    <LinearLayout
+        android:id = "@+id/layout_pay_Weixin"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/bg_style_pay_mode"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/purchase_mode_of_payment_weixin_icon"
+            android:drawablePadding="@dimen/space_size_8"
+            android:layout_marginLeft="@dimen/space_size_24"
+            android:layout_marginTop="@dimen/space_size_14"
+            android:layout_marginBottom="@dimen/space_size_14"
+            android:text="@string/pay_weixin"
+            android:textSize="@dimen/text_size_13"
+            android:textColor="@color/color_game_7"
+            android:gravity="center_vertical"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id = "@+id/icon_pay_Wexin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/space_size_24"
+            android:src = "@drawable/purchase_first_next_icon"
+            android:contentDescription="@null"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

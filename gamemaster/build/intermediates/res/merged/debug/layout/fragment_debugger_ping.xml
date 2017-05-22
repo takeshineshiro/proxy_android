@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_size_8" >
+
+        <EditText
+            android:id="@+id/edit_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textUri"
+            android:text="www.baidu.com"
+            android:textColor="@color/color_game_11"
+            android:textSize="@dimen/text_size_14" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button_ping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PING"
+            android:textSize="@dimen/text_size_14" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_console"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

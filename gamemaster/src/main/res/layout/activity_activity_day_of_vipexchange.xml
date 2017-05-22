@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_game_55"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="cn.wsds.gamemaster.ui.exchange.ActivityDayOfVIPExchange">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exchange_action_pic_1"
+        />
+    <TextView
+        android:id="@+id/text_point"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/space_size_25"
+        android:gravity="center_vertical|center"
+        android:background="@drawable/exchange_action_pic_2"
+        android:text="你将使用100积分换取加速日卡"
+        android:textSize="@dimen/text_size_14"
+        android:textColor="@color/color_game_7"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/text_exchange"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/space_size_18"
+        android:background="@drawable/exchange_action_button"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@color/color_game_7"
+        android:text="@string/exchange"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

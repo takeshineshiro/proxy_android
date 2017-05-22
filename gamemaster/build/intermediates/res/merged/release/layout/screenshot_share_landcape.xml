@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="76dip"
+    android:gravity="center"
+    android:background="@color/screenshot_share_layout" >
+
+    <LinearLayout
+        android:id="@+id/share_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="@dimen/space_size_30"
+            android:layout_height="@dimen/space_size_30"
+            android:scaleType="centerInside"
+            android:src="@drawable/achieve_share_icon_qq_bg" />
+
+        <TextView
+            style="@style/SHareDialogTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="QQ" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/color_game_5" />
+
+    <LinearLayout
+        android:id="@+id/share_weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="@dimen/space_size_30"
+            android:layout_height="@dimen/space_size_30"
+            android:scaleType="centerInside"
+            android:src="@drawable/achieve_share_icon_weixin_bg" />
+
+        <TextView
+            style="@style/SHareDialogTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="微信" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/color_game_5" />
+
+    <LinearLayout
+        android:id="@+id/share_penyouquan"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="@dimen/space_size_30"
+            android:layout_height="@dimen/space_size_30"
+            android:scaleType="centerInside"
+            android:src="@drawable/achieve_share_icon_friends_bg" />
+
+        <TextView
+            style="@style/SHareDialogTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="朋友圈" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/color_game_5" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/share_qqzone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="@dimen/space_size_30"
+            android:layout_height="@dimen/space_size_30"
+            android:layout_marginTop="@dimen/space_size_3"
+            android:scaleType="centerInside"
+            android:src="@drawable/achieve_share_icon_qzone_bg" />
+
+        <TextView
+            style="@style/SHareDialogTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_8"
+            android:text="QQ空间" />
+    </LinearLayout>
+
+</LinearLayout>

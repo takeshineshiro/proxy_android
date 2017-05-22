@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_interface_background"
+        tools:ignore="ContentDescription" />
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/piece_accel_on"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/activity_main_accel_on" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/net_exception_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_30"
+        android:background="@color/color_game_16"
+        android:gravity="center"
+        android:text="网络连接已断开"
+        android:textColor="@color/color_game_7"
+        android:visibility="gone"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

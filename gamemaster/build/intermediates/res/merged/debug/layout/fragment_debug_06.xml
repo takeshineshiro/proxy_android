@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_size_4" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息中心" />
+
+            <Button
+                android:id="@+id/message_center_createurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="链接消息" />
+
+            <Button
+                android:id="@+id/message_center_createtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="文本消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/debug_point_histroy_number"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_size_4"
+                android:layout_weight="1"
+                android:hint="积分历史（请求条数）"
+                android:inputType="number"
+                android:maxLength="6" />
+
+            <Button
+                android:id="@+id/debug_point_histroy_number_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_size_4"
+                android:text="确定" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/debug_text_show_memory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:background="@drawable/box"
+            android:text="内存情况" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:columnCount="2" >
+
+            <Button
+                android:id="@+id/debug_button_miui_help"
+                android:text="MIUI帮助对话框" />
+
+            <Button
+                android:id="@+id/debug_button_installed_info"
+                android:text="已安装应用查看" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:background="@drawable/box"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_size_4" >
+
+            <EditText
+                android:id="@+id/debug_value_accel_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="累计加速(s)"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/debug_button_confirm_accel_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="确定" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/debug_text_user_center_global_config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_size_4"
+            android:background="@drawable/box"
+            android:singleLine="false"
+            android:text="在线配置" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,129 @@
+-dontusemixedcaseclassnames
+-renamesourcefileattribute Proguard
+-keepattributes SourceFile,LineNumberTable,EnclosingMethod,InnerClasses
+
+-keep interface com.subao.vpn.VPNJniCallback
+
+-keep class com.subao.vpn.VPNJni {
+    public static final int <fields>;
+    public static <methods>;
+    native <methods>;
+}
+
+-keep enum cn.wsds.gamemaster.statistic.StatisticDefault.Event {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+#-keep class cn.wsds.gamemaster.pb.Proto{*;}
+
+#Protobuf协议文件里有两个类要输出，所以不混淆
+-keep class hr.client.appuser.GlobalConfig** {*;}
+-keep class hr.client.appuser.TaskCenter** {*;}
+
+-keep class com.android.internal.telephony.** {*;}
+-keep class android.telephony.** {*;}
+
+#Bugly
+-dontwarn com.tencent.bugly.**
+-keep public class com.tencent.bugly.**{*;}
+
+#QQ分享和登录相关
+-dontwarn com.tencent.**
+-keep class com.tencent.open.TDialog$*
+-keep class com.tencent.open.TDialog$* {*;}
+-keep class com.tencent.open.PKDialog
+-keep class com.tencent.open.PKDialog {*;}
+-keep class com.tencent.open.PKDialog$*
+-keep class com.tencent.open.PKDialog$* {*;}
+
+#微信分享和登录相关
+-keep class com.tencent.mm.sdk.** { *; }
+
+#新浪
+-dontwarn com.sina.weibo.**
+-keep class com.sina.** {*;}
+
+#友盟
+-dontwarn com.umeng.**
+-keep class com.umeng.** {*;}
+-keep class u.aly.* {*;}
+-dontwarn u.aly.**
+
+#登录相关
+#-keep class cn.wsds.gamemaster.social.** {*;}
+
+#JS回调
+-keep class cn.wsds.gamemaster.ui.market.ActivityMarketWeb$JsInteration { *; }
+
+#友盟自动更新需要引用R.java
+#-keep public class cn.wsds.gamemaster.R$*{
+#    public static final int *;
+#}
+
+#友盟需要
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+#极光推送相关
+-dontoptimize
+-dontpreverify
+
+-dontwarn cn.jpush.**
+-keep class cn.jpush.** { *; }
+
+#第三方UI库
+-dontwarn in.srain.**
+-keep class in.srain.** { *; }
+
+#==================gson protobuf==========================
+-dontwarn com.google.**
+-keep class com.google.gson.** {*;}
+-keep class com.google.protobuf.** {*;}
+
+
+########################################################################################
+
+#-assumenosideeffects class cn.wsds.gamemaster.DebugLogger {
+#	public static void output(...);
+#}
+
+#-assumenosideeffects class cn.wsds.gamemaster.*** {
+#	void outputDebugLog(...);
+#}
+
+#-assumenosideeffects class android.util.Log {
+#    public static boolean isLoggable(java.lang.String, int);
+#    public static int v(...);
+#    public static int d(...);
+#}
+-dontwarn com.alipay.**
+-keep class com.alipay.** { *; }
+
+-keep class cn.wsds.gamemaster.pay.model.** { *; }
+
+##---------------Begin: proguard configuration for Gson  ----------
+# Gson uses generic type information stored in a class file when working with fields. Proguard
+# removes such information by default, so configure it to keep all of it.
+-keepattributes Signature
+
+# For using GSON @Expose annotation
+-keepattributes *Annotation*
+
+# Gson specific classes
+-dontwarn sun.misc.**
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.google.gson.examples.android.model.** { *; }
+
+# Prevent proguard from stripping interface information from TypeAdapterFactory,
+# JsonSerializer, JsonDeserializer instances (so they can be used in @JsonAdapter)
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+
+##---------------End: proguard configuration for Gson  ----------
+-ignorewarnings

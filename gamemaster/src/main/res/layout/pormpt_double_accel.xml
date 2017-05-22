@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:gravity="right"
+    tools:ignore="UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/guide_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guide_to_open_the_user_icon" />
+
+    <ImageView android:layout_width="wrap_content"
+               android:src="@drawable/set_up_point_out"
+               android:layout_height="wrap_content"/>
+</LinearLayout>

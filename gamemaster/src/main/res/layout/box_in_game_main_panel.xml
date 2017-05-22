@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/panel_basemap"
+        android:layout_width="258dp"
+        android:layout_height="210dp"
+        android:background="@drawable/popup_window_background_left_short"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/panel_basemap"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/panel_basemap"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded" >
+
+        <TextView
+            android:id="@+id/exception_desc_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/floatwindow_panel_left_space"
+            android:layout_marginTop="@dimen/space_size_6"
+            android:gravity="center"
+            android:text="网络连接已断开"
+            android:textColor="@color/color_game_16"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="@dimen/floatwindow_panel_left_space"
+            android:layout_marginRight="@dimen/floatwindow_panel_right_space"
+            android:gravity="center_vertical" >
+
+            <RelativeLayout
+                android:id="@+id/battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                tools:ignore="ObsoleteLayoutParam" >
+
+                <ImageView
+                    android:id="@+id/imageview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/popup_window_electricity_outside"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/battery_capacity"
+                    android:layout_width="13dp"
+                    android:layout_height="4dp"
+                    android:layout_alignRight="@id/imageview2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/batter_capacity_clip"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/battery_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_6"
+                android:gravity="center"
+                android:text="100%"
+                android:textColor="@color/color_game_11"
+                android:textSize="@dimen/text_size_12"
+                tools:ignore="HardcodedText" />
+
+            <cn.wsds.gamemaster.ui.view.TimeTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@color/color_game_11"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/box_in_game_page_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_below="@+id/exception_desc_text"
+            android:layout_marginBottom="6dip" >
+
+            <!-- 0.详情页 -->
+
+            <ViewStub
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/floatwindow_twosection_delay" />
+
+            <!-- 1.折线图 -->
+
+            <ViewStub
+                android:id="@+id/chart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout="@layout/floatwindow_curve" />
+
+            <!-- 2.设置 -->
+
+            <ViewStub
+                android:id="@+id/floatwindow_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/floatwindow_setting" />
+            
+            <!-- 3.日志上传 -->
+            
+            <ViewStub
+                android:id="@+id/log_upload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/floatwindow_log_upload" />
+
+            <!-- 4.开启加速的按钮 -->
+
+            <ViewStub
+                android:id="@+id/open_accel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout="@layout/floatwindow_openvpn" />
+
+            <!-- 5.网络检查 -->
+
+            <ViewStub
+                android:id="@+id/net_check"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout="@layout/floatwindow_netcheck" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

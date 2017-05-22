@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:alpha="0.9"
+        android:background="@color/color_game_5" />
+
+    <!-- 启动游戏提示及开启游戏入口 -->
+    <LinearLayout
+        android:id="@+id/launch_game_porpmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_game_48"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/space_size_2"
+        tools:ignore="RtlSymmetry" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_18"
+            android:background="@color/color_game_48"
+            android:gravity="center_vertical"
+            android:text="点击“启动”进入游戏，畅享游戏极速体验"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_12"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <Space
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/add_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_size_10"
+            android:src="@drawable/homepage_game_add_new"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/space_size_4" >
+
+        <cn.wsds.gamemaster.ui.view.ExpandableListViewCatchDispatchDraw
+            android:id="@+id/accel_list"
+            style="@style/app_list_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_game_34"
+            android:childDivider="@color/color_game_34"
+            android:divider="@color/color_game_34"
+            android:groupIndicator="@android:color/transparent"
+            android:listSelector="@android:color/transparent" />
+
+        <!-- 列表为空位时提示内容 -->
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/speed_details_pic_sorry"
+            android:drawablePadding="@dimen/space_size_8"
+            android:text="没有发现可以加速的游戏哦Σ( ° △ °|||)︴"
+            android:textColor="@color/color_game_31"
+            android:textSize="@dimen/text_size_14"
+            tools:ignore="HardcodedText" />
+    </FrameLayout>
+
+</LinearLayout>

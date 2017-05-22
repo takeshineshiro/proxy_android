@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_line"
+        android:layout_below="@+id/top_line"
+        android:paddingLeft="@dimen/space_size_14"
+        android:paddingRight="@dimen/space_size_14"
+        android:contentDescription="setting group"
+        android:scrollbars="none" >
+         
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >    
+            
+           <TextView
+           android:id = "@+id/text_instrcution"
+           style="@style/instruction_label_text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"   
+           android:text="小米手机因为内置的神隐模式可能会导致加速器闪退或网络异常，请确保开启加速之前关闭该功能。方法如下："
+           />
+       
+         <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_20"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            
+            <TextView
+            android:id = "@+id/miui_illustration_1"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"      
+            android:text="1.跳转神隐模式设置，请"
+            />
+            
+            <ImageView 
+                android:id = "@+id/miui_goto_hide_settings_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_size_10"
+                android:src="@drawable/xiaomi_illustration_button"/>
+        </LinearLayout>
+        
+          <TextView
+            android:id = "@+id/miui_illustration_2"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_size_20"      
+            android:text="2.选择下方关闭选项;"
+            />
+          
+          <ImageView 
+                android:id = "@+id/miui_illustration_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_size_20"
+                android:scaleType="fitXY"
+                android:src="@drawable/xiaomi_illustration_pic"/>
+                 
+          <TextView
+            android:id = "@+id/miui_illustration_3"
+            style="@style/instruction_label_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="@dimen/space_size_20"    
+            android:text="3.打开加速器开始加速吧。"
+            />
+        </LinearLayout>
+            
+    </ScrollView>
+    
+     <ImageView
+        android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_behind" />
+
+</RelativeLayout>

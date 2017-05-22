@@ -1,0 +1,71 @@
+<LinearLayout style="@style/group_secondpage"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink">
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_size_15"
+        android:scaleType="fitXY"
+        android:src="@drawable/basepage_line_above"/>
+
+    <LinearLayout
+        android:id="@+id/group_double_accel"
+        style="@style/setting_group_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_size_50">
+
+        <TextView
+            android:id="@+id/text_name"
+            style="@style/double_link_child_style"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/double_accel_disable"/>
+
+        <cn.wsds.gamemaster.ui.view.Switch
+            android:id="@+id/check_double_link"
+            style="@style/setting_check_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/double_accel_disable"/>
+    </LinearLayout>
+
+    <FrameLayout android:layout_width="wrap_content"
+                 android:layout_weight="1"
+                 android:layout_height="0dp">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_height="match_parent">
+            <include android:layout_width="match_parent"
+                     style="@style/double_link_group_style"
+                     android:layout_height="@dimen/space_size_100"
+                     layout="@layout/item_double_link_total_detail"/>
+            <include android:layout_width="match_parent"
+                     style="@style/double_link_desc_style"
+                     android:id="@+id/inc_used_detail"
+                     android:layout_height="match_parent"
+                     layout="@layout/item_double_link_used_detail"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+              android:id="@+id/double_link_close"
+              android:background="#b206090d"
+              style="@style/setting_group_style"
+              android:layout_height="match_parent"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        style="@style/secondpage_footer_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/secondpage_footer_icon"
+        android:src="@drawable/basepage_line_behind"/>
+</LinearLayout>

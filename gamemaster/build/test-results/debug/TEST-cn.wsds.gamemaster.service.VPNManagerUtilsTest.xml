@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cn.wsds.gamemaster.service.VPNManagerUtilsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-04-07T01:45:34" hostname="wong-macpro" time="0.001">
+  <properties/>
+  <testcase name="sendPutSupportGames" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.001"/>
+  <testcase name="checkSocketState" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.0"/>
+  <testcase name="getAccelStatus" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.0"/>
+  <testcase name="init" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.0"/>
+  <testcase name="sendPutSupportGame" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.0"/>
+  <testcase name="sendSetLogLevel" classname="cn.wsds.gamemaster.service.VPNManagerUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:subao="http://schemas.android.com/apk/res/cn.wsds.gamemaster"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layerType="software" >
+
+    <!-- layerType=software，是为了避免在某些手机上因为硬件加速而崩溃 -->
+
+    <cn.wsds.gamemaster.ui.accel.progress.AccelProgressGroup
+        android:id="@+id/group_my_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        subao:group_icon="@drawable/home_page_network_state_your_network"
+        subao:group_label="我的网络"
+        subao:group_line_size="@dimen/space_size_64"
+        subao:group_message="正在检查我的网络" />
+
+    <cn.wsds.gamemaster.ui.accel.progress.AccelProgressGroup
+        android:id="@+id/group_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_my_net"
+        subao:group_icon="@drawable/home_page_network_state_own_not_open"
+        subao:group_label="加速节点"
+        subao:group_line_size="@dimen/space_size_100"
+        subao:group_message="开启加速服务"
+        subao:group_second_message="清理后台为内存加速" />
+
+    <cn.wsds.gamemaster.ui.accel.progress.AccelProgressGroup
+        android:id="@+id/group_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_cloud"
+        subao:group_icon="@drawable/floatwindow_network_state_external_network"
+        subao:group_label="服务器"
+        subao:group_line_size="@dimen/space_size_100"
+        subao:group_message="优选加速模式"
+        subao:group_second_message="预计降低延迟……" />
+
+    <cn.wsds.gamemaster.ui.accel.progress.AccelProgressGroup
+        android:id="@+id/group_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group_server"
+        subao:group_icon="@drawable/home_page_network_state_external_complete"
+        subao:group_label="加速成功"
+        subao:group_message="加速服务开启成功" />
+
+</RelativeLayout>

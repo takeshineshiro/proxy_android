@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.wsds.gamemaster"
+    android:versionCode="87"
+    android:versionName="3.0.0_dev" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <permission
+        android:name="cn.wsds.gamemaster.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="cn.wsds.gamemaster.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- To store the heap dumps and leak analysis results. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="cn.wsds.gamemaster.AppMain"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/MyActionBarTheme" >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="542818a3fd98c55d03000003" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="g_official" />
+
+        <service
+            android:name="cn.wsds.gamemaster.service.GameVpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityStart"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityStart" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityGuider"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityStart" />
+
+        <!-- 设置子界面 推送消息设置 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivitySettingSendNotice"
+            android:screenOrientation="portrait" />
+        <!-- 进程清理列表 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityProccesClean"
+            android:screenOrientation="portrait" />
+        <!-- 加速详情 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityGameAccelDesc"
+            android:screenOrientation="portrait" />
+        <!-- 调试 二级界面 -->
+        <activity
+            android:name="cn.wsds.gamemaster.debugger.ActivityDebuggerSecondPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMain"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="cn.wsds.gamemaster.debugger.ActivityDebugMain"
+            android:label="@string/title_activity_activity_debug"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivitySetting"
+            android:screenOrientation="portrait" />
+        <!-- 消息中心 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMessage"
+            android:label="@string/label_activity_message"
+            android:screenOrientation="portrait" />
+
+        <!-- 使用成就 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityNewGamePlayAchieve"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityStart" />
+        <!-- 反馈 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityFeedback"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 普通反馈 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityNormalFeedback"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 反馈记录 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityFeedbackReply"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityQA"
+            android:screenOrientation="portrait" />
+        <!-- 服务协议 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityLicence"
+            android:screenOrientation="portrait" />
+        <!-- 错误日志显示 -->
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityErrorLog"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityInstalled"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="cn.wsds.gamemaster.event.BootRecerver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivitySettingFloatWindow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityAbout"
+            android:screenOrientation="portrait" />
+
+        <!-- 分享相关 -->
+        <!-- QQ分享 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1103428622" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 微信分享 -->
+        <activity
+            android:name="cn.wsds.gamemaster.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 微信支付 -->
+        <activity
+            android:name="cn.wsds.gamemaster.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="cn.wsds.gamemaster.wxapi.SinaEntryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityBootPrompt"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDialogTheme" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityInstructions"
+            android:label="@string/title_activity_instructions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMessageView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMessageDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityScreenShot"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:taskAffinity="cn.wsds.gamemaster.ui.ScreenShot"
+            android:theme="@style/screenshot_window" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityShortcut"
+            android:excludeFromRecents="true"
+            android:taskAffinity="cn.wsds.gamemaster.ui.ActivityShortcut"
+            android:theme="@style/ShortcutDialogTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityFloatwindowOpenAccel"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="cn.wsds.gamemaster.ui.ActivityNullOpenAccel"
+            android:theme="@style/desktop_activity" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityOpenGameInside"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNull" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMessageGraphicsTextMixed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMemoryClean"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityUser"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityUserAccount"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.market.ActivityMarketWeb"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.usersetting.ActivityUserSetting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.user.ActivityUserPointsHistory"
+            android:label="@string/label_activity_user_points_history"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.exchange.ActivityExchangeCenter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityAddNewGame"
+            android:label="@string/label_activity_add_game"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.user.ActivityTaskCenter"
+            android:label="@string/title_task_center"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.wsds.gamemaster.ui.exchange.ActivityExchangeHistory"
+            android:label="@string/title_activity_activity_exchange_history"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.exchange.ActivityGoodsDiscription"
+            android:label="@string/title_activity_activity_goods_discription"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.doublelink.ActivityDoubleLink"
+            android:hardwareAccelerated="false"
+            android:label="@string/double_accel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.store.ActivityVip"
+            android:label="@string/purchase"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.store.ActivityHistoryOrders"
+            android:label="@string/history_orders"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityVivoUserReminder"
+            android:label="@string/vivo_user_read_me"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityMiuiUserReminder"
+            android:label="@string/miui_user_read_me"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="cn.wsds.gamemaster.ui.ActivityJpushMessage"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name="cn.wsds.gamemaster.event.VpnActionReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.wsds.vpn.action.SERVICE_CREATED" />
+                <action android:name="cn.wsds.vpn.action.OPEN" />
+                <action android:name="cn.wsds.vpn.action.START_FAILED" />
+                <action android:name="cn.wsds.vpn.action.CLOSE" />
+                <action android:name="cn.wsds.vpn.action.ACCEL_MANAGER_CLOSE" />
+                <action android:name="cn.wsds.vpn.action.ADD_EVENT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="cn.wsds.gamemaster" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件,将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="cn.wsds.gamemaster" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="cn.wsds.gamemaster" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="cn.wsds.gamemaster.event.JPushMessageReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="cn.wsds.gamemaster" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <!-- TODO ： 版本上线时，此处需要更改为正式环境 AppKey：  01a6002d9550831a9fe1af48 , d1b258dc2fa1e921c633a4e6 -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="b2ee1e6e06f417194bfb8bf2" /> <!-- AppKey 值来自开发者平台取得的AppKey -->
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:taskAffinity="com.squareup.leakcanary"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+    </application>
+
+</manifest>

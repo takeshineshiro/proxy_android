@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_size_4" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="累计节省(毫秒)"
+            android:textSize="@dimen/text_size_14" />
+
+        <EditText
+            android:id="@+id/debug_edit_spare_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/debug_text_spare_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="(xx分xx秒)"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_button_spare_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_size_4" >
+
+        <Button
+            android:id="@+id/debug_button_start_check"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="网络检查" />
+
+        <Button
+            android:id="@+id/debug_button_stop_check"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="停止检查" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_size_8"
+        android:background="@drawable/box"
+        android:columnCount="2"
+        android:padding="@dimen/space_size_4" >
+
+        <TextView
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_size_4"
+            android:text="长时间未开加速推通知"
+            android:textSize="@dimen/text_size_16" />
+
+        <EditText
+            android:id="@+id/debug_time_unit_value"
+            android:ems="8"
+            android:hint="时间单位(s)"
+            android:inputType="number"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_time_unit_confirm"
+            android:text="确定"
+            android:textSize="@dimen/text_size_14" />
+
+        <EditText
+            android:id="@+id/debug_send_time_value"
+            android:ems="8"
+            android:hint="推送时间(s)"
+            android:inputType="number"
+            android:textSize="@dimen/text_size_14" />
+
+        <Button
+            android:id="@+id/debug_send_time_confirm"
+            android:text="确定"
+            android:textSize="@dimen/text_size_14" />
+    </GridLayout>
+
+    <RadioGroup
+        android:id="@+id/debug_radio_group_guide_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_size_4"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <RadioButton
+            android:id="@+id/debug_radio_guide_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="3页" />
+
+        <RadioButton
+            android:id="@+id/debug_radio_guide_single_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_8"
+            android:text="1页" />
+
+        <Button
+            android:id="@+id/debug_button_guide_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_size_16"
+            android:text="显示引导页" />
+    </RadioGroup>
+
+</LinearLayout>
